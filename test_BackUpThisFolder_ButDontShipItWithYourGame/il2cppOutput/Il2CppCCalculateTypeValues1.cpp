@@ -25307,14 +25307,16 @@ struct ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1  : public Mono
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_UI_5;
 	// TMPro.TextMeshProUGUI ballColorChanger::m_LOG
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_LOG_6;
+	// TMPro.TextMeshProUGUI ballColorChanger::m_score
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_score_7;
 	// UnityEngine.Vector3 ballColorChanger::m_location
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_8;
 	// System.Boolean ballColorChanger::m_multiTouch
-	bool ___m_multiTouch_8;
+	bool ___m_multiTouch_9;
 	// UnityEngine.GameObject ballColorChanger::m_start
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_10;
 	// System.Int32 ballColorChanger::m_timer
-	int32_t ___m_timer_10;
+	int32_t ___m_timer_11;
 };
 
 // Unity.MARS.Data.ARFoundation.ARCoreFacialExpressionSettings

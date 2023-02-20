@@ -11108,14 +11108,16 @@ struct ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1  : public Mono
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_UI_5;
 	// TMPro.TextMeshProUGUI ballColorChanger::m_LOG
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_LOG_6;
+	// TMPro.TextMeshProUGUI ballColorChanger::m_score
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_score_7;
 	// UnityEngine.Vector3 ballColorChanger::m_location
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_8;
 	// System.Boolean ballColorChanger::m_multiTouch
-	bool ___m_multiTouch_8;
+	bool ___m_multiTouch_9;
 	// UnityEngine.GameObject ballColorChanger::m_start
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_10;
 	// System.Int32 ballColorChanger::m_timer
-	int32_t ___m_timer_10;
+	int32_t ___m_timer_11;
 };
 
 // Unity.MARS.Data.ARFoundation.ARCoreFacialExpressionSettings
@@ -17535,9 +17537,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6755[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6756[3] = 
 {
 	static_cast<int32_t>(offsetof(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F, ___PermissionGranted_4)),static_cast<int32_t>(offsetof(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F, ___PermissionDenied_5)),static_cast<int32_t>(offsetof(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F, ___PermissionDeniedAndDontAskAgain_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6758[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6758[8] = 
 {
-	static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_ball_4)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_UI_5)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_LOG_6)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_location_7)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_multiTouch_8)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_start_9)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_timer_10)),};
+	static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_ball_4)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_UI_5)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_LOG_6)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_score_7)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_location_8)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_multiTouch_9)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_start_10)),static_cast<int32_t>(offsetof(ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1, ___m_timer_11)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6759[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField_4)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput_5)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar_6)),};

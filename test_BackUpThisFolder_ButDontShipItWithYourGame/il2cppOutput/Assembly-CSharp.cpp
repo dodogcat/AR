@@ -646,6 +646,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD579F97F4A33C344330AED1285CC5B545618BC19
 IL2CPP_EXTERN_C String_t* _stringLiteralD99C319B457682A09D028AF022D0B2EE6B4D48A6;
 IL2CPP_EXTERN_C String_t* _stringLiteralDECFB8F380101725B06EAE2D3F983211A277171C;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2138FA8D137D1C6C81747FE1638815DDE9177B0;
+IL2CPP_EXTERN_C String_t* _stringLiteralED35FF3F063D29A026AE09F18392D9C7537823F2;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE3657997C5E6EC82CDE374326A95906F03A3315;
 IL2CPP_EXTERN_C String_t* _stringLiteralEF516EC7240CA160FD729299C926B5EDB246658A;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0FFD38CAE85F3F58D4450702BB5D751F64BEAAD;
@@ -3892,14 +3893,16 @@ struct ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1  : public Mono
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_UI_5;
 	// TMPro.TextMeshProUGUI ballColorChanger::m_LOG
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_LOG_6;
+	// TMPro.TextMeshProUGUI ballColorChanger::m_score
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___m_score_7;
 	// UnityEngine.Vector3 ballColorChanger::m_location
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_location_8;
 	// System.Boolean ballColorChanger::m_multiTouch
-	bool ___m_multiTouch_8;
+	bool ___m_multiTouch_9;
 	// UnityEngine.GameObject ballColorChanger::m_start
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_10;
 	// System.Int32 ballColorChanger::m_timer
-	int32_t ___m_timer_10;
+	int32_t ___m_timer_11;
 };
 
 // UnityEngine.UI.Graphic
@@ -6686,6 +6689,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeO
 // T UnityEngine.Component::GetComponentInChildren<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 
+// System.String System.String::Substring(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___0_startIndex, const RuntimeMethod* method) ;
+// System.Int32 System.Int32::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0 (String_t* ___0_s, const RuntimeMethod* method) ;
+// System.Int32 ballColorChanger::getScore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ballColorChanger_getScore_m5A210ED94B60F152A56575DFB1FC45A88207E1C9 (ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1* __this, const RuntimeMethod* method) ;
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t03E51455ED508492B3F278903A0114FA0E87B417 Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1 (int32_t ___0_index, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Touch::get_position()
@@ -6696,10 +6709,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Input::get_touchCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39 (const RuntimeMethod* method) ;
-// System.String System.Int32::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // UnityEngine.Camera UnityEngine.Camera::get_main()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
 // UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
@@ -7445,7 +7454,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger_Start_m4F5E083DB4E75857
 {
 	{
 		// m_timer = 0;
-		__this->___m_timer_10 = 0;
+		__this->___m_timer_11 = 0;
+		// }
+		return;
+	}
+}
+// System.Int32 ballColorChanger::getScore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ballColorChanger_getScore_m5A210ED94B60F152A56575DFB1FC45A88207E1C9 (ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1* __this, const RuntimeMethod* method) 
+{
+	{
+		// int ret = int.Parse( m_score.text.Substring(7));
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___m_score_7;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(65 /* System.String TMPro.TMP_Text::get_text() */, L_0);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_1, 7, NULL);
+		int32_t L_3;
+		L_3 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_2, NULL);
+		// return ret;
+		return L_3;
+	}
+}
+// System.Void ballColorChanger::updateScore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger_updateScore_m28E1FEBB4900911FD8AB2B40EA531031BA519659 (ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED35FF3F063D29A026AE09F18392D9C7537823F2);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// m_score.text = "SCORE: " + (getScore() + 1);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___m_score_7;
+		int32_t L_1;
+		L_1 = ballColorChanger_getScore_m5A210ED94B60F152A56575DFB1FC45A88207E1C9(__this, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		String_t* L_2;
+		L_2 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralED35FF3F063D29A026AE09F18392D9C7537823F2, L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_3);
 		// }
 		return;
 	}
@@ -7490,8 +7543,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger_Update_mC57028B6657316C
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_7 = NULL;
 	{
 		// m_timer += 1;
-		int32_t L_0 = __this->___m_timer_10;
-		__this->___m_timer_10 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		int32_t L_0 = __this->___m_timer_11;
+		__this->___m_timer_11 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		// m_location = Input.GetTouch(0).position;
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_1;
 		L_1 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
@@ -7500,7 +7553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger_Update_mC57028B6657316C
 		L_2 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_2), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_2, NULL);
-		__this->___m_location_7 = L_3;
+		__this->___m_location_8 = L_3;
 		// if (Input.GetTouch(0).phase != TouchPhase.Began)
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_4;
 		L_4 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
@@ -7520,7 +7573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger_Update_mC57028B6657316C
 IL_0038:
 	{
 		// m_multiTouch = false;
-		__this->___m_multiTouch_8 = (bool)0;
+		__this->___m_multiTouch_9 = (bool)0;
 		// m_LOG.text = "touchCout: " + Input.touchCount;
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___m_LOG_6;
 		int32_t L_7;
@@ -7542,7 +7595,7 @@ IL_0038:
 	}
 	{
 		// m_multiTouch = true;
-		__this->___m_multiTouch_8 = (bool)1;
+		__this->___m_multiTouch_9 = (bool)1;
 	}
 
 IL_0070:
@@ -7550,13 +7603,13 @@ IL_0070:
 		// Ray ray = Camera.main.ScreenPointToRay(m_location);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11;
 		L_11 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___m_location_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___m_location_8;
 		NullCheck(L_11);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_13;
 		L_13 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_11, L_12, NULL);
 		V_0 = L_13;
 		// if (m_multiTouch == true)
-		bool L_14 = __this->___m_multiTouch_8;
+		bool L_14 = __this->___m_multiTouch_9;
 		if (!L_14)
 		{
 			goto IL_01af;
@@ -7566,10 +7619,10 @@ IL_0070:
 		// m_start = GameObject.Find("PlayerBasket");
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral4D42EB9C71443BF6AB4D299F1EAD025172AB0846, NULL);
-		__this->___m_start_9 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_start_9), (void*)L_15);
+		__this->___m_start_10 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_start_10), (void*)L_15);
 		// Vector3 basketPos = m_start.transform.position;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_start_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_start_10;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_16, NULL);
@@ -7584,7 +7637,7 @@ IL_0070:
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_19, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_start_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_start_10;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_21, NULL);
@@ -7677,7 +7730,7 @@ IL_0070:
 		RuntimeObject* L_57 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_56);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_57, NULL);
 		// m_multiTouch = false;
-		__this->___m_multiTouch_8 = (bool)0;
+		__this->___m_multiTouch_9 = (bool)0;
 	}
 
 IL_01af:

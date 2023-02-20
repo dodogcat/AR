@@ -9,6 +9,7 @@ public class ballColorChanger : MonoBehaviour
     public GameObject m_ball;
     public TextMeshProUGUI m_UI;
     public TextMeshProUGUI m_LOG;
+    public TextMeshProUGUI m_score;
 
     Vector3 m_location;
     bool m_multiTouch;
@@ -22,17 +23,28 @@ public class ballColorChanger : MonoBehaviour
         m_timer = 0;
     }
 
+    int getScore()
+    {
+        int ret = int.Parse( m_score.text.Substring(7));
+
+        return ret;
+    }
+
+    void updateScore()
+    {
+        m_score.text = "SCORE: " + (getScore() + 1);
+    }
+
     // Update is called once per frame
     void Update()
     {
         m_timer += 1;
 
-
 #if UNITY_EDITOR
         m_location = Input.mousePosition;
 #else
         m_location = Input.GetTouch(0).position;
-        if (Input.GetTouch(0).phase != TouchPhase.Began)
+            if (Input.GetTouch(0).phase != TouchPhase.Began)
         {
             return;
         }
