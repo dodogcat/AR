@@ -662,6 +662,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC088F0B05AACBA3A2E3A89109BF6E8C25EB734D1
 IL2CPP_EXTERN_C String_t* _stringLiteralC307A6AA53A901DED3039EE47F98C72B9160E490;
 IL2CPP_EXTERN_C String_t* _stringLiteralC56D8B760DA0CEC01983ED455FA2F4F6D226A0D7;
 IL2CPP_EXTERN_C String_t* _stringLiteralC81D4815798A03842AAC413360D527A2550FDA1A;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBCC9AFE4096250DEAA855B0BAA98F52FE771F26;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCFEDFAABA1932DDBD53E5E640ADC53339EB2C8D;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEB055F85C5660DEABF3989A924C2D2EDB0C8C84;
 IL2CPP_EXTERN_C String_t* _stringLiteralCED30D471F9ECB011896E4C24680A6982ECBCAFE;
@@ -7932,6 +7933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_Start_mDD6448254466EC4000E0D35D9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBCC9AFE4096250DEAA855B0BAA98F52FE771F26);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -7967,24 +7969,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_Start_mDD6448254466EC4000E0D35D9
 		L_6 = Compass_InitializeCompass_mB64F9B8847FF94FB6805877A8B312D54B4632FB6(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
 		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
-		// compassPrint.text = "" + Input.compass.enabled;
+		// compassPrint.text = "change";
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = __this->___compassPrint_5;
-		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_9;
-		L_9 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
-		NullCheck(L_9);
-		bool L_10;
-		L_10 = Compass_get_enabled_mA531BD367FE1E72DF6FCB3DBA21ECDDBFE3EBA56(L_9, NULL);
-		V_0 = L_10;
-		String_t* L_11;
-		L_11 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_0), NULL);
-		String_t* L_12 = L_11;
-		G_B1_0 = L_12;
-		G_B1_1 = L_8;
-		if (L_12)
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_8, _stringLiteralCBCC9AFE4096250DEAA855B0BAA98F52FE771F26);
+		// compassPrint.text = "" + Input.compass.enabled;
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___compassPrint_5;
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_10;
+		L_10 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Compass_get_enabled_mA531BD367FE1E72DF6FCB3DBA21ECDDBFE3EBA56(L_10, NULL);
+		V_0 = L_11;
+		String_t* L_12;
+		L_12 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_0), NULL);
+		String_t* L_13 = L_12;
+		G_B1_0 = L_13;
+		G_B1_1 = L_9;
+		if (L_13)
 		{
-			G_B2_0 = L_12;
-			G_B2_1 = L_8;
-			goto IL_0068;
+			G_B2_0 = L_13;
+			G_B2_1 = L_9;
+			goto IL_0078;
 		}
 	}
 	{
@@ -7992,7 +7998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_Start_mDD6448254466EC4000E0D35D9
 		G_B2_1 = G_B1_1;
 	}
 
-IL_0068:
+IL_0078:
 	{
 		NullCheck(G_B2_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, G_B2_1, G_B2_0);
