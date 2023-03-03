@@ -782,7 +782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb4adcdb54fda954db6ce705324684e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  compassPrint: {fileID: 1437366004}
+  target: {fileID: 973994550}
+  targetTransform: {fileID: 973994551}
 --- !u!1 &1100568454
 GameObject:
   m_ObjectHideFlags: 0

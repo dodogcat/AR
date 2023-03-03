@@ -1,52 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using System;
+using UnityEngine.UI;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
+using System.Security.Cryptography;
 
 public class Compass : MonoBehaviour
 {
+    private GameObject aRSessionOrigin;
+
+    public GameObject target;
+    public Transform targetTransform;
+    private GameObject sign2;
+
     // Start is called before the first frame update
-    Transform initTransform;
-    public TextMeshProUGUI compassPrint;
-    private bool startTracking = false;
-
-
     void Start()
     {
         Input.compass.enabled = true;
         Input.location.Start();
-        initTransform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
-        StartCoroutine(InitializeCompass());
-        compassPrint.text = "change";
-        compassPrint.text = "" + Input.compass.enabled;
+
+
+        aRSessionOrigin = GameObject.Find("AR Session Origin");
+        var aRScript = aRSessionOrigin.GetComponent<ARSessionOrigin>();
+
+        aRScript.MakeContentAppearAt(targetTransform, targetTransform.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
+
+        //aRSessionOrigin.MakeContentAppearAt(target, target.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
+
+
+        //FindObjectOfType<ARSessionOrigin>().MakeContentAppearAt(target, target.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (startTracking)
-        {
-            transform.rotation = Quaternion.Euler(0, Input.compass.trueHeading, 0);
-            compassPrint.text = ((int)Input.compass.trueHeading).ToString() + "¡Æ " + DegreesToCardinalDetailed(Input.compass.trueHeading);
-        }
-        /*
-        Quaternion north = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
+        aRSessionOrigin = GameObject.Find("AR Session Origin");
+        var aRScript = aRSessionOrigin.GetComponent<ARSessionOrigin>();
+        aRScript.MakeContentAppearAt(targetTransform, targetTransform.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
 
-        transform.rotation= north;
-        compassPrint.text = "compass x: " + north.x + "\ny: " + north.y + "\nz: " + north.z;
-        */
-    }
+        sign2 = GameObject.Find("compass");
+        var sign2text = sign2.GetComponent<Text>();
 
-    IEnumerator InitializeCompass()
-    {
-        yield return new WaitForSeconds(1f);
-        startTracking |= Input.compass.enabled;
-    }
-    private static string DegreesToCardinalDetailed(double degrees)
-    {
-        string[] caridnals = { "N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW", "N" };
-        return caridnals[(int)Math.Round(((double)degrees * 10 % 3600) / 225)];
-    }
+        sign2text.text = Input.compass.trueHeading.ToString();
 
+    }
 }

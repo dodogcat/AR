@@ -120,21 +120,11 @@ Library: lib_burst_generated
 --compilation-defines=CSHARP_7_OR_LATER
 --compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=USE_LEGACY_INPUT_HELPERS
---compilation-defines=UNITY_INPUT_SYSTEM
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
 --compilation-defines=INCLUDE_AR_FOUNDATION
 --compilation-defines=INCLUDE_AR_FOUNDATION_3_OR_NEWER
 --compilation-defines=INCLUDE_AR_FOUNDATION_4_OR_NEWER
---compilation-defines=INCLUDE_AR_FOUNDATION_5_OR_NEWER
 --compilation-defines=INCLUDE_XR_MODULE
---compilation-defines=INCLUDE_INPUT_SYSTEM_PACKAGE
---compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_VR
---compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_XR
---compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
---compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
---compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_UI
---compilation-defines=PACKAGE_INPUT_SYSTEM_EXISTS
---compilation-defines=PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
 --compilation-defines=MODULE_AI_EXISTS
 --compilation-defines=MODULE_ANIMATION_EXISTS
 --compilation-defines=MODULE_PHYSICS_EXISTS
@@ -146,19 +136,16 @@ Library: lib_burst_generated
 --compilation-defines=INCLUDE_PHYSICS
 --compilation-defines=INCLUDE_TEXT_MESH_PRO
 --compilation-defines=INCLUDE_UGUI
---compilation-defines=INCLUDE_PHYSICS_MODULE
---compilation-defines=INCLUDE_INPUT_SYSTEM
 --compilation-defines=UNITY_PROPERTIES_EXISTS
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=ARFOUNDATION_2_1_OR_NEWER
 --compilation-defines=ARFOUNDATION_3_0_1_OR_NEWER
 --compilation-defines=ARFOUNDATION_4_OR_NEWER
 --compilation-defines=ARFOUNDATION_4_1_OR_NEWER
---compilation-defines=ARFOUNDATION_5_OR_NEWER
 --compilation-defines=ARSUBSYSTEMS_4_2_OR_NEWER
 --compilation-defines=UNITY_ANALYTICS
 --compilation-defines=INCLUDE_TERRAIN_MODULE
---compilation-defines=ARFOUNDATION_5_0_0_PRE_11_OR_NEWER
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\test\Desktop\AR\Temp\StagingArea\tempburstlibs\armeabi-v7a\lib_burst_generated
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
@@ -167,7 +154,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.XR.ARSubsystems.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.MARS.dll
---root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.AR.Companion.Core.dll
@@ -183,7 +169,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.XR.ARCore.dll
---root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.XR.CoreUtils.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.MARS.MARSHandles.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.Collections.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.MARS.Navmesh.dll
@@ -210,6 +195,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.MARS.XRSubsystem.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.SharpZipLib.Utils.dll
 --root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.RuntimeSceneSerialization.Generated.dll
+--root-assembly=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --assembly-folder=C:\Users\test\Desktop\AR\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Collections.RewindableAllocator, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Try(System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Collections.AllocatorManager+Block&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null)--cf20d690c33ab495d44c548cd6a31428
