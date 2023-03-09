@@ -4224,772 +4224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline (const RuntimeMethod* method) ;
 // System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor::set_TemporaryQuaternionIsDirty(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline (bool ___0_value, const RuntimeMethod* method) ;
-// TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<System.Object>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisRuntimeObject_mF1B2978FB83C4458B58180828845FF10735E5060_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D);
-		s_Il2CppMethodInitialized = true;
-	}
-	Type_t* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	RuntimeObject* V_2 = NULL;
-	Type_t* V_3 = NULL;
-	RuntimeObject* V_4 = NULL;
-	VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	{
-		// var newObjectType = typeof(TCreate);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		V_0 = L_1;
-		// if (newObjectType == typeof(string))
-		Type_t* L_2 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_4;
-		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
-		bool L_5;
-		L_5 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_2, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return (TCreate)(object)string.Empty;
-		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
-		return ((RuntimeObject*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 1)));
-	}
-
-IL_0028:
-	{
-		// if (newObjectType.IsArray)
-		Type_t* L_7 = V_0;
-		NullCheck(L_7);
-		bool L_8;
-		L_8 = Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// var elementType = newObjectType.GetElementType();
-		Type_t* L_9 = V_0;
-		NullCheck(L_9);
-		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(47 /* System.Type System.Type::GetElementType() */, L_9);
-		V_3 = L_10;
-		// if (elementType == null)
-		Type_t* L_11 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, (Type_t*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(RuntimeObject*));
-		RuntimeObject* L_13 = V_4;
-		return L_13;
-	}
-
-IL_004b:
-	{
-		// return (TCreate)(object)Array.CreateInstance(elementType, 0);
-		Type_t* L_14 = V_3;
-		RuntimeArray* L_15;
-		L_15 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_14, 0, NULL);
-		return ((RuntimeObject*)Castclass((RuntimeObject*)L_15, il2cpp_rgctx_data(method->rgctx_data, 1)));
-	}
-
-IL_0058:
-	{
-		// var newObject = Activator.CreateInstance(newObjectType);
-		Type_t* L_16 = V_0;
-		RuntimeObject* L_17;
-		L_17 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_16, NULL);
-		V_1 = L_17;
-		// if (newObject == null)
-		RuntimeObject* L_18 = V_1;
-		if (L_18)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		// Debug.LogWarning($"Could not activate {newObjectType}");
-		Type_t* L_19 = V_0;
-		String_t* L_20;
-		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D, (RuntimeObject*)L_19, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_20, NULL);
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(RuntimeObject*));
-		RuntimeObject* L_21 = V_4;
-		return L_21;
-	}
-
-IL_007d:
-	{
-		// var typedNewObject = (TCreate)newObject;
-		RuntimeObject* L_22 = V_1;
-		V_2 = ((RuntimeObject*)Castclass((RuntimeObject*)L_22, il2cpp_rgctx_data(method->rgctx_data, 1)));
-		// if (!TypeTraits.IsContainer(newObjectType))
-		Type_t* L_23 = V_0;
-		bool L_24;
-		L_24 = TypeTraits_IsContainer_m265A30D5A90C0236EFCEDA894FA31E5FBC29F6BC(L_23, NULL);
-		if (L_24)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		// return typedNewObject;
-		RuntimeObject* L_25 = V_2;
-		return L_25;
-	}
-
-IL_008e:
-	{
-		// var visitor = new DefaultValueOverrideVisitor();
-		DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED* L_26 = (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		NullCheck(L_26);
-		((  void (*) (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)))(L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		// PropertyContainer.Accept(visitor, ref typedNewObject);
-		il2cpp_codegen_initobj((&V_5), sizeof(VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF));
-		VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF L_27 = V_5;
-		((  void (*) (RuntimeObject*, RuntimeObject**, VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))((RuntimeObject*)L_26, (&V_2), L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
-		// return typedNewObject;
-		RuntimeObject* L_28 = V_2;
-		return L_28;
-	}
-}
-// TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<UnityEngine.SceneManagement.Scene>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisScene_tA1DC762B79745EB5140F054C884855B922318356_m8233088DF1E7E7B0CD9827ADF80C71A55F985531_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D);
-		s_Il2CppMethodInitialized = true;
-	}
-	Type_t* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	Type_t* V_3 = NULL;
-	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	{
-		// var newObjectType = typeof(TCreate);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		V_0 = L_1;
-		// if (newObjectType == typeof(string))
-		Type_t* L_2 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_4;
-		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
-		bool L_5;
-		L_5 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_2, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return (TCreate)(object)string.Empty;
-		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
-		return ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0028:
-	{
-		// if (newObjectType.IsArray)
-		Type_t* L_7 = V_0;
-		NullCheck(L_7);
-		bool L_8;
-		L_8 = Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// var elementType = newObjectType.GetElementType();
-		Type_t* L_9 = V_0;
-		NullCheck(L_9);
-		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(47 /* System.Type System.Type::GetElementType() */, L_9);
-		V_3 = L_10;
-		// if (elementType == null)
-		Type_t* L_11 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, (Type_t*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(Scene_tA1DC762B79745EB5140F054C884855B922318356));
-		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_13 = V_4;
-		return L_13;
-	}
-
-IL_004b:
-	{
-		// return (TCreate)(object)Array.CreateInstance(elementType, 0);
-		Type_t* L_14 = V_3;
-		RuntimeArray* L_15;
-		L_15 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_14, 0, NULL);
-		return ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox((RuntimeObject*)L_15, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0058:
-	{
-		// var newObject = Activator.CreateInstance(newObjectType);
-		Type_t* L_16 = V_0;
-		RuntimeObject* L_17;
-		L_17 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_16, NULL);
-		V_1 = L_17;
-		// if (newObject == null)
-		RuntimeObject* L_18 = V_1;
-		if (L_18)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		// Debug.LogWarning($"Could not activate {newObjectType}");
-		Type_t* L_19 = V_0;
-		String_t* L_20;
-		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D, (RuntimeObject*)L_19, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_20, NULL);
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(Scene_tA1DC762B79745EB5140F054C884855B922318356));
-		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_21 = V_4;
-		return L_21;
-	}
-
-IL_007d:
-	{
-		// var typedNewObject = (TCreate)newObject;
-		RuntimeObject* L_22 = V_1;
-		V_2 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_22, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-		// if (!TypeTraits.IsContainer(newObjectType))
-		Type_t* L_23 = V_0;
-		bool L_24;
-		L_24 = TypeTraits_IsContainer_m265A30D5A90C0236EFCEDA894FA31E5FBC29F6BC(L_23, NULL);
-		if (L_24)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		// return typedNewObject;
-		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_25 = V_2;
-		return L_25;
-	}
-
-IL_008e:
-	{
-		// var visitor = new DefaultValueOverrideVisitor();
-		DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED* L_26 = (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		NullCheck(L_26);
-		((  void (*) (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)))(L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		// PropertyContainer.Accept(visitor, ref typedNewObject);
-		il2cpp_codegen_initobj((&V_5), sizeof(VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF));
-		VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF L_27 = V_5;
-		((  void (*) (RuntimeObject*, Scene_tA1DC762B79745EB5140F054C884855B922318356*, VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))((RuntimeObject*)L_26, (&V_2), L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
-		// return typedNewObject;
-		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_28 = V_2;
-		return L_28;
-	}
-}
-// TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<Unity.Serialization.Json.SerializedArrayView>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_m74F6C40CF06B63768322EAC351DBFAE5929CC30B_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D);
-		s_Il2CppMethodInitialized = true;
-	}
-	Type_t* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	Type_t* V_3 = NULL;
-	SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	{
-		// var newObjectType = typeof(TCreate);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		V_0 = L_1;
-		// if (newObjectType == typeof(string))
-		Type_t* L_2 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_4;
-		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
-		bool L_5;
-		L_5 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_2, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return (TCreate)(object)string.Empty;
-		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
-		return ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0028:
-	{
-		// if (newObjectType.IsArray)
-		Type_t* L_7 = V_0;
-		NullCheck(L_7);
-		bool L_8;
-		L_8 = Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// var elementType = newObjectType.GetElementType();
-		Type_t* L_9 = V_0;
-		NullCheck(L_9);
-		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(47 /* System.Type System.Type::GetElementType() */, L_9);
-		V_3 = L_10;
-		// if (elementType == null)
-		Type_t* L_11 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, (Type_t*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6));
-		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_13 = V_4;
-		return L_13;
-	}
-
-IL_004b:
-	{
-		// return (TCreate)(object)Array.CreateInstance(elementType, 0);
-		Type_t* L_14 = V_3;
-		RuntimeArray* L_15;
-		L_15 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_14, 0, NULL);
-		return ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox((RuntimeObject*)L_15, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0058:
-	{
-		// var newObject = Activator.CreateInstance(newObjectType);
-		Type_t* L_16 = V_0;
-		RuntimeObject* L_17;
-		L_17 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_16, NULL);
-		V_1 = L_17;
-		// if (newObject == null)
-		RuntimeObject* L_18 = V_1;
-		if (L_18)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		// Debug.LogWarning($"Could not activate {newObjectType}");
-		Type_t* L_19 = V_0;
-		String_t* L_20;
-		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D, (RuntimeObject*)L_19, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_20, NULL);
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6));
-		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_21 = V_4;
-		return L_21;
-	}
-
-IL_007d:
-	{
-		// var typedNewObject = (TCreate)newObject;
-		RuntimeObject* L_22 = V_1;
-		V_2 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_22, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-		// if (!TypeTraits.IsContainer(newObjectType))
-		Type_t* L_23 = V_0;
-		bool L_24;
-		L_24 = TypeTraits_IsContainer_m265A30D5A90C0236EFCEDA894FA31E5FBC29F6BC(L_23, NULL);
-		if (L_24)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		// return typedNewObject;
-		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_25 = V_2;
-		return L_25;
-	}
-
-IL_008e:
-	{
-		// var visitor = new DefaultValueOverrideVisitor();
-		DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED* L_26 = (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		NullCheck(L_26);
-		((  void (*) (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)))(L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		// PropertyContainer.Accept(visitor, ref typedNewObject);
-		il2cpp_codegen_initobj((&V_5), sizeof(VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF));
-		VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF L_27 = V_5;
-		((  void (*) (RuntimeObject*, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))((RuntimeObject*)L_26, (&V_2), L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
-		// return typedNewObject;
-		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_28 = V_2;
-		return L_28;
-	}
-}
-// TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<Unity.Serialization.Json.SerializedValueView>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m72424223635A435D604DFA0C946B66F9D8473DCD_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D);
-		s_Il2CppMethodInitialized = true;
-	}
-	Type_t* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	Type_t* V_3 = NULL;
-	SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	{
-		// var newObjectType = typeof(TCreate);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		V_0 = L_1;
-		// if (newObjectType == typeof(string))
-		Type_t* L_2 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_4;
-		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
-		bool L_5;
-		L_5 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_2, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return (TCreate)(object)string.Empty;
-		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
-		return ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0028:
-	{
-		// if (newObjectType.IsArray)
-		Type_t* L_7 = V_0;
-		NullCheck(L_7);
-		bool L_8;
-		L_8 = Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// var elementType = newObjectType.GetElementType();
-		Type_t* L_9 = V_0;
-		NullCheck(L_9);
-		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(47 /* System.Type System.Type::GetElementType() */, L_9);
-		V_3 = L_10;
-		// if (elementType == null)
-		Type_t* L_11 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, (Type_t*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC));
-		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_13 = V_4;
-		return L_13;
-	}
-
-IL_004b:
-	{
-		// return (TCreate)(object)Array.CreateInstance(elementType, 0);
-		Type_t* L_14 = V_3;
-		RuntimeArray* L_15;
-		L_15 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_14, 0, NULL);
-		return ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox((RuntimeObject*)L_15, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0058:
-	{
-		// var newObject = Activator.CreateInstance(newObjectType);
-		Type_t* L_16 = V_0;
-		RuntimeObject* L_17;
-		L_17 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_16, NULL);
-		V_1 = L_17;
-		// if (newObject == null)
-		RuntimeObject* L_18 = V_1;
-		if (L_18)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		// Debug.LogWarning($"Could not activate {newObjectType}");
-		Type_t* L_19 = V_0;
-		String_t* L_20;
-		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D, (RuntimeObject*)L_19, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_20, NULL);
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC));
-		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_21 = V_4;
-		return L_21;
-	}
-
-IL_007d:
-	{
-		// var typedNewObject = (TCreate)newObject;
-		RuntimeObject* L_22 = V_1;
-		V_2 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_22, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-		// if (!TypeTraits.IsContainer(newObjectType))
-		Type_t* L_23 = V_0;
-		bool L_24;
-		L_24 = TypeTraits_IsContainer_m265A30D5A90C0236EFCEDA894FA31E5FBC29F6BC(L_23, NULL);
-		if (L_24)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		// return typedNewObject;
-		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_25 = V_2;
-		return L_25;
-	}
-
-IL_008e:
-	{
-		// var visitor = new DefaultValueOverrideVisitor();
-		DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED* L_26 = (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		NullCheck(L_26);
-		((  void (*) (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)))(L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		// PropertyContainer.Accept(visitor, ref typedNewObject);
-		il2cpp_codegen_initobj((&V_5), sizeof(VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF));
-		VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF L_27 = V_5;
-		((  void (*) (RuntimeObject*, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))((RuntimeObject*)L_26, (&V_2), L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
-		// return typedNewObject;
-		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_28 = V_2;
-		return L_28;
-	}
-}
-// TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<System.Single>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m745B5074514C6A6328A2ADCC7F473C4AB0583648_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D);
-		s_Il2CppMethodInitialized = true;
-	}
-	Type_t* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	float V_2 = 0.0f;
-	Type_t* V_3 = NULL;
-	float V_4 = 0.0f;
-	VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	{
-		// var newObjectType = typeof(TCreate);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		V_0 = L_1;
-		// if (newObjectType == typeof(string))
-		Type_t* L_2 = V_0;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_4;
-		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
-		bool L_5;
-		L_5 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_2, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		// return (TCreate)(object)string.Empty;
-		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
-		return ((*(float*)((float*)(float*)UnBox((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0028:
-	{
-		// if (newObjectType.IsArray)
-		Type_t* L_7 = V_0;
-		NullCheck(L_7);
-		bool L_8;
-		L_8 = Type_get_IsArray_mB9B8CA713B2AA9D6AFECC24E05AF78D22532B673(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// var elementType = newObjectType.GetElementType();
-		Type_t* L_9 = V_0;
-		NullCheck(L_9);
-		Type_t* L_10;
-		L_10 = VirtualFuncInvoker0< Type_t* >::Invoke(47 /* System.Type System.Type::GetElementType() */, L_9);
-		V_3 = L_10;
-		// if (elementType == null)
-		Type_t* L_11 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_11, (Type_t*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_004b;
-		}
-	}
-	{
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(float));
-		float L_13 = V_4;
-		return L_13;
-	}
-
-IL_004b:
-	{
-		// return (TCreate)(object)Array.CreateInstance(elementType, 0);
-		Type_t* L_14 = V_3;
-		RuntimeArray* L_15;
-		L_15 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_14, 0, NULL);
-		return ((*(float*)((float*)(float*)UnBox((RuntimeObject*)L_15, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-	}
-
-IL_0058:
-	{
-		// var newObject = Activator.CreateInstance(newObjectType);
-		Type_t* L_16 = V_0;
-		RuntimeObject* L_17;
-		L_17 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_16, NULL);
-		V_1 = L_17;
-		// if (newObject == null)
-		RuntimeObject* L_18 = V_1;
-		if (L_18)
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		// Debug.LogWarning($"Could not activate {newObjectType}");
-		Type_t* L_19 = V_0;
-		String_t* L_20;
-		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB6DD32FE68E48C85DE5062CA6E20A6FF47BC21D, (RuntimeObject*)L_19, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9((RuntimeObject*)L_20, NULL);
-		// return default;
-		il2cpp_codegen_initobj((&V_4), sizeof(float));
-		float L_21 = V_4;
-		return L_21;
-	}
-
-IL_007d:
-	{
-		// var typedNewObject = (TCreate)newObject;
-		RuntimeObject* L_22 = V_1;
-		V_2 = ((*(float*)((float*)(float*)UnBox(L_22, il2cpp_rgctx_data(method->rgctx_data, 1)))));
-		// if (!TypeTraits.IsContainer(newObjectType))
-		Type_t* L_23 = V_0;
-		bool L_24;
-		L_24 = TypeTraits_IsContainer_m265A30D5A90C0236EFCEDA894FA31E5FBC29F6BC(L_23, NULL);
-		if (L_24)
-		{
-			goto IL_008e;
-		}
-	}
-	{
-		// return typedNewObject;
-		float L_25 = V_2;
-		return L_25;
-	}
-
-IL_008e:
-	{
-		// var visitor = new DefaultValueOverrideVisitor();
-		DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED* L_26 = (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12));
-		NullCheck(L_26);
-		((  void (*) (DefaultValueOverrideVisitor_tB305EF60AB9353A369B28F50950368BEDA93AFED*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13)))(L_26, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		// PropertyContainer.Accept(visitor, ref typedNewObject);
-		il2cpp_codegen_initobj((&V_5), sizeof(VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF));
-		VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF L_27 = V_5;
-		((  void (*) (RuntimeObject*, float*, VisitParameters_t550A7AB6B2E264781D4DB9258C44CD41F38C84DF, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))((RuntimeObject*)L_26, (&V_2), L_27, il2cpp_rgctx_method(method->rgctx_data, 2));
-		// return typedNewObject;
-		float L_28 = V_2;
-		return L_28;
-	}
-}
 // TCreate Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Object>::CreateNewDefaultObject<UnityEngine.Vector3>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RuntimePrefabOverridePropertyVisitor_1_CreateNewDefaultObject_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m0D3BC0E4A8DFA4C6381451BC95DF47E26109BE59_gshared (const RuntimeMethod* method) 
 {
@@ -25384,6 +24618,599 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_S
 		RuntimeObject* L_7;
 		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
 		*(bool*)L_0 = ((*(bool*)((bool*)(bool*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Char>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mB69C889336C37944F2E0DE129AD0D524934823D9_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Il2CppChar* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		Il2CppChar* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(Il2CppChar*)L_0 = ((*(Il2CppChar*)((Il2CppChar*)(Il2CppChar*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<UnityEngine.Color>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mCF0E3D6E1AE9833C2CC53C619DE7CADF04E6B275_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_0 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Int32>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m7900783CD822E68861B6658A7A1C8F10FF3CBB94_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, int32_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		int32_t* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(int32_t*)L_0 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Int32Enum>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m3431FFDE3CC1BDA34533B0ECC4629901869E9C36_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, int32_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		int32_t* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(int32_t*)L_0 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Int64>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_mA8CE4223868549431AC76533328DE7175F109BB2_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, int64_t* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		int64_t* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(int64_t*)L_0 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Object>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisRuntimeObject_m7247661CCBE01932AAF4C16C21816BABB23D5528_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, RuntimeObject** ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		RuntimeObject** L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(RuntimeObject**)L_0 = ((RuntimeObject*)Castclass((RuntimeObject*)L_7, il2cpp_rgctx_data(method->rgctx_data, 1)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_7, il2cpp_rgctx_data(method->rgctx_data, 1))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<UnityEngine.SceneManagement.Scene>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisScene_tA1DC762B79745EB5140F054C884855B922318356_mC367055CB8F2FF0702956F2305F1AF0EFF9A97C7_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_0 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<Unity.Serialization.Json.SerializedArrayView>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_mFFF4ED6CDBA199F0BCCB1A7CE6FD074E02E9ABEF_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_0 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<Unity.Serialization.Json.SerializedValueView>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m31BD5F12D58D575BF2CBCB008651624C9D36EAC2_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_0 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Single>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m75DD04131AD1929106BB8E91688ACC536BF5CD59_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, float* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		float* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(float*)L_0 = ((*(float*)((float*)(float*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<UnityEngine.Vector3>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mDA71DD0EE775BB73B969F3AE9580B576914B0B6F_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<UnityEngine.Vector3Int>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_mAD9E473314763F6083CF1FFF21206E3450CE6A4B_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_0 = ((*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)((Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisCameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0_mBEECE0E66E6A65EB141D58FD45D2D043718B1F0E_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_0 = ((*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_0)->___events_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisPlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0_m9BB1AAABF9E978CF73D019C94ACE164B05EE773A_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_0 = ((*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_0)->___events_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>(TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisPointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2_m1242D8C7EB04459E920E6825BB1AC9A0452E788E_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// value = (TConverted)Convert.ChangeType(m_PrefabOverride.Value, typeof(TConverted));
+		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_0 = ___0_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_7;
+		L_7 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_4, L_6, NULL);
+		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_0 = ((*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)UnBox(L_7, il2cpp_rgctx_data(method->rgctx_data, 1)))));
+		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_0)->___events_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisKeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230_m0DA62D4CD3266E521124F0B4DB3A400B2E7C7398_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_0 = ((*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_0)->___key_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_0)->___value_1), (void*)NULL);
+		#endif
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Boolean>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mA759DE142FCF3DA16A43E9BB7E30DF9727D920E7_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, bool* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		bool* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(bool*)L_0 = ((*(bool*)((bool*)(bool*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Char>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mFC955AABA3E7B4D0757F770FB39769F3F37D88F2_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, Il2CppChar* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		Il2CppChar* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(Il2CppChar*)L_0 = ((*(Il2CppChar*)((Il2CppChar*)(Il2CppChar*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<UnityEngine.Color>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mD3650E724E26E75F72769B92AD5ADE7B19AF41F3_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_0 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Int32>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m666107EE4765BFC0510FD61778F5BAEDC681C8EC_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, int32_t* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		int32_t* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(int32_t*)L_0 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Single>::SetConvertedProperty<System.Int32Enum>(System.Type,TConverted&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_SetConvertedProperty_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m7A94EFC81970A5B7F65DB57FE56B83AC2A8E4D79_gshared (RuntimePrefabOverridePropertyVisitor_1_t121774D6CBE899094DB9F39290E34A930BDD2777* __this, Type_t* ___0_conversionType, int32_t* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		// value = (TConverted)ChangeType(m_PrefabOverride.Value, conversionType);
+		int32_t* L_0 = ___1_value;
+		RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27* L_1 = (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*)__this->___m_PrefabOverride_2;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = ((  float (*) (RuntimePrefabPropertyOverride_1_tAAEB1CF12FF7516F5E785C28F15E9C22D7B2BA27*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_3);
+		Type_t* L_5 = ___0_conversionType;
+		RuntimeObject* L_6;
+		L_6 = ((  RuntimeObject* (*) (RuntimeObject*, Type_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_4, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		*(int32_t*)L_0 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_6, il2cpp_rgctx_data(method->rgctx_data, 0)))));
 		// }
 		return;
 	}

@@ -557,6 +557,15 @@ struct SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6
 	Handle_t734A63706EDE11FF0429B53F7756AE2873E1F665 ___m_Handle_1;
 };
 
+// Unity.Serialization.Json.SerializedObjectView
+struct SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 
+{
+	// Unity.Serialization.Json.PackedBinaryStream Unity.Serialization.Json.SerializedObjectView::m_Stream
+	PackedBinaryStream_t133A1222531704BB16370BECAC49D2488AE4C864 ___m_Stream_0;
+	// Unity.Serialization.Json.Handle Unity.Serialization.Json.SerializedObjectView::m_Handle
+	Handle_t734A63706EDE11FF0429B53F7756AE2873E1F665 ___m_Handle_1;
+};
+
 // Unity.Serialization.Json.SerializedValueView
 struct SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC 
 {
@@ -600,203 +609,203 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32>
-struct TypeConverter_2_t4636FDD2512340A631069677AC104DDF6D61000F  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int32Enum>
+struct TypeConverter_2_t640408272A857ABF59EA73265852DF172E2EE239  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32Enum>
-struct TypeConverter_2_t6E78426778E7F0C2DBCF41087B1CA26D44D48259  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int64>
+struct TypeConverter_2_t33C024B8C477B3CA3D9CC1CEF6CBDAA77902DB76  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int64>
-struct TypeConverter_2_tC787BA05C5B72AF259161526D9FCA268C42D3F79  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.Object>
+struct TypeConverter_2_tBA0F9368E3C971FEE982B532FA8B0BDB75B220AB  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Object>
-struct TypeConverter_2_t07C5908803CB2D31A913A8F3E04F26C2BC6896F5  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.SByte>
+struct TypeConverter_2_t75E11F320F334B086E478046E19360038111A376  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.SByte>
-struct TypeConverter_2_tD781F89FF6C767EB5AA721F015E3FB76D3F18A23  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.SceneManagement.Scene>
+struct TypeConverter_2_t8B9D2357DFAD01C84F3896DE16528E4DE0C664C4  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.SceneManagement.Scene>
-struct TypeConverter_2_t3288CE648059FEDCCE0FA80DE2B6EA16EF7CEECE  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedArrayView>
+struct TypeConverter_2_t73960AA67193D82F17D9E1FB3C97D4EF43DB145E  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedArrayView>
-struct TypeConverter_2_tDB673A56D4B29F0029AF221E0160EE50F3553661  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedValueView>
+struct TypeConverter_2_tAEA8EAC40A93676FE90B54E3D5AF7043B643793A  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedValueView>
-struct TypeConverter_2_t65012988BB697E4D54BB9752EC333A148DE222B2  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.Single>
+struct TypeConverter_2_t6A0D40B03247992BD45EF867F44FFAC1CD1FC271  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Single>
-struct TypeConverter_2_tF119D648F4D42FFF4AFE8CD843EC7CEFFFCE4AED  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.TimeSpan>
+struct TypeConverter_2_t0D1B3D2DCDCC5765E0252BA0D10BC58CCF21B173  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.TimeSpan>
-struct TypeConverter_2_t0A16EC08DC73095B3ACDE4596BBBAE837B4BA5D7  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt16>
+struct TypeConverter_2_t090A8478157D7ECA647CBF51181D507275A997AD  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt16>
-struct TypeConverter_2_t21141E5FCF585243F8696A4A19A003BE9C0404A6  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt32>
+struct TypeConverter_2_tC99A4AFEEA040A5FB5A4A5C4549EA4C0ABA1966D  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt32>
-struct TypeConverter_2_tADEB07DF3FA33FB9DD67615198DBF668A420FF46  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt64>
+struct TypeConverter_2_t34D4D4C5FACADEB607743115CB982122C4FB22CD  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt64>
-struct TypeConverter_2_t5BB78EDEC1479F8EFD56ABB47CAD0ED3E669E543  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3>
+struct TypeConverter_2_t1098F531CB810A8EEFF67FA86B6F99235BF44055  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3>
-struct TypeConverter_2_t39F02C221878FB7FEF589477B75312315098EED3  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3Int>
+struct TypeConverter_2_tD130BB2B828E91D4C31F25F803CF016AB82910CC  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3Int>
-struct TypeConverter_2_tC6AA3B51523505EE90705FFA26674405A9A8499B  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
+struct TypeConverter_2_tEE6D9B657992A2A10BCC4838320D8BB4283F14B4  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
-struct TypeConverter_2_t3A42B27AC03382485BAAFD00772E935ECCD3F3BF  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
+struct TypeConverter_2_t9563E2731CDF628CF7FF91931BABE14D766D70D1  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
-struct TypeConverter_2_tB3228D5D9A5506894EF6311D48A547D4940109A7  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
+struct TypeConverter_2_t74E5803AE29DA7C4335C54B42E01C4037FB308C0  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
-struct TypeConverter_2_t84706AE6C9D9C1D09556C534F35315527A7408F0  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int32Enum,System.Object>
+struct TypeConverter_2_tD3ACE383900BD0715BE6BF8E553C7667DC334C6B  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct TypeConverter_2_t01242621782D1F6A95E8F84E52F8C5D6624DBA5B  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct TypeConverter_2_t055A8A8A82384ADAA3841FAEEA9004F4E4337506  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Boolean>
-struct TypeConverter_2_t8020C100895F5A90E6EA9C114F622B422088A710  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Boolean>
+struct TypeConverter_2_t13A727E2781A420C94AC4D2972A14261A39D5594  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Byte>
-struct TypeConverter_2_tBC81E5AEC6C40EB95B54A04762A3F9DBF95DC7B9  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Byte>
+struct TypeConverter_2_tB70571F7237DA55B0D1408D1FCBC5FBEB13D099B  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Char>
-struct TypeConverter_2_t36D3C97EE69CA799612B1C7C29D05CD11BA8B960  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Char>
+struct TypeConverter_2_t0EB88FF99A6C040DB4CDDA5733DAF443D2AA17B9  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.Color>
-struct TypeConverter_2_tC11C93ACF0D813569E53C09FBE0D3E78391AF916  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.Color>
+struct TypeConverter_2_t7221B6963EA2E80E5B7F4CD7D1579BBDFF2F93A4  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.DateTime>
-struct TypeConverter_2_tBE22BBA8589F3BA4584F0B028F712CCE5B64CFCE  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.DateTime>
+struct TypeConverter_2_t1D6E57F19746272E55B563BF9EC15C1348142F9E  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Double>
-struct TypeConverter_2_tF71F25EEBBBF1D5C218AD8384818AFE45AE83B07  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Double>
+struct TypeConverter_2_t905FCEBDCD26443DC1DAE986E02315BF609BCDA5  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Guid>
-struct TypeConverter_2_tA2DA687E301EA3387E6326D1749104D29D5C8A7F  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Guid>
+struct TypeConverter_2_tA450C4A6DF285347662C845D4149D64C7FDBB778  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int16>
-struct TypeConverter_2_t1209A081FB43C11907EC73EC580490035F119B74  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int16>
+struct TypeConverter_2_t0ACFFAEBCAC36429DD8D852263377A4CE6E79E01  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32>
-struct TypeConverter_2_t2DD2B17E9B1CFE215997DC614EA2F165C16DDCEC  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32>
+struct TypeConverter_2_tB3E5F906D0CAF027330D3D77A3E582063801EBB4  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32Enum>
-struct TypeConverter_2_tFD297B565425196707AC7DCD5079AE598D42AE40  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32Enum>
+struct TypeConverter_2_tAB44825B14F6A0F1B1D7EB1F6FC5DF3CFFA05E93  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int64>
-struct TypeConverter_2_tB39AFE03946699DF05B9372B9DFD424BF5D93E6C  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int64>
+struct TypeConverter_2_t02BB4523A8E9E697BE8D03033FCD4B3C54848D7A  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Object>
-struct TypeConverter_2_tEF140C754345A612AF839341ECA1FC81294E5338  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Object>
+struct TypeConverter_2_tD8E73D7474AB6C176590071EF3528059F0DD2462  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.SByte>
-struct TypeConverter_2_t8B98522E8D271BEB883B85401DE73895027B1040  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.SByte>
+struct TypeConverter_2_t427475D35A1091AD6E100B4114EC1A1E234E941E  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.SceneManagement.Scene>
-struct TypeConverter_2_tF59EC61DC855990E8E144E402301B76603A7AC4C  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.SceneManagement.Scene>
+struct TypeConverter_2_t8FCA226198AE3444EF16C5779C22EF33A99FEDC7  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedArrayView>
-struct TypeConverter_2_t84498DEA613EE25A84258ECF77D1C07B2394E916  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedArrayView>
+struct TypeConverter_2_t2243E096210FCDF4838384B027B67A781E396572  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedValueView>
-struct TypeConverter_2_t3E02AAB051D7D6809A0820016AB559730A71CC49  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedObjectView>
+struct TypeConverter_2_t1191D712A82F89D1D8B11DA7D0E42D85DCCB7E15  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Single>
-struct TypeConverter_2_t2BBD83F18510148E61E2F6FBB9EBE3CBA5635C5F  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedValueView>
+struct TypeConverter_2_t476ADE318D5DEB029DAF61C3270CC005ADD7826A  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.TimeSpan>
-struct TypeConverter_2_tC2626373DE71CA9CF7C27067058EB094920F8AF3  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.Single>
+struct TypeConverter_2_tFF2CBD53F111A33AC9B8C2EC340F68C7C642718B  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt16>
-struct TypeConverter_2_tDCEB9619BF1657CEC60AAA8692BE6D85011E44BA  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.TimeSpan>
+struct TypeConverter_2_t62FB84C1687E5C7E34BE9967B4CFB34370C75D25  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt32>
-struct TypeConverter_2_t61CD65F8E96048DE12529F01E617E79A70843CE2  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt16>
+struct TypeConverter_2_t86FBCBDECB8102DA4DAD3A08290B8F2FD63D4090  : public MulticastDelegate_t
 {
 };
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt64>
-struct TypeConverter_2_t1556F3D6F98E30281E045E9AACEC3D3117B2E0DD  : public MulticastDelegate_t
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt32>
+struct TypeConverter_2_t4A977498890DEE8BA3053D807D215CAA6AF0A6C7  : public MulticastDelegate_t
 {
 };
 
@@ -1044,6 +1053,10 @@ struct Exception_t_StaticFields
 
 // Unity.Serialization.Json.SerializedArrayView
 
+// Unity.Serialization.Json.SerializedObjectView
+
+// Unity.Serialization.Json.SerializedObjectView
+
 // Unity.Serialization.Json.SerializedValueView
 
 // Unity.Serialization.Json.SerializedValueView
@@ -1086,165 +1099,165 @@ struct Type_t_StaticFields
 
 // System.Type
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int32Enum>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int32Enum>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32Enum>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int64>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int32Enum>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Int64>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int64>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Int64>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Object>
+// Unity.Properties.TypeConverter`2<System.Int32,System.SByte>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Object>
+// Unity.Properties.TypeConverter`2<System.Int32,System.SByte>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.SByte>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.SceneManagement.Scene>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.SByte>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.SceneManagement.Scene>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.SceneManagement.Scene>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedArrayView>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.SceneManagement.Scene>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedArrayView>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedArrayView>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedValueView>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedArrayView>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.Serialization.Json.SerializedValueView>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedValueView>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Single>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.Serialization.Json.SerializedValueView>
+// Unity.Properties.TypeConverter`2<System.Int32,System.Single>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Single>
+// Unity.Properties.TypeConverter`2<System.Int32,System.TimeSpan>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.Single>
+// Unity.Properties.TypeConverter`2<System.Int32,System.TimeSpan>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.TimeSpan>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt16>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.TimeSpan>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt16>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt16>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt32>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt16>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt32>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt32>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt64>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt32>
+// Unity.Properties.TypeConverter`2<System.Int32,System.UInt64>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt64>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3>
 
-// Unity.Properties.TypeConverter`2<System.Byte,System.UInt64>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3Int>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3>
+// Unity.Properties.TypeConverter`2<System.Int32,UnityEngine.Vector3Int>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3Int>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,UnityEngine.Vector3Int>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>
+// Unity.Properties.TypeConverter`2<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
+// Unity.Properties.TypeConverter`2<System.Int32Enum,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>
+// Unity.Properties.TypeConverter`2<System.Int32Enum,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Boolean>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Boolean>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Boolean>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Boolean>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Byte>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Byte>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Byte>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Byte>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Char>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Char>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Char>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Char>
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.Color>
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.Color>
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.Color>
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.Color>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.DateTime>
+// Unity.Properties.TypeConverter`2<System.Int64,System.DateTime>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.DateTime>
+// Unity.Properties.TypeConverter`2<System.Int64,System.DateTime>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Double>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Double>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Double>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Double>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Guid>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Guid>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Guid>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Guid>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int16>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int16>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int16>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int16>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32Enum>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32Enum>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int32Enum>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int32Enum>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int64>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int64>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Int64>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Int64>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Object>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Object>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Object>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.SByte>
+// Unity.Properties.TypeConverter`2<System.Int64,System.SByte>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.SByte>
+// Unity.Properties.TypeConverter`2<System.Int64,System.SByte>
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.SceneManagement.Scene>
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.SceneManagement.Scene>
 
-// Unity.Properties.TypeConverter`2<System.Char,UnityEngine.SceneManagement.Scene>
+// Unity.Properties.TypeConverter`2<System.Int64,UnityEngine.SceneManagement.Scene>
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedArrayView>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedArrayView>
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedArrayView>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedArrayView>
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedValueView>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedObjectView>
 
-// Unity.Properties.TypeConverter`2<System.Char,Unity.Serialization.Json.SerializedValueView>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedObjectView>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Single>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedValueView>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.Single>
+// Unity.Properties.TypeConverter`2<System.Int64,Unity.Serialization.Json.SerializedValueView>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.TimeSpan>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Single>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.TimeSpan>
+// Unity.Properties.TypeConverter`2<System.Int64,System.Single>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt16>
+// Unity.Properties.TypeConverter`2<System.Int64,System.TimeSpan>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt16>
+// Unity.Properties.TypeConverter`2<System.Int64,System.TimeSpan>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt32>
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt16>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt32>
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt16>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt64>
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt32>
 
-// Unity.Properties.TypeConverter`2<System.Char,System.UInt64>
+// Unity.Properties.TypeConverter`2<System.Int64,System.UInt32>
 
 // System.ArgumentException
 
@@ -1277,8 +1290,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enum_ToObject_mD898E0819FA640B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F (Type_t* ___0_enumType, String_t* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean Unity.Properties.TypeConversion::IsNumericType(System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_IsNumericType_mC369570424722B46B53543BE7226E7491A0418C1 (Type_t* ___0_t, const RuntimeMethod* method) ;
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.Int32>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m3062B46F985855F335DE3C792C8965A32010F94F_gshared (uint8_t* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.Int32Enum>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mB2728B8489C92DE8811B286694B55FA940A0B82F_gshared (int32_t* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1297,7 +1310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -1320,10 +1333,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int32_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t4636FDD2512340A631069677AC104DDF6D61000F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t640408272A857ABF59EA73265852DF172E2EE239*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int32_t L_8;
-		L_8 = ((  int32_t (*) (TypeConverter_2_t4636FDD2512340A631069677AC104DDF6D61000F*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t4636FDD2512340A631069677AC104DDF6D61000F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int32_t (*) (TypeConverter_2_t640408272A857ABF59EA73265852DF172E2EE239*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t640408272A857ABF59EA73265852DF172E2EE239*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int32_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -1362,9 +1375,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		int32_t* L_19;
-		L_19 = ((  int32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int32_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_20 = (*(int32_t*)L_19);
 		*(int32_t*)L_17 = L_20;
 		// return true;
@@ -1447,9 +1460,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -1484,9 +1497,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int32_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -1541,9 +1554,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int32_t*)L_66 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -1563,12 +1576,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		int32_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -1614,9 +1627,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -1671,9 +1684,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		int32_t* L_96;
-		L_96 = ((  int32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int32_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_97 = (*(int32_t*)L_96);
 		*(int32_t*)L_94 = L_97;
 		// return true;
@@ -1683,11 +1696,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -1695,8 +1708,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -1728,9 +1741,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int32_t*)L_113 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -1753,484 +1766,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.Int32Enum>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m1E7320DFD2EDB9DD184330E910AB76DCF679BA49_gshared (uint8_t* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Delegate_t* V_0 = NULL;
-	int32_t V_1 = 0;
-	Type_t* V_2 = NULL;
-	Type_t* V_3 = NULL;
-	RuntimeObject* V_4 = NULL;
-	bool V_5 = false;
-	uint8_t V_6 = 0x0;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		Type_t* L_3;
-		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
-		bool L_4;
-		L_4 = ConversionRegistry_TryGetConverter_mD440DC9009991B8037A75667405A04572A315929((&((TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_StaticFields*)il2cpp_codegen_static_fields_for(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var))->___s_GlobalConverters_0), L_1, L_3, (&V_0), NULL);
-		if (!L_4)
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
-		int32_t* L_5 = ___1_destination;
-		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t6E78426778E7F0C2DBCF41087B1CA26D44D48259*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
-		int32_t L_8;
-		L_8 = ((  int32_t (*) (TypeConverter_2_t6E78426778E7F0C2DBCF41087B1CA26D44D48259*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t6E78426778E7F0C2DBCF41087B1CA26D44D48259*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
-		*(int32_t*)L_5 = L_8;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0036:
-	{
-		// if (typeof(TSource).IsValueType && typeof(TSource) == typeof(TDestination))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_10;
-		L_10 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_9, NULL);
-		NullCheck(L_10);
-		bool L_11;
-		L_11 = Type_get_IsValueType_m59AE2E0439DC06347B8D6B38548F3CBA54D38318(L_10, NULL);
-		if (!L_11)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_13;
-		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		Type_t* L_15;
-		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
-		bool L_16;
-		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
-		if (!L_16)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
-		int32_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
-		int32_t* L_19;
-		L_19 = ((  int32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
-		int32_t L_20 = (*(int32_t*)L_19);
-		*(int32_t*)L_17 = L_20;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0075:
-	{
-		// if (TypeTraits<TDestination>.IsNullable)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_21;
-		L_21 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(il2cpp_rgctx_method(method->rgctx_data, 5));
-		if (!L_21)
-		{
-			goto IL_012f;
-		}
-	}
-	{
-		// if (TypeTraits<TSource>.IsNullable && Nullable.GetUnderlyingType(typeof(TDestination)) != Nullable.GetUnderlyingType(typeof(TSource)))
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
-		bool L_22;
-		L_22 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
-		if (!L_22)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_24;
-		L_24 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_23, NULL);
-		Type_t* L_25;
-		L_25 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_24, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_27;
-		L_27 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_26, NULL);
-		Type_t* L_28;
-		L_28 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_27, NULL);
-		bool L_29;
-		L_29 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_25, L_28, NULL);
-		if (!L_29)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		// destination = default;
-		int32_t* L_30 = ___1_destination;
-		il2cpp_codegen_initobj(L_30, sizeof(int32_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_00b4:
-	{
-		// var underlyingType = Nullable.GetUnderlyingType(typeof(TDestination));
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_32;
-		L_32 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_31, NULL);
-		Type_t* L_33;
-		L_33 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_32, NULL);
-		V_2 = L_33;
-		// if (underlyingType.IsEnum)
-		Type_t* L_34 = V_2;
-		NullCheck(L_34);
-		bool L_35;
-		L_35 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_34);
-		if (!L_35)
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		// var enumUnderlyingType = Enum.GetUnderlyingType(underlyingType);
-		Type_t* L_36 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		Type_t* L_37;
-		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
-		V_3 = L_37;
-		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
-		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
-		Type_t* L_42 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		RuntimeObject* L_43;
-		L_43 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_41, L_42, NULL);
-		V_4 = L_43;
-		// destination = (TDestination) Enum.ToObject(underlyingType, value);
-		int32_t* L_44 = ___1_destination;
-		Type_t* L_45 = V_2;
-		RuntimeObject* L_46 = V_4;
-		RuntimeObject* L_47;
-		L_47 = Enum_ToObject_mD898E0819FA640BC4E98924613B5DBD41146D1FF(L_45, L_46, NULL);
-		*(int32_t*)L_44 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_47, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_00fb:
-	{
-		// if (source == null)
-		goto IL_0111;
-	}
-	{
-		// destination = default;
-		int32_t* L_49 = ___1_destination;
-		il2cpp_codegen_initobj(L_49, sizeof(int32_t));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0111:
-	{
-		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
-		int32_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
-		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
-		Type_t* L_55 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		RuntimeObject* L_56;
-		L_56 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_54, L_55, NULL);
-		*(int32_t*)L_50 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_56, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_012f:
-	{
-		// if (TypeTraits<TSource>.IsNullable && typeof(TDestination) == Nullable.GetUnderlyingType(typeof(TSource)))
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
-		bool L_57;
-		L_57 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
-		if (!L_57)
-		{
-			goto IL_0184;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_58 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_59;
-		L_59 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_58, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_61;
-		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
-		Type_t* L_62;
-		L_62 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_61, NULL);
-		bool L_63;
-		L_63 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_62, NULL);
-		if (!L_63)
-		{
-			goto IL_0184;
-		}
-	}
-	{
-		// if (null == source)
-		goto IL_016c;
-	}
-	{
-		// destination = default;
-		int32_t* L_65 = ___1_destination;
-		il2cpp_codegen_initobj(L_65, sizeof(int32_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_016c:
-	{
-		// destination = (TDestination) (object) source;
-		int32_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
-		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
-		*(int32_t*)L_66 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0184:
-	{
-		// if (TypeTraits<TDestination>.IsUnityObject)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_71;
-		L_71 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 11)))(il2cpp_rgctx_method(method->rgctx_data, 11));
-		if (!L_71)
-		{
-			goto IL_019b;
-		}
-	}
-	{
-		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
-		int32_t* L_74 = ___1_destination;
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
-		if (!L_75)
-		{
-			goto IL_019b;
-		}
-	}
-	{
-		// return true;
-		return (bool)1;
-	}
-
-IL_019b:
-	{
-		// if (TypeTraits<TDestination>.IsEnum)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_76;
-		L_76 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 13)))(il2cpp_rgctx_method(method->rgctx_data, 13));
-		if (!L_76)
-		{
-			goto IL_021f;
-		}
-	}
-	{
-		// if (typeof(TSource) == typeof(string))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_77 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_78;
-		L_78 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_77, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_79 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_80;
-		L_80 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_79, NULL);
-		bool L_81;
-		L_81 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_78, L_80, NULL);
-		if (!L_81)
-		{
-			goto IL_01fb;
-		}
-	}
-	try
-	{// begin try (depth: 1)
-		// destination = (TDestination) Enum.Parse(typeof(TDestination), (string) (object) source);
-		int32_t* L_82 = ___1_destination;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_83 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_84;
-		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
-		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		RuntimeObject* L_89;
-		L_89 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_84, ((String_t*)CastclassSealed((RuntimeObject*)L_88, String_t_il2cpp_TypeInfo_var)), NULL);
-		*(int32_t*)L_82 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_89, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// }
-		goto IL_01f9;
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_01e9;
-		}
-		throw e;
-	}
-
-CATCH_01e9:
-	{// begin catch(System.ArgumentException)
-		// catch (ArgumentException)
-		// destination = default;
-		int32_t* L_90 = ___1_destination;
-		il2cpp_codegen_initobj(L_90, sizeof(int32_t));
-		// return false;
-		V_5 = (bool)0;
-		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_028c;
-	}// end catch (depth: 1)
-
-IL_01f9:
-	{
-		// return true;
-		return (bool)1;
-	}
-
-IL_01fb:
-	{
-		// if (IsNumericType(typeof(TSource)))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_91 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_92;
-		L_92 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_91, NULL);
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		bool L_93;
-		L_93 = TypeConversion_IsNumericType_mC369570424722B46B53543BE7226E7491A0418C1(L_92, NULL);
-		if (!L_93)
-		{
-			goto IL_021f;
-		}
-	}
-	{
-		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
-		int32_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
-		int32_t* L_96;
-		L_96 = ((  int32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
-		int32_t L_97 = (*(int32_t*)L_96);
-		*(int32_t*)L_94 = L_97;
-		// return true;
-		return (bool)1;
-	}
-
-IL_021f:
-	{
-		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
-		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
-		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
-		{
-			goto IL_0250;
-		}
-	}
-	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
-		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
-		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// destination = assignable;
-		int32_t* L_106 = ___1_destination;
-		int32_t L_107 = V_1;
-		*(int32_t*)L_106 = L_107;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0250:
-	{
-		// if (typeof(TDestination).IsAssignableFrom(typeof(TSource)))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_108 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_109;
-		L_109 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_108, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_110 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_111;
-		L_111 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_110, NULL);
-		NullCheck(L_109);
-		bool L_112;
-		L_112 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(23 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_109, L_111);
-		if (!L_112)
-		{
-			goto IL_0283;
-		}
-	}
-	{
-		// destination = (TDestination) (object) source;
-		int32_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
-		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
-		*(int32_t*)L_113 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0283:
-	{
-		// destination = default;
-		int32_t* L_118 = ___1_destination;
-		il2cpp_codegen_initobj(L_118, sizeof(int32_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_028c:
-	{
-		// }
-		bool L_119 = V_5;
-		return L_119;
-	}
-}
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.Int64>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m82D0A3D3BAC3ED0EAEF4678F62B977018964DC5D_gshared (uint8_t* ___0_source, int64_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.Int64>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m8B211222E91A98320487B7CE4DC15348762BAAFD_gshared (int32_t* ___0_source, int64_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2249,7 +1786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -2272,10 +1809,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int64_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tC787BA05C5B72AF259161526D9FCA268C42D3F79*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t33C024B8C477B3CA3D9CC1CEF6CBDAA77902DB76*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int64_t L_8;
-		L_8 = ((  int64_t (*) (TypeConverter_2_tC787BA05C5B72AF259161526D9FCA268C42D3F79*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tC787BA05C5B72AF259161526D9FCA268C42D3F79*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int64_t (*) (TypeConverter_2_t33C024B8C477B3CA3D9CC1CEF6CBDAA77902DB76*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t33C024B8C477B3CA3D9CC1CEF6CBDAA77902DB76*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int64_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -2314,9 +1851,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int64_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		int64_t* L_19;
-		L_19 = ((  int64_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int64_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int64_t L_20 = (*(int64_t*)L_19);
 		*(int64_t*)L_17 = L_20;
 		// return true;
@@ -2399,9 +1936,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -2436,9 +1973,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int64_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -2493,9 +2030,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int64_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int64_t*)L_66 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -2515,12 +2052,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		int64_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -2566,9 +2103,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -2623,9 +2160,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int64_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		int64_t* L_96;
-		L_96 = ((  int64_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int64_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int64_t L_97 = (*(int64_t*)L_96);
 		*(int64_t*)L_94 = L_97;
 		// return true;
@@ -2635,11 +2172,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -2647,8 +2184,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -2680,9 +2217,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int64_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int64_t*)L_113 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -2705,8 +2242,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.Object>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisRuntimeObject_mB59362DE9CCA10D03C3A270DA1ADA133B291CB2C_gshared (uint8_t* ___0_source, RuntimeObject** ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.Object>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisRuntimeObject_m800E68A1CDA41CE64A5D35FC9D4C90B1A4CB47DB_gshared (int32_t* ___0_source, RuntimeObject** ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2725,7 +2262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -2748,10 +2285,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		RuntimeObject** L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t07C5908803CB2D31A913A8F3E04F26C2BC6896F5*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tBA0F9368E3C971FEE982B532FA8B0BDB75B220AB*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		RuntimeObject* L_8;
-		L_8 = ((  RuntimeObject* (*) (TypeConverter_2_t07C5908803CB2D31A913A8F3E04F26C2BC6896F5*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t07C5908803CB2D31A913A8F3E04F26C2BC6896F5*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  RuntimeObject* (*) (TypeConverter_2_tBA0F9368E3C971FEE982B532FA8B0BDB75B220AB*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tBA0F9368E3C971FEE982B532FA8B0BDB75B220AB*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(RuntimeObject**)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_5, (void*)L_8);
 		// return true;
@@ -2791,9 +2328,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		RuntimeObject** L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		RuntimeObject** L_19;
-		L_19 = ((  RuntimeObject** (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  RuntimeObject** (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		RuntimeObject* L_20 = (*(RuntimeObject**)L_19);
 		*(RuntimeObject**)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_17, (void*)L_20);
@@ -2877,9 +2414,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -2915,9 +2452,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		RuntimeObject** L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -2973,9 +2510,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		RuntimeObject** L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(RuntimeObject**)L_66 = ((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10)));
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_66, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10))));
@@ -2996,12 +2533,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		RuntimeObject** L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, RuntimeObject**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, RuntimeObject**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -3047,9 +2584,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -3105,9 +2642,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		RuntimeObject** L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		RuntimeObject** L_96;
-		L_96 = ((  RuntimeObject** (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  RuntimeObject** (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		RuntimeObject* L_97 = (*(RuntimeObject**)L_96);
 		*(RuntimeObject**)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_94, (void*)L_97);
@@ -3118,11 +2655,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -3130,8 +2667,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((RuntimeObject*)Castclass((RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)));
 		// destination = assignable;
@@ -3164,9 +2701,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		RuntimeObject** L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(RuntimeObject**)L_113 = ((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10)));
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_113, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10))));
@@ -3190,8 +2727,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.SByte>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m839B3FC03F8FC00AF2AC358C4B0D141B3C16FA25_gshared (uint8_t* ___0_source, int8_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.SByte>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m891F7300ACC20DFF3226DFD80D2ECF956E71DCF6_gshared (int32_t* ___0_source, int8_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3210,7 +2747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -3233,10 +2770,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int8_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tD781F89FF6C767EB5AA721F015E3FB76D3F18A23*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t75E11F320F334B086E478046E19360038111A376*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int8_t L_8;
-		L_8 = ((  int8_t (*) (TypeConverter_2_tD781F89FF6C767EB5AA721F015E3FB76D3F18A23*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tD781F89FF6C767EB5AA721F015E3FB76D3F18A23*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int8_t (*) (TypeConverter_2_t75E11F320F334B086E478046E19360038111A376*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t75E11F320F334B086E478046E19360038111A376*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int8_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -3275,9 +2812,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int8_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		int8_t* L_19;
-		L_19 = ((  int8_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int8_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int8_t L_20 = (*(int8_t*)L_19);
 		*(int8_t*)L_17 = L_20;
 		// return true;
@@ -3360,9 +2897,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -3397,9 +2934,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int8_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -3454,9 +2991,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int8_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int8_t*)L_66 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -3476,12 +3013,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		int8_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, int8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, int8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -3527,9 +3064,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -3584,9 +3121,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int8_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		int8_t* L_96;
-		L_96 = ((  int8_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int8_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int8_t L_97 = (*(int8_t*)L_96);
 		*(int8_t*)L_94 = L_97;
 		// return true;
@@ -3596,11 +3133,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -3608,8 +3145,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -3641,9 +3178,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int8_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int8_t*)L_113 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -3666,8 +3203,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,UnityEngine.SceneManagement.Scene>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisScene_tA1DC762B79745EB5140F054C884855B922318356_m5019C80E5A259DB6F12BB81AB36DADAF14FE41C8_gshared (uint8_t* ___0_source, Scene_tA1DC762B79745EB5140F054C884855B922318356* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,UnityEngine.SceneManagement.Scene>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisScene_tA1DC762B79745EB5140F054C884855B922318356_mD3B9C445894EF800C736CFD4CA93A9C8DEF0B8A9_gshared (int32_t* ___0_source, Scene_tA1DC762B79745EB5140F054C884855B922318356* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3687,7 +3224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -3710,10 +3247,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t3288CE648059FEDCCE0FA80DE2B6EA16EF7CEECE*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t8B9D2357DFAD01C84F3896DE16528E4DE0C664C4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_8;
-		L_8 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356 (*) (TypeConverter_2_t3288CE648059FEDCCE0FA80DE2B6EA16EF7CEECE*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t3288CE648059FEDCCE0FA80DE2B6EA16EF7CEECE*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356 (*) (TypeConverter_2_t8B9D2357DFAD01C84F3896DE16528E4DE0C664C4*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t8B9D2357DFAD01C84F3896DE16528E4DE0C664C4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -3752,9 +3289,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_19;
-		L_19 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_20 = (*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_19);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_17 = L_20;
 		// return true;
@@ -3837,9 +3374,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -3874,9 +3411,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -3931,9 +3468,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_66 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -3953,12 +3490,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, Scene_tA1DC762B79745EB5140F054C884855B922318356*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, Scene_tA1DC762B79745EB5140F054C884855B922318356*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -4004,9 +3541,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -4061,9 +3598,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_96;
-		L_96 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_97 = (*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_96);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_94 = L_97;
 		// return true;
@@ -4073,11 +3610,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -4085,8 +3622,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -4118,9 +3655,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_113 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -4143,8 +3680,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,Unity.Serialization.Json.SerializedArrayView>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_m4D16DDB6B764D4370707AEBF8632DA30B7ADB237_gshared (uint8_t* ___0_source, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,Unity.Serialization.Json.SerializedArrayView>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_m97615D9F563BA240271216FE205C6572E7A049BB_gshared (int32_t* ___0_source, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4164,7 +3701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -4187,10 +3724,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tDB673A56D4B29F0029AF221E0160EE50F3553661*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t73960AA67193D82F17D9E1FB3C97D4EF43DB145E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_8;
-		L_8 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 (*) (TypeConverter_2_tDB673A56D4B29F0029AF221E0160EE50F3553661*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tDB673A56D4B29F0029AF221E0160EE50F3553661*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 (*) (TypeConverter_2_t73960AA67193D82F17D9E1FB3C97D4EF43DB145E*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t73960AA67193D82F17D9E1FB3C97D4EF43DB145E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -4229,9 +3766,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_19;
-		L_19 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_20 = (*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_19);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_17 = L_20;
 		// return true;
@@ -4314,9 +3851,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -4351,9 +3888,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -4408,9 +3945,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_66 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -4430,12 +3967,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -4481,9 +4018,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -4538,9 +4075,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_96;
-		L_96 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_97 = (*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_96);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_94 = L_97;
 		// return true;
@@ -4550,11 +4087,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -4562,8 +4099,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -4595,9 +4132,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_113 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -4620,8 +4157,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,Unity.Serialization.Json.SerializedValueView>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m164097C8B5A04360A827B1B27AAAC3576221E337_gshared (uint8_t* ___0_source, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,Unity.Serialization.Json.SerializedValueView>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m2C73870A45D5AF34C25C279751112B1331260343_gshared (int32_t* ___0_source, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4641,7 +4178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -4664,10 +4201,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t65012988BB697E4D54BB9752EC333A148DE222B2*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tAEA8EAC40A93676FE90B54E3D5AF7043B643793A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_8;
-		L_8 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC (*) (TypeConverter_2_t65012988BB697E4D54BB9752EC333A148DE222B2*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t65012988BB697E4D54BB9752EC333A148DE222B2*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC (*) (TypeConverter_2_tAEA8EAC40A93676FE90B54E3D5AF7043B643793A*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tAEA8EAC40A93676FE90B54E3D5AF7043B643793A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -4706,9 +4243,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_19;
-		L_19 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_20 = (*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_19);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_17 = L_20;
 		// return true;
@@ -4791,9 +4328,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -4828,9 +4365,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -4885,9 +4422,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_66 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -4907,12 +4444,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -4958,9 +4495,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -5015,9 +4552,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_96;
-		L_96 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_97 = (*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_96);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_94 = L_97;
 		// return true;
@@ -5027,11 +4564,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -5039,8 +4576,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -5072,9 +4609,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_113 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -5097,8 +4634,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.Single>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m64D8A5EF6A3A5D4D7238CAB4BD8BE36A15CEC51C_gshared (uint8_t* ___0_source, float* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.Single>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC0DD1BB0E782627E3AE334C747154C4B73BCB128_gshared (int32_t* ___0_source, float* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5117,7 +4654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -5140,10 +4677,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		float* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tF119D648F4D42FFF4AFE8CD843EC7CEFFFCE4AED*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t6A0D40B03247992BD45EF867F44FFAC1CD1FC271*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		float L_8;
-		L_8 = ((  float (*) (TypeConverter_2_tF119D648F4D42FFF4AFE8CD843EC7CEFFFCE4AED*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tF119D648F4D42FFF4AFE8CD843EC7CEFFFCE4AED*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  float (*) (TypeConverter_2_t6A0D40B03247992BD45EF867F44FFAC1CD1FC271*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t6A0D40B03247992BD45EF867F44FFAC1CD1FC271*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(float*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -5182,9 +4719,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		float* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		float* L_19;
-		L_19 = ((  float* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  float* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		float L_20 = (*(float*)L_19);
 		*(float*)L_17 = L_20;
 		// return true;
@@ -5267,9 +4804,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -5304,9 +4841,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		float* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -5361,9 +4898,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		float* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(float*)L_66 = ((*(float*)((float*)(float*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -5383,12 +4920,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		float* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -5434,9 +4971,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -5491,9 +5028,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		float* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		float* L_96;
-		L_96 = ((  float* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  float* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		float L_97 = (*(float*)L_96);
 		*(float*)L_94 = L_97;
 		// return true;
@@ -5503,11 +5040,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -5515,8 +5052,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(float*)((float*)(float*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -5548,9 +5085,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		float* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(float*)L_113 = ((*(float*)((float*)(float*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -5573,8 +5110,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.TimeSpan>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m51681C9573BFC901C963A34779B48DF0616EA3F1_gshared (uint8_t* ___0_source, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.TimeSpan>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m451EF7CD19896ACB4D963B8D6118733E128ADF4A_gshared (int32_t* ___0_source, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5594,7 +5131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -5617,10 +5154,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t0A16EC08DC73095B3ACDE4596BBBAE837B4BA5D7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t0D1B3D2DCDCC5765E0252BA0D10BC58CCF21B173*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_8;
-		L_8 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A (*) (TypeConverter_2_t0A16EC08DC73095B3ACDE4596BBBAE837B4BA5D7*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t0A16EC08DC73095B3ACDE4596BBBAE837B4BA5D7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A (*) (TypeConverter_2_t0D1B3D2DCDCC5765E0252BA0D10BC58CCF21B173*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t0D1B3D2DCDCC5765E0252BA0D10BC58CCF21B173*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -5659,9 +5196,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_19;
-		L_19 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_20 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_19);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_17 = L_20;
 		// return true;
@@ -5744,9 +5281,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -5781,9 +5318,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -5838,9 +5375,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_66 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -5860,12 +5397,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -5911,9 +5448,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -5968,9 +5505,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_96;
-		L_96 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_97 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_96);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_94 = L_97;
 		// return true;
@@ -5980,11 +5517,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -5992,8 +5529,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -6025,9 +5562,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_113 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -6050,8 +5587,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.UInt16>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m4C644D1346633E91CFA692D1247241F90FB50516_gshared (uint8_t* ___0_source, uint16_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.UInt16>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mE90827D2AD29FDECA20D1E1DA016D5FFDB770B26_gshared (int32_t* ___0_source, uint16_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6070,7 +5607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -6093,10 +5630,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint16_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t21141E5FCF585243F8696A4A19A003BE9C0404A6*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t090A8478157D7ECA647CBF51181D507275A997AD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint16_t L_8;
-		L_8 = ((  uint16_t (*) (TypeConverter_2_t21141E5FCF585243F8696A4A19A003BE9C0404A6*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t21141E5FCF585243F8696A4A19A003BE9C0404A6*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint16_t (*) (TypeConverter_2_t090A8478157D7ECA647CBF51181D507275A997AD*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t090A8478157D7ECA647CBF51181D507275A997AD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint16_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -6135,9 +5672,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint16_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		uint16_t* L_19;
-		L_19 = ((  uint16_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint16_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint16_t L_20 = (*(uint16_t*)L_19);
 		*(uint16_t*)L_17 = L_20;
 		// return true;
@@ -6220,9 +5757,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -6257,9 +5794,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint16_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -6314,9 +5851,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint16_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint16_t*)L_66 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -6336,12 +5873,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		uint16_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, uint16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, uint16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -6387,9 +5924,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -6444,9 +5981,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint16_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		uint16_t* L_96;
-		L_96 = ((  uint16_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint16_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint16_t L_97 = (*(uint16_t*)L_96);
 		*(uint16_t*)L_94 = L_97;
 		// return true;
@@ -6456,11 +5993,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -6468,8 +6005,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -6501,9 +6038,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint16_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint16_t*)L_113 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -6526,8 +6063,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.UInt32>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mCB0C9DD32A743FF92951ACEBEDF02DC4E03F3A92_gshared (uint8_t* ___0_source, uint32_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.UInt32>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m803070D05015D8A3AB69BB02DEBFC52D4C36A2B8_gshared (int32_t* ___0_source, uint32_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6546,7 +6083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -6569,10 +6106,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint32_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tADEB07DF3FA33FB9DD67615198DBF668A420FF46*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tC99A4AFEEA040A5FB5A4A5C4549EA4C0ABA1966D*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint32_t L_8;
-		L_8 = ((  uint32_t (*) (TypeConverter_2_tADEB07DF3FA33FB9DD67615198DBF668A420FF46*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tADEB07DF3FA33FB9DD67615198DBF668A420FF46*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint32_t (*) (TypeConverter_2_tC99A4AFEEA040A5FB5A4A5C4549EA4C0ABA1966D*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tC99A4AFEEA040A5FB5A4A5C4549EA4C0ABA1966D*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint32_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -6611,9 +6148,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint32_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		uint32_t* L_19;
-		L_19 = ((  uint32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint32_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint32_t L_20 = (*(uint32_t*)L_19);
 		*(uint32_t*)L_17 = L_20;
 		// return true;
@@ -6696,9 +6233,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -6733,9 +6270,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint32_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -6790,9 +6327,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint32_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint32_t*)L_66 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -6812,12 +6349,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		uint32_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, uint32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, uint32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -6863,9 +6400,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -6920,9 +6457,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint32_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		uint32_t* L_96;
-		L_96 = ((  uint32_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint32_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint32_t L_97 = (*(uint32_t*)L_96);
 		*(uint32_t*)L_94 = L_97;
 		// return true;
@@ -6932,11 +6469,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -6944,8 +6481,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -6977,9 +6514,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint32_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint32_t*)L_113 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -7002,8 +6539,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,System.UInt64>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m58EC1F707EDFBE93B3C8FBC3A4F84A65F34C9FE6_gshared (uint8_t* ___0_source, uint64_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,System.UInt64>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m318D2975E8C9E3B80604E1FF06C36A06385B34C2_gshared (int32_t* ___0_source, uint64_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7022,7 +6559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -7045,10 +6582,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint64_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t5BB78EDEC1479F8EFD56ABB47CAD0ED3E669E543*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t34D4D4C5FACADEB607743115CB982122C4FB22CD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint64_t L_8;
-		L_8 = ((  uint64_t (*) (TypeConverter_2_t5BB78EDEC1479F8EFD56ABB47CAD0ED3E669E543*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t5BB78EDEC1479F8EFD56ABB47CAD0ED3E669E543*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint64_t (*) (TypeConverter_2_t34D4D4C5FACADEB607743115CB982122C4FB22CD*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t34D4D4C5FACADEB607743115CB982122C4FB22CD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint64_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -7087,9 +6624,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint64_t* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		uint64_t* L_19;
-		L_19 = ((  uint64_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint64_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint64_t L_20 = (*(uint64_t*)L_19);
 		*(uint64_t*)L_17 = L_20;
 		// return true;
@@ -7172,9 +6709,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -7209,9 +6746,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint64_t* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -7266,9 +6803,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint64_t* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint64_t*)L_66 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -7288,12 +6825,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		uint64_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, uint64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, uint64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -7339,9 +6876,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -7396,9 +6933,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint64_t* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		uint64_t* L_96;
-		L_96 = ((  uint64_t* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint64_t* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint64_t L_97 = (*(uint64_t*)L_96);
 		*(uint64_t*)L_94 = L_97;
 		// return true;
@@ -7408,11 +6945,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -7420,8 +6957,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -7453,9 +6990,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint64_t* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint64_t*)L_113 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -7478,8 +7015,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,UnityEngine.Vector3>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m67F29F4B695C9375C780A905BDFA884A7220B043_gshared (uint8_t* ___0_source, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,UnityEngine.Vector3>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m3A13BBE5290405679629E311955FDEB7A6DAA711_gshared (int32_t* ___0_source, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7499,7 +7036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -7522,10 +7059,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t39F02C221878FB7FEF589477B75312315098EED3*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t1098F531CB810A8EEFF67FA86B6F99235BF44055*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
-		L_8 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*) (TypeConverter_2_t39F02C221878FB7FEF589477B75312315098EED3*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t39F02C221878FB7FEF589477B75312315098EED3*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*) (TypeConverter_2_t1098F531CB810A8EEFF67FA86B6F99235BF44055*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t1098F531CB810A8EEFF67FA86B6F99235BF44055*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -7564,9 +7101,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_19;
-		L_19 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_19);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_17 = L_20;
 		// return true;
@@ -7649,9 +7186,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -7686,9 +7223,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -7743,9 +7280,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_66 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -7765,12 +7302,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -7816,9 +7353,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -7873,9 +7410,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_96;
-		L_96 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_96);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_94 = L_97;
 		// return true;
@@ -7885,11 +7422,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -7897,8 +7434,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -7930,9 +7467,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_113 = ((*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -7955,8 +7492,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,UnityEngine.Vector3Int>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_m12955A51DA6004435C7DEDF5C8FD77C589BB7020_gshared (uint8_t* ___0_source, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,UnityEngine.Vector3Int>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisVector3Int_t65CB06F557251D18A37BD71F3655BA836A357376_m8D5297616EAEB301676BE60300F48F43A5A9DDD7_gshared (int32_t* ___0_source, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7976,7 +7513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -7999,10 +7536,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tC6AA3B51523505EE90705FFA26674405A9A8499B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tD130BB2B828E91D4C31F25F803CF016AB82910CC*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_8;
-		L_8 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 (*) (TypeConverter_2_tC6AA3B51523505EE90705FFA26674405A9A8499B*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tC6AA3B51523505EE90705FFA26674405A9A8499B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 (*) (TypeConverter_2_tD130BB2B828E91D4C31F25F803CF016AB82910CC*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tD130BB2B828E91D4C31F25F803CF016AB82910CC*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -8041,9 +7578,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_19;
-		L_19 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_20 = (*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_19);
 		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_17 = L_20;
 		// return true;
@@ -8126,9 +7663,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -8163,9 +7700,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -8220,9 +7757,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_66 = ((*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)((Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -8242,12 +7779,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -8293,9 +7830,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -8350,9 +7887,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_96;
-		L_96 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 L_97 = (*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_96);
 		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_94 = L_97;
 		// return true;
@@ -8362,11 +7899,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -8374,8 +7911,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)((Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -8407,9 +7944,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)L_113 = ((*(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)((Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)(Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -8432,8 +7969,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisCameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0_m085D1EC4BD981D0F1834D50A4A716A3AD0120081_gshared (uint8_t* ___0_source, CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/CameraPathRecording>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisCameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0_mF985D6572D11B87041DAC4FE8997A7BA879EB71E_gshared (int32_t* ___0_source, CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8453,7 +7990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -8476,10 +8013,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t3A42B27AC03382485BAAFD00772E935ECCD3F3BF*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tEE6D9B657992A2A10BCC4838320D8BB4283F14B4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0 L_8;
-		L_8 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0 (*) (TypeConverter_2_t3A42B27AC03382485BAAFD00772E935ECCD3F3BF*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t3A42B27AC03382485BAAFD00772E935ECCD3F3BF*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0 (*) (TypeConverter_2_tEE6D9B657992A2A10BCC4838320D8BB4283F14B4*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tEE6D9B657992A2A10BCC4838320D8BB4283F14B4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_5)->___events_0), (void*)NULL);
 		// return true;
@@ -8519,9 +8056,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_19;
-		L_19 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0 L_20 = (*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_19);
 		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_17)->___events_0), (void*)NULL);
@@ -8605,9 +8142,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -8643,9 +8180,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -8701,9 +8238,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_66 = ((*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_66)->___events_0), (void*)NULL);
@@ -8724,12 +8261,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -8775,9 +8312,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -8833,9 +8370,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_96;
-		L_96 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0 L_97 = (*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_96);
 		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_94)->___events_0), (void*)NULL);
@@ -8846,11 +8383,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -8858,8 +8395,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -8892,9 +8429,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_113 = ((*(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)(CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((CameraPathRecording_tC580C3D181F1F03C5EC0976D18BCCC78D6D573C0*)L_113)->___events_0), (void*)NULL);
@@ -8918,8 +8455,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisPlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0_mE36FBC59D926E2F6EBB3D00864C242AEB6366A44_gshared (uint8_t* ___0_source, PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PlaneDataRecording>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisPlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0_mD518563C2AFF96DCC06D44E5E30A48FFA494085F_gshared (int32_t* ___0_source, PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8939,7 +8476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -8962,10 +8499,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tB3228D5D9A5506894EF6311D48A547D4940109A7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t9563E2731CDF628CF7FF91931BABE14D766D70D1*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0 L_8;
-		L_8 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0 (*) (TypeConverter_2_tB3228D5D9A5506894EF6311D48A547D4940109A7*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tB3228D5D9A5506894EF6311D48A547D4940109A7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0 (*) (TypeConverter_2_t9563E2731CDF628CF7FF91931BABE14D766D70D1*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t9563E2731CDF628CF7FF91931BABE14D766D70D1*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_5)->___events_0), (void*)NULL);
 		// return true;
@@ -9005,9 +8542,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_19;
-		L_19 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0 L_20 = (*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_19);
 		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_17)->___events_0), (void*)NULL);
@@ -9091,9 +8628,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -9129,9 +8666,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -9187,9 +8724,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_66 = ((*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_66)->___events_0), (void*)NULL);
@@ -9210,12 +8747,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -9261,9 +8798,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -9319,9 +8856,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_96;
-		L_96 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0 L_97 = (*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_96);
 		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_94)->___events_0), (void*)NULL);
@@ -9332,11 +8869,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -9344,8 +8881,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -9378,9 +8915,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_113 = ((*(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)(PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((PlaneDataRecording_t9C2CB265D9D276595374D44C847FFCA7978595B0*)L_113)->___events_0), (void*)NULL);
@@ -9404,8 +8941,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Byte,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisPointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2_m1E41932F5F58851EB73833E9B936CCDC7A45D747_gshared (uint8_t* ___0_source, PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32,Unity.AR.Companion.Core.CompanionDataRecordingUtils/PointCloudRecording>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_TisPointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2_m6FDD93C8D7002E06C5679E1BF47B474360460436_gshared (int32_t* ___0_source, PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9425,7 +8962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	uint8_t V_6 = 0x0;
+	int32_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -9448,10 +8985,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisByte_t94D92
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		uint8_t* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t84706AE6C9D9C1D09556C534F35315527A7408F0*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t74E5803AE29DA7C4335C54B42E01C4037FB308C0*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2 L_8;
-		L_8 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2 (*) (TypeConverter_2_t84706AE6C9D9C1D09556C534F35315527A7408F0*, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t84706AE6C9D9C1D09556C534F35315527A7408F0*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2 (*) (TypeConverter_2_t74E5803AE29DA7C4335C54B42E01C4037FB308C0*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t74E5803AE29DA7C4335C54B42E01C4037FB308C0*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_5)->___events_0), (void*)NULL);
 		// return true;
@@ -9491,9 +9028,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_17 = ___1_destination;
-		uint8_t* L_18 = ___0_source;
+		int32_t* L_18 = ___0_source;
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_19;
-		L_19 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2 L_20 = (*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_19);
 		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_17)->___events_0), (void*)NULL);
@@ -9577,9 +9114,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		uint8_t* L_38 = ___0_source;
-		uint8_t L_39 = (*(uint8_t*)L_38);
-		uint8_t L_40 = L_39;
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -9615,9 +9152,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_50 = ___1_destination;
-		uint8_t* L_51 = ___0_source;
-		uint8_t L_52 = (*(uint8_t*)L_51);
-		uint8_t L_53 = L_52;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -9673,9 +9210,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_66 = ___1_destination;
-		uint8_t* L_67 = ___0_source;
-		uint8_t L_68 = (*(uint8_t*)L_67);
-		uint8_t L_69 = L_68;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_66 = ((*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_66)->___events_0), (void*)NULL);
@@ -9696,12 +9233,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		uint8_t* L_72 = ___0_source;
-		uint8_t L_73 = (*(uint8_t*)L_72);
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (uint8_t, PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int32_t, PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -9747,9 +9284,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		uint8_t* L_85 = ___0_source;
-		uint8_t L_86 = (*(uint8_t*)L_85);
-		uint8_t L_87 = L_86;
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -9805,9 +9342,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_94 = ___1_destination;
-		uint8_t* L_95 = ___0_source;
+		int32_t* L_95 = ___0_source;
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_96;
-		L_96 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* (*) (uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2 L_97 = (*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_96);
 		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_94)->___events_0), (void*)NULL);
@@ -9818,11 +9355,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		uint8_t* L_98 = ___0_source;
-		uint8_t L_99 = (*(uint8_t*)L_98);
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
 		V_6 = L_99;
-		uint8_t L_100 = V_6;
-		uint8_t L_101 = L_100;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -9830,8 +9367,8 @@ IL_021f:
 		}
 	}
 	{
-		uint8_t L_103 = V_6;
-		uint8_t L_104 = L_103;
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -9864,9 +9401,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2* L_113 = ___1_destination;
-		uint8_t* L_114 = ___0_source;
-		uint8_t L_115 = (*(uint8_t*)L_114);
-		uint8_t L_116 = L_115;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_113 = ((*(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)(PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((PointCloudRecording_tC2F4446AEDA7CE3488EA453774519BCDF6F097A2*)L_113)->___events_0), (void*)NULL);
@@ -9890,8 +9427,493 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisKeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230_m16E5B5B629E5102DFE2C50FCCEB68189DACBE2BE_gshared (Il2CppChar* ___0_source, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int32Enum,System.Object>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_TisRuntimeObject_m5576D9B314171A44C943AD15E1EF9A2546AEB157_gshared (int32_t* ___0_source, RuntimeObject** ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Delegate_t* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	Type_t* V_2 = NULL;
+	Type_t* V_3 = NULL;
+	RuntimeObject* V_4 = NULL;
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		bool L_4;
+		L_4 = ConversionRegistry_TryGetConverter_mD440DC9009991B8037A75667405A04572A315929((&((TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_StaticFields*)il2cpp_codegen_static_fields_for(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var))->___s_GlobalConverters_0), L_1, L_3, (&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
+		RuntimeObject** L_5 = ___1_destination;
+		Delegate_t* L_6 = V_0;
+		int32_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tD3ACE383900BD0715BE6BF8E553C7667DC334C6B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		RuntimeObject* L_8;
+		L_8 = ((  RuntimeObject* (*) (TypeConverter_2_tD3ACE383900BD0715BE6BF8E553C7667DC334C6B*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tD3ACE383900BD0715BE6BF8E553C7667DC334C6B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		*(RuntimeObject**)L_5 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_5, (void*)L_8);
+		// return true;
+		return (bool)1;
+	}
+
+IL_0036:
+	{
+		// if (typeof(TSource).IsValueType && typeof(TSource) == typeof(TDestination))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_10;
+		L_10 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_9, NULL);
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Type_get_IsValueType_m59AE2E0439DC06347B8D6B38548F3CBA54D38318(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_13;
+		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		Type_t* L_15;
+		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
+		bool L_16;
+		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
+		RuntimeObject** L_17 = ___1_destination;
+		int32_t* L_18 = ___0_source;
+		RuntimeObject** L_19;
+		L_19 = ((  RuntimeObject** (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		RuntimeObject* L_20 = (*(RuntimeObject**)L_19);
+		*(RuntimeObject**)L_17 = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_17, (void*)L_20);
+		// return true;
+		return (bool)1;
+	}
+
+IL_0075:
+	{
+		// if (TypeTraits<TDestination>.IsNullable)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_21;
+		L_21 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(il2cpp_rgctx_method(method->rgctx_data, 5));
+		if (!L_21)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		// if (TypeTraits<TSource>.IsNullable && Nullable.GetUnderlyingType(typeof(TDestination)) != Nullable.GetUnderlyingType(typeof(TSource)))
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
+		bool L_22;
+		L_22 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
+		if (!L_22)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_24;
+		L_24 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_23, NULL);
+		Type_t* L_25;
+		L_25 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_24, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_27;
+		L_27 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_26, NULL);
+		Type_t* L_28;
+		L_28 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_27, NULL);
+		bool L_29;
+		L_29 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_25, L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		// destination = default;
+		RuntimeObject** L_30 = ___1_destination;
+		il2cpp_codegen_initobj(L_30, sizeof(RuntimeObject*));
+		// return false;
+		return (bool)0;
+	}
+
+IL_00b4:
+	{
+		// var underlyingType = Nullable.GetUnderlyingType(typeof(TDestination));
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_32;
+		L_32 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_31, NULL);
+		Type_t* L_33;
+		L_33 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_32, NULL);
+		V_2 = L_33;
+		// if (underlyingType.IsEnum)
+		Type_t* L_34 = V_2;
+		NullCheck(L_34);
+		bool L_35;
+		L_35 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_34);
+		if (!L_35)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		// var enumUnderlyingType = Enum.GetUnderlyingType(underlyingType);
+		Type_t* L_36 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		Type_t* L_37;
+		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
+		V_3 = L_37;
+		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
+		int32_t* L_38 = ___0_source;
+		int32_t L_39 = (*(int32_t*)L_38);
+		int32_t L_40 = L_39;
+		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
+		Type_t* L_42 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_43;
+		L_43 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_41, L_42, NULL);
+		V_4 = L_43;
+		// destination = (TDestination) Enum.ToObject(underlyingType, value);
+		RuntimeObject** L_44 = ___1_destination;
+		Type_t* L_45 = V_2;
+		RuntimeObject* L_46 = V_4;
+		RuntimeObject* L_47;
+		L_47 = Enum_ToObject_mD898E0819FA640BC4E98924613B5DBD41146D1FF(L_45, L_46, NULL);
+		*(RuntimeObject**)L_44 = ((RuntimeObject*)Castclass((RuntimeObject*)L_47, il2cpp_rgctx_data(method->rgctx_data, 10)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_44, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_47, il2cpp_rgctx_data(method->rgctx_data, 10))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_00fb:
+	{
+		// if (source == null)
+		goto IL_0111;
+	}
+	{
+		// destination = default;
+		RuntimeObject** L_49 = ___1_destination;
+		il2cpp_codegen_initobj(L_49, sizeof(RuntimeObject*));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0111:
+	{
+		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
+		RuntimeObject** L_50 = ___1_destination;
+		int32_t* L_51 = ___0_source;
+		int32_t L_52 = (*(int32_t*)L_51);
+		int32_t L_53 = L_52;
+		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
+		Type_t* L_55 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_56;
+		L_56 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_54, L_55, NULL);
+		*(RuntimeObject**)L_50 = ((RuntimeObject*)Castclass((RuntimeObject*)L_56, il2cpp_rgctx_data(method->rgctx_data, 10)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_50, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_56, il2cpp_rgctx_data(method->rgctx_data, 10))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_012f:
+	{
+		// if (TypeTraits<TSource>.IsNullable && typeof(TDestination) == Nullable.GetUnderlyingType(typeof(TSource)))
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
+		bool L_57;
+		L_57 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
+		if (!L_57)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_58 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_59;
+		L_59 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_58, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_61;
+		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
+		Type_t* L_62;
+		L_62 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_61, NULL);
+		bool L_63;
+		L_63 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_62, NULL);
+		if (!L_63)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		// if (null == source)
+		goto IL_016c;
+	}
+	{
+		// destination = default;
+		RuntimeObject** L_65 = ___1_destination;
+		il2cpp_codegen_initobj(L_65, sizeof(RuntimeObject*));
+		// return false;
+		return (bool)0;
+	}
+
+IL_016c:
+	{
+		// destination = (TDestination) (object) source;
+		RuntimeObject** L_66 = ___1_destination;
+		int32_t* L_67 = ___0_source;
+		int32_t L_68 = (*(int32_t*)L_67);
+		int32_t L_69 = L_68;
+		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
+		*(RuntimeObject**)L_66 = ((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_66, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0184:
+	{
+		// if (TypeTraits<TDestination>.IsUnityObject)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_71;
+		L_71 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 11)))(il2cpp_rgctx_method(method->rgctx_data, 11));
+		if (!L_71)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		// if (TryConvertToUnityEngineObject(source, out destination))
+		int32_t* L_72 = ___0_source;
+		int32_t L_73 = (*(int32_t*)L_72);
+		RuntimeObject** L_74 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = ((  bool (*) (int32_t, RuntimeObject**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		if (!L_75)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_019b:
+	{
+		// if (TypeTraits<TDestination>.IsEnum)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_76;
+		L_76 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 13)))(il2cpp_rgctx_method(method->rgctx_data, 13));
+		if (!L_76)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		// if (typeof(TSource) == typeof(string))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_77 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_78;
+		L_78 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_77, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_79 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		Type_t* L_80;
+		L_80 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_79, NULL);
+		bool L_81;
+		L_81 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_78, L_80, NULL);
+		if (!L_81)
+		{
+			goto IL_01fb;
+		}
+	}
+	try
+	{// begin try (depth: 1)
+		// destination = (TDestination) Enum.Parse(typeof(TDestination), (string) (object) source);
+		RuntimeObject** L_82 = ___1_destination;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_83 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_84;
+		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
+		int32_t* L_85 = ___0_source;
+		int32_t L_86 = (*(int32_t*)L_85);
+		int32_t L_87 = L_86;
+		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
+		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		RuntimeObject* L_89;
+		L_89 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_84, ((String_t*)CastclassSealed((RuntimeObject*)L_88, String_t_il2cpp_TypeInfo_var)), NULL);
+		*(RuntimeObject**)L_82 = ((RuntimeObject*)Castclass((RuntimeObject*)L_89, il2cpp_rgctx_data(method->rgctx_data, 10)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_82, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_89, il2cpp_rgctx_data(method->rgctx_data, 10))));
+		// }
+		goto IL_01f9;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_01e9;
+		}
+		throw e;
+	}
+
+CATCH_01e9:
+	{// begin catch(System.ArgumentException)
+		// catch (ArgumentException)
+		// destination = default;
+		RuntimeObject** L_90 = ___1_destination;
+		il2cpp_codegen_initobj(L_90, sizeof(RuntimeObject*));
+		// return false;
+		V_5 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_028c;
+	}// end catch (depth: 1)
+
+IL_01f9:
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_01fb:
+	{
+		// if (IsNumericType(typeof(TSource)))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_91 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_92;
+		L_92 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_91, NULL);
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		bool L_93;
+		L_93 = TypeConversion_IsNumericType_mC369570424722B46B53543BE7226E7491A0418C1(L_92, NULL);
+		if (!L_93)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
+		RuntimeObject** L_94 = ___1_destination;
+		int32_t* L_95 = ___0_source;
+		RuntimeObject** L_96;
+		L_96 = ((  RuntimeObject** (*) (int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		RuntimeObject* L_97 = (*(RuntimeObject**)L_96);
+		*(RuntimeObject**)L_94 = L_97;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_94, (void*)L_97);
+		// return true;
+		return (bool)1;
+	}
+
+IL_021f:
+	{
+		// if (source is TDestination assignable)
+		int32_t* L_98 = ___0_source;
+		int32_t L_99 = (*(int32_t*)L_98);
+		V_6 = L_99;
+		int32_t L_100 = V_6;
+		int32_t L_101 = L_100;
+		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
+		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
+		{
+			goto IL_0250;
+		}
+	}
+	{
+		int32_t L_103 = V_6;
+		int32_t L_104 = L_103;
+		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
+		V_1 = ((RuntimeObject*)Castclass((RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)));
+		// destination = assignable;
+		RuntimeObject** L_106 = ___1_destination;
+		RuntimeObject* L_107 = V_1;
+		*(RuntimeObject**)L_106 = L_107;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_106, (void*)L_107);
+		// return true;
+		return (bool)1;
+	}
+
+IL_0250:
+	{
+		// if (typeof(TDestination).IsAssignableFrom(typeof(TSource)))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_108 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_109;
+		L_109 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_108, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_110 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_111;
+		L_111 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_110, NULL);
+		NullCheck(L_109);
+		bool L_112;
+		L_112 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(23 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_109, L_111);
+		if (!L_112)
+		{
+			goto IL_0283;
+		}
+	}
+	{
+		// destination = (TDestination) (object) source;
+		RuntimeObject** L_113 = ___1_destination;
+		int32_t* L_114 = ___0_source;
+		int32_t L_115 = (*(int32_t*)L_114);
+		int32_t L_116 = L_115;
+		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
+		*(RuntimeObject**)L_113 = ((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10)));
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_113, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0283:
+	{
+		// destination = default;
+		RuntimeObject** L_118 = ___1_destination;
+		il2cpp_codegen_initobj(L_118, sizeof(RuntimeObject*));
+		// return false;
+		return (bool)0;
+	}
+
+IL_028c:
+	{
+		// }
+		bool L_119 = V_5;
+		return L_119;
+	}
+}
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisKeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230_m580EDB32ED188CFBEF5801E79CE931EE3F4B2A9C_gshared (int64_t* ___0_source, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9911,7 +9933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -9934,10 +9956,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t01242621782D1F6A95E8F84E52F8C5D6624DBA5B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t055A8A8A82384ADAA3841FAEEA9004F4E4337506*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_8;
-		L_8 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 (*) (TypeConverter_2_t01242621782D1F6A95E8F84E52F8C5D6624DBA5B*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t01242621782D1F6A95E8F84E52F8C5D6624DBA5B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 (*) (TypeConverter_2_t055A8A8A82384ADAA3841FAEEA9004F4E4337506*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t055A8A8A82384ADAA3841FAEEA9004F4E4337506*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_5)->___key_0), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
@@ -9980,9 +10002,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_19;
-		L_19 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_20 = (*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_19);
 		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_17)->___key_0), (void*)NULL);
@@ -10069,9 +10091,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -10110,9 +10132,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -10171,9 +10193,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_66 = ((*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_66)->___key_0), (void*)NULL);
@@ -10197,12 +10219,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -10248,9 +10270,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -10309,9 +10331,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_96;
-		L_96 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_97 = (*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_96);
 		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_94)->___key_0), (void*)NULL);
@@ -10325,11 +10347,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -10337,8 +10359,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -10374,9 +10396,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_113 = ((*(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)(KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		Il2CppCodeGenWriteBarrier((void**)&(((KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230*)L_113)->___key_0), (void*)NULL);
@@ -10403,8 +10425,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Boolean>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC06B7C604675CEFC1CEA986C15CEF5B1BCE06BF7_gshared (Il2CppChar* ___0_source, bool* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Boolean>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC27097A51FC7374F769C3C018C35B9DC2A0C0FEB_gshared (int64_t* ___0_source, bool* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10423,7 +10445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -10446,10 +10468,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		bool* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t8020C100895F5A90E6EA9C114F622B422088A710*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t13A727E2781A420C94AC4D2972A14261A39D5594*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		bool L_8;
-		L_8 = ((  bool (*) (TypeConverter_2_t8020C100895F5A90E6EA9C114F622B422088A710*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t8020C100895F5A90E6EA9C114F622B422088A710*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  bool (*) (TypeConverter_2_t13A727E2781A420C94AC4D2972A14261A39D5594*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t13A727E2781A420C94AC4D2972A14261A39D5594*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(bool*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -10488,9 +10510,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		bool* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		bool* L_19;
-		L_19 = ((  bool* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  bool* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		bool L_20 = (*(bool*)L_19);
 		*(bool*)L_17 = L_20;
 		// return true;
@@ -10573,9 +10595,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -10610,9 +10632,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		bool* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -10667,9 +10689,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		bool* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(bool*)L_66 = ((*(bool*)((bool*)(bool*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -10689,12 +10711,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		bool* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, bool*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, bool*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -10740,9 +10762,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -10797,9 +10819,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		bool* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		bool* L_96;
-		L_96 = ((  bool* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  bool* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		bool L_97 = (*(bool*)L_96);
 		*(bool*)L_94 = L_97;
 		// return true;
@@ -10809,11 +10831,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -10821,8 +10843,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(bool*)((bool*)(bool*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -10854,9 +10876,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		bool* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(bool*)L_113 = ((*(bool*)((bool*)(bool*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -10879,8 +10901,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Byte>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mADC1F7408E5B56971969C5B8279193FE0D247742_gshared (Il2CppChar* ___0_source, uint8_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Byte>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m653A42DF7764E66DEB4A3E84BFAD143C8A5B466A_gshared (int64_t* ___0_source, uint8_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10899,7 +10921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -10922,10 +10944,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint8_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tBC81E5AEC6C40EB95B54A04762A3F9DBF95DC7B9*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tB70571F7237DA55B0D1408D1FCBC5FBEB13D099B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint8_t L_8;
-		L_8 = ((  uint8_t (*) (TypeConverter_2_tBC81E5AEC6C40EB95B54A04762A3F9DBF95DC7B9*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tBC81E5AEC6C40EB95B54A04762A3F9DBF95DC7B9*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint8_t (*) (TypeConverter_2_tB70571F7237DA55B0D1408D1FCBC5FBEB13D099B*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tB70571F7237DA55B0D1408D1FCBC5FBEB13D099B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint8_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -10964,9 +10986,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint8_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		uint8_t* L_19;
-		L_19 = ((  uint8_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint8_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint8_t L_20 = (*(uint8_t*)L_19);
 		*(uint8_t*)L_17 = L_20;
 		// return true;
@@ -11049,9 +11071,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -11086,9 +11108,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint8_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -11143,9 +11165,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint8_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint8_t*)L_66 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -11165,12 +11187,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		uint8_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, uint8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -11216,9 +11238,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -11273,9 +11295,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint8_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		uint8_t* L_96;
-		L_96 = ((  uint8_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint8_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint8_t L_97 = (*(uint8_t*)L_96);
 		*(uint8_t*)L_94 = L_97;
 		// return true;
@@ -11285,11 +11307,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -11297,8 +11319,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -11330,9 +11352,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint8_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint8_t*)L_113 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -11355,8 +11377,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Char>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m44A2743B327B6B8C89DDCEA9F9DDE19167FE06A5_gshared (Il2CppChar* ___0_source, Il2CppChar* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Char>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m2E1CA714665C3499622F726266427C74D2B6CB45_gshared (int64_t* ___0_source, Il2CppChar* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11375,7 +11397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -11398,10 +11420,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Il2CppChar* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t36D3C97EE69CA799612B1C7C29D05CD11BA8B960*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t0EB88FF99A6C040DB4CDDA5733DAF443D2AA17B9*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Il2CppChar L_8;
-		L_8 = ((  Il2CppChar (*) (TypeConverter_2_t36D3C97EE69CA799612B1C7C29D05CD11BA8B960*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t36D3C97EE69CA799612B1C7C29D05CD11BA8B960*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Il2CppChar (*) (TypeConverter_2_t0EB88FF99A6C040DB4CDDA5733DAF443D2AA17B9*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t0EB88FF99A6C040DB4CDDA5733DAF443D2AA17B9*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Il2CppChar*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -11440,9 +11462,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Il2CppChar* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		Il2CppChar* L_19;
-		L_19 = ((  Il2CppChar* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Il2CppChar* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Il2CppChar L_20 = (*(Il2CppChar*)L_19);
 		*(Il2CppChar*)L_17 = L_20;
 		// return true;
@@ -11525,9 +11547,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -11562,9 +11584,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Il2CppChar* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -11619,9 +11641,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Il2CppChar* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Il2CppChar*)L_66 = ((*(Il2CppChar*)((Il2CppChar*)(Il2CppChar*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -11641,12 +11663,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		Il2CppChar* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -11692,9 +11714,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -11749,9 +11771,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Il2CppChar* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		Il2CppChar* L_96;
-		L_96 = ((  Il2CppChar* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Il2CppChar* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Il2CppChar L_97 = (*(Il2CppChar*)L_96);
 		*(Il2CppChar*)L_94 = L_97;
 		// return true;
@@ -11761,11 +11783,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -11773,8 +11795,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Il2CppChar*)((Il2CppChar*)(Il2CppChar*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -11806,9 +11828,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Il2CppChar* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Il2CppChar*)L_113 = ((*(Il2CppChar*)((Il2CppChar*)(Il2CppChar*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -11831,8 +11853,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,UnityEngine.Color>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_mDB3C5C6232D2DB48D8AC228695F1483BF1630B6D_gshared (Il2CppChar* ___0_source, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,UnityEngine.Color>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m7107867DDE10195B1805B4F1D24A8F441758ED07_gshared (int64_t* ___0_source, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11852,7 +11874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -11875,10 +11897,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tC11C93ACF0D813569E53C09FBE0D3E78391AF916*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t7221B6963EA2E80E5B7F4CD7D1579BBDFF2F93A4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
-		L_8 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F (*) (TypeConverter_2_tC11C93ACF0D813569E53C09FBE0D3E78391AF916*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tC11C93ACF0D813569E53C09FBE0D3E78391AF916*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F (*) (TypeConverter_2_t7221B6963EA2E80E5B7F4CD7D1579BBDFF2F93A4*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t7221B6963EA2E80E5B7F4CD7D1579BBDFF2F93A4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -11917,9 +11939,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_19;
-		L_19 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = (*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_19);
 		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_17 = L_20;
 		// return true;
@@ -12002,9 +12024,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -12039,9 +12061,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -12096,9 +12118,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_66 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -12118,12 +12140,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -12169,9 +12191,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -12226,9 +12248,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_96;
-		L_96 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_97 = (*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_96);
 		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_94 = L_97;
 		// return true;
@@ -12238,11 +12260,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -12250,8 +12272,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -12283,9 +12305,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_113 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -12308,8 +12330,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.DateTime>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_m3BF43C5EA49AAAB55575F88DDD1878FFBAA71868_gshared (Il2CppChar* ___0_source, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.DateTime>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisDateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_m3D5257662639C3C5AE738736344456B7A0A24A44_gshared (int64_t* ___0_source, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12329,7 +12351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -12352,10 +12374,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tBE22BBA8589F3BA4584F0B028F712CCE5B64CFCE*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t1D6E57F19746272E55B563BF9EC15C1348142F9E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_8;
-		L_8 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D (*) (TypeConverter_2_tBE22BBA8589F3BA4584F0B028F712CCE5B64CFCE*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tBE22BBA8589F3BA4584F0B028F712CCE5B64CFCE*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D (*) (TypeConverter_2_t1D6E57F19746272E55B563BF9EC15C1348142F9E*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t1D6E57F19746272E55B563BF9EC15C1348142F9E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -12394,9 +12416,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_19;
-		L_19 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_20 = (*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_19);
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_17 = L_20;
 		// return true;
@@ -12479,9 +12501,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -12516,9 +12538,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -12573,9 +12595,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_66 = ((*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)((DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -12595,12 +12617,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -12646,9 +12668,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -12703,9 +12725,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_96;
-		L_96 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_97 = (*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_96);
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_94 = L_97;
 		// return true;
@@ -12715,11 +12737,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -12727,8 +12749,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)((DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -12760,9 +12782,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_113 = ((*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)((DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -12785,8 +12807,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Double>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_mCD7C3123E78F1B27E6FD8D7CE54BD95D1F8E284B_gshared (Il2CppChar* ___0_source, double* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Double>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_mC10C1E47A143ECC4A959D36474483EF169DDF4D4_gshared (int64_t* ___0_source, double* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12805,7 +12827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -12828,10 +12850,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		double* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tF71F25EEBBBF1D5C218AD8384818AFE45AE83B07*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t905FCEBDCD26443DC1DAE986E02315BF609BCDA5*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		double L_8;
-		L_8 = ((  double (*) (TypeConverter_2_tF71F25EEBBBF1D5C218AD8384818AFE45AE83B07*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tF71F25EEBBBF1D5C218AD8384818AFE45AE83B07*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  double (*) (TypeConverter_2_t905FCEBDCD26443DC1DAE986E02315BF609BCDA5*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t905FCEBDCD26443DC1DAE986E02315BF609BCDA5*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(double*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -12870,9 +12892,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		double* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		double* L_19;
-		L_19 = ((  double* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  double* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		double L_20 = (*(double*)L_19);
 		*(double*)L_17 = L_20;
 		// return true;
@@ -12955,9 +12977,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -12992,9 +13014,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		double* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -13049,9 +13071,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		double* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(double*)L_66 = ((*(double*)((double*)(double*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -13071,12 +13093,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		double* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, double*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, double*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -13122,9 +13144,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -13179,9 +13201,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		double* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		double* L_96;
-		L_96 = ((  double* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  double* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		double L_97 = (*(double*)L_96);
 		*(double*)L_94 = L_97;
 		// return true;
@@ -13191,11 +13213,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -13203,8 +13225,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(double*)((double*)(double*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -13236,9 +13258,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		double* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(double*)L_113 = ((*(double*)((double*)(double*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -13261,8 +13283,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Guid>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisGuid_t_m3B2CE328195C7659F6D8F1E85CD9A23AA4F50370_gshared (Il2CppChar* ___0_source, Guid_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Guid>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisGuid_t_m5E60D7DF256EFBA46475EBA29AA8B2B5F240E82F_gshared (int64_t* ___0_source, Guid_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13282,7 +13304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -13305,10 +13327,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Guid_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tA2DA687E301EA3387E6326D1749104D29D5C8A7F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tA450C4A6DF285347662C845D4149D64C7FDBB778*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Guid_t L_8;
-		L_8 = ((  Guid_t (*) (TypeConverter_2_tA2DA687E301EA3387E6326D1749104D29D5C8A7F*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tA2DA687E301EA3387E6326D1749104D29D5C8A7F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Guid_t (*) (TypeConverter_2_tA450C4A6DF285347662C845D4149D64C7FDBB778*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tA450C4A6DF285347662C845D4149D64C7FDBB778*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Guid_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -13347,9 +13369,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Guid_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		Guid_t* L_19;
-		L_19 = ((  Guid_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Guid_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Guid_t L_20 = (*(Guid_t*)L_19);
 		*(Guid_t*)L_17 = L_20;
 		// return true;
@@ -13432,9 +13454,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -13469,9 +13491,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Guid_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -13526,9 +13548,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Guid_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Guid_t*)L_66 = ((*(Guid_t*)((Guid_t*)(Guid_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -13548,12 +13570,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		Guid_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, Guid_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, Guid_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -13599,9 +13621,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -13656,9 +13678,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Guid_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		Guid_t* L_96;
-		L_96 = ((  Guid_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Guid_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Guid_t L_97 = (*(Guid_t*)L_96);
 		*(Guid_t*)L_94 = L_97;
 		// return true;
@@ -13668,11 +13690,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -13680,8 +13702,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Guid_t*)((Guid_t*)(Guid_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -13713,9 +13735,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Guid_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Guid_t*)L_113 = ((*(Guid_t*)((Guid_t*)(Guid_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -13738,8 +13760,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Int16>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m0A8D5AF037F8601E2ABA7348E8AACEED9F945A9F_gshared (Il2CppChar* ___0_source, int16_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Int16>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m7BB1AD78B83BF4472BC4867D5CA327A4FA8B0C44_gshared (int64_t* ___0_source, int16_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13758,7 +13780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -13781,10 +13803,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int16_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t1209A081FB43C11907EC73EC580490035F119B74*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t0ACFFAEBCAC36429DD8D852263377A4CE6E79E01*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int16_t L_8;
-		L_8 = ((  int16_t (*) (TypeConverter_2_t1209A081FB43C11907EC73EC580490035F119B74*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t1209A081FB43C11907EC73EC580490035F119B74*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int16_t (*) (TypeConverter_2_t0ACFFAEBCAC36429DD8D852263377A4CE6E79E01*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t0ACFFAEBCAC36429DD8D852263377A4CE6E79E01*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int16_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -13823,9 +13845,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int16_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		int16_t* L_19;
-		L_19 = ((  int16_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int16_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int16_t L_20 = (*(int16_t*)L_19);
 		*(int16_t*)L_17 = L_20;
 		// return true;
@@ -13908,9 +13930,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -13945,9 +13967,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int16_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -14002,9 +14024,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int16_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int16_t*)L_66 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -14024,12 +14046,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		int16_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, int16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, int16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -14075,9 +14097,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -14132,9 +14154,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int16_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		int16_t* L_96;
-		L_96 = ((  int16_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int16_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int16_t L_97 = (*(int16_t*)L_96);
 		*(int16_t*)L_94 = L_97;
 		// return true;
@@ -14144,11 +14166,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -14156,8 +14178,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -14189,9 +14211,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int16_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int16_t*)L_113 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -14214,8 +14236,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Int32>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m89391085D90CBE0BD405B88B38EE700760F26A70_gshared (Il2CppChar* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Int32>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m451BFA3D1DEAE6242E4A26B982131EA1C37A5590_gshared (int64_t* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14234,7 +14256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -14257,10 +14279,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int32_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t2DD2B17E9B1CFE215997DC614EA2F165C16DDCEC*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tB3E5F906D0CAF027330D3D77A3E582063801EBB4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int32_t L_8;
-		L_8 = ((  int32_t (*) (TypeConverter_2_t2DD2B17E9B1CFE215997DC614EA2F165C16DDCEC*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t2DD2B17E9B1CFE215997DC614EA2F165C16DDCEC*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int32_t (*) (TypeConverter_2_tB3E5F906D0CAF027330D3D77A3E582063801EBB4*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tB3E5F906D0CAF027330D3D77A3E582063801EBB4*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int32_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -14299,9 +14321,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		int32_t* L_19;
-		L_19 = ((  int32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_20 = (*(int32_t*)L_19);
 		*(int32_t*)L_17 = L_20;
 		// return true;
@@ -14384,9 +14406,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -14421,9 +14443,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int32_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -14478,9 +14500,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int32_t*)L_66 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -14500,12 +14522,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		int32_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -14551,9 +14573,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -14608,9 +14630,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		int32_t* L_96;
-		L_96 = ((  int32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_97 = (*(int32_t*)L_96);
 		*(int32_t*)L_94 = L_97;
 		// return true;
@@ -14620,11 +14642,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -14632,8 +14654,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -14665,9 +14687,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int32_t*)L_113 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -14690,8 +14712,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Int32Enum>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m15FB9AF09C22B412E911846AEB02F3D108C30A80_gshared (Il2CppChar* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Int32Enum>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m993353360D85841D8A3CCA59B177DA9810C322B1_gshared (int64_t* ___0_source, int32_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14710,7 +14732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -14733,10 +14755,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int32_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tFD297B565425196707AC7DCD5079AE598D42AE40*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tAB44825B14F6A0F1B1D7EB1F6FC5DF3CFFA05E93*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int32_t L_8;
-		L_8 = ((  int32_t (*) (TypeConverter_2_tFD297B565425196707AC7DCD5079AE598D42AE40*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tFD297B565425196707AC7DCD5079AE598D42AE40*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int32_t (*) (TypeConverter_2_tAB44825B14F6A0F1B1D7EB1F6FC5DF3CFFA05E93*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tAB44825B14F6A0F1B1D7EB1F6FC5DF3CFFA05E93*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int32_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -14775,9 +14797,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		int32_t* L_19;
-		L_19 = ((  int32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_20 = (*(int32_t*)L_19);
 		*(int32_t*)L_17 = L_20;
 		// return true;
@@ -14860,9 +14882,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -14897,9 +14919,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int32_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -14954,9 +14976,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int32_t*)L_66 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -14976,12 +14998,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		int32_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -15027,9 +15049,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -15084,9 +15106,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int32_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		int32_t* L_96;
-		L_96 = ((  int32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int32_t L_97 = (*(int32_t*)L_96);
 		*(int32_t*)L_94 = L_97;
 		// return true;
@@ -15096,11 +15118,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -15108,8 +15130,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -15141,9 +15163,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int32_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int32_t*)L_113 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -15166,8 +15188,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Int64>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m907540D07F75A437CEC4EB1C6B89C268E2D26648_gshared (Il2CppChar* ___0_source, int64_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Int64>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_mAE993882F3237932B0919C15C730A2648A77208F_gshared (int64_t* ___0_source, int64_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15186,7 +15208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -15209,10 +15231,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int64_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tB39AFE03946699DF05B9372B9DFD424BF5D93E6C*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t02BB4523A8E9E697BE8D03033FCD4B3C54848D7A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int64_t L_8;
-		L_8 = ((  int64_t (*) (TypeConverter_2_tB39AFE03946699DF05B9372B9DFD424BF5D93E6C*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tB39AFE03946699DF05B9372B9DFD424BF5D93E6C*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int64_t (*) (TypeConverter_2_t02BB4523A8E9E697BE8D03033FCD4B3C54848D7A*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t02BB4523A8E9E697BE8D03033FCD4B3C54848D7A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int64_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -15251,9 +15273,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int64_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		int64_t* L_19;
-		L_19 = ((  int64_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int64_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int64_t L_20 = (*(int64_t*)L_19);
 		*(int64_t*)L_17 = L_20;
 		// return true;
@@ -15336,9 +15358,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -15373,9 +15395,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int64_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -15430,9 +15452,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int64_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int64_t*)L_66 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -15452,12 +15474,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		int64_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -15503,9 +15525,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -15560,9 +15582,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int64_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		int64_t* L_96;
-		L_96 = ((  int64_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int64_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int64_t L_97 = (*(int64_t*)L_96);
 		*(int64_t*)L_94 = L_97;
 		// return true;
@@ -15572,11 +15594,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -15584,8 +15606,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -15617,9 +15639,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int64_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int64_t*)L_113 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -15642,8 +15664,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Object>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisRuntimeObject_m226292A31AF0DEDF8284671C51EF61A3D36825D4_gshared (Il2CppChar* ___0_source, RuntimeObject** ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Object>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisRuntimeObject_mB7198F18EA123C70EC666C4AD4CF1102666C8D6C_gshared (int64_t* ___0_source, RuntimeObject** ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15662,7 +15684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -15685,10 +15707,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		RuntimeObject** L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tEF140C754345A612AF839341ECA1FC81294E5338*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tD8E73D7474AB6C176590071EF3528059F0DD2462*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		RuntimeObject* L_8;
-		L_8 = ((  RuntimeObject* (*) (TypeConverter_2_tEF140C754345A612AF839341ECA1FC81294E5338*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tEF140C754345A612AF839341ECA1FC81294E5338*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  RuntimeObject* (*) (TypeConverter_2_tD8E73D7474AB6C176590071EF3528059F0DD2462*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tD8E73D7474AB6C176590071EF3528059F0DD2462*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(RuntimeObject**)L_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_5, (void*)L_8);
 		// return true;
@@ -15728,9 +15750,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		RuntimeObject** L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		RuntimeObject** L_19;
-		L_19 = ((  RuntimeObject** (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  RuntimeObject** (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		RuntimeObject* L_20 = (*(RuntimeObject**)L_19);
 		*(RuntimeObject**)L_17 = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_17, (void*)L_20);
@@ -15814,9 +15836,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -15852,9 +15874,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		RuntimeObject** L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -15910,9 +15932,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		RuntimeObject** L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(RuntimeObject**)L_66 = ((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10)));
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_66, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_70, il2cpp_rgctx_data(method->rgctx_data, 10))));
@@ -15933,12 +15955,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		RuntimeObject** L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, RuntimeObject**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, RuntimeObject**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -15984,9 +16006,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -16042,9 +16064,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		RuntimeObject** L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		RuntimeObject** L_96;
-		L_96 = ((  RuntimeObject** (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  RuntimeObject** (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		RuntimeObject* L_97 = (*(RuntimeObject**)L_96);
 		*(RuntimeObject**)L_94 = L_97;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_94, (void*)L_97);
@@ -16055,11 +16077,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -16067,8 +16089,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((RuntimeObject*)Castclass((RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)));
 		// destination = assignable;
@@ -16101,9 +16123,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		RuntimeObject** L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(RuntimeObject**)L_113 = ((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10)));
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_113, (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_117, il2cpp_rgctx_data(method->rgctx_data, 10))));
@@ -16127,8 +16149,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.SByte>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m484297C4BFCA450376516DFD2EA208EA609C9E39_gshared (Il2CppChar* ___0_source, int8_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.SByte>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m0C58940F4B268746D53F6A01B4F01CD3D893B724_gshared (int64_t* ___0_source, int8_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16147,7 +16169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -16170,10 +16192,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		int8_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t8B98522E8D271BEB883B85401DE73895027B1040*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t427475D35A1091AD6E100B4114EC1A1E234E941E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		int8_t L_8;
-		L_8 = ((  int8_t (*) (TypeConverter_2_t8B98522E8D271BEB883B85401DE73895027B1040*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t8B98522E8D271BEB883B85401DE73895027B1040*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  int8_t (*) (TypeConverter_2_t427475D35A1091AD6E100B4114EC1A1E234E941E*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t427475D35A1091AD6E100B4114EC1A1E234E941E*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(int8_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -16212,9 +16234,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int8_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		int8_t* L_19;
-		L_19 = ((  int8_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  int8_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int8_t L_20 = (*(int8_t*)L_19);
 		*(int8_t*)L_17 = L_20;
 		// return true;
@@ -16297,9 +16319,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -16334,9 +16356,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		int8_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -16391,9 +16413,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		int8_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(int8_t*)L_66 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -16413,12 +16435,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		int8_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, int8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, int8_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -16464,9 +16486,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -16521,9 +16543,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		int8_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		int8_t* L_96;
-		L_96 = ((  int8_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  int8_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		int8_t L_97 = (*(int8_t*)L_96);
 		*(int8_t*)L_94 = L_97;
 		// return true;
@@ -16533,11 +16555,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -16545,8 +16567,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -16578,9 +16600,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		int8_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(int8_t*)L_113 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -16603,8 +16625,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,UnityEngine.SceneManagement.Scene>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisScene_tA1DC762B79745EB5140F054C884855B922318356_m13146C65FA9AD593EC3FFA15D313C75B026A308A_gshared (Il2CppChar* ___0_source, Scene_tA1DC762B79745EB5140F054C884855B922318356* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,UnityEngine.SceneManagement.Scene>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisScene_tA1DC762B79745EB5140F054C884855B922318356_m3CC731F446EA70A43AD702577CE921A3463F45F1_gshared (int64_t* ___0_source, Scene_tA1DC762B79745EB5140F054C884855B922318356* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16624,7 +16646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -16647,10 +16669,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tF59EC61DC855990E8E144E402301B76603A7AC4C*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t8FCA226198AE3444EF16C5779C22EF33A99FEDC7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_8;
-		L_8 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356 (*) (TypeConverter_2_tF59EC61DC855990E8E144E402301B76603A7AC4C*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tF59EC61DC855990E8E144E402301B76603A7AC4C*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356 (*) (TypeConverter_2_t8FCA226198AE3444EF16C5779C22EF33A99FEDC7*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t8FCA226198AE3444EF16C5779C22EF33A99FEDC7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -16689,9 +16711,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_19;
-		L_19 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_20 = (*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_19);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_17 = L_20;
 		// return true;
@@ -16774,9 +16796,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -16811,9 +16833,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -16868,9 +16890,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_66 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -16890,12 +16912,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, Scene_tA1DC762B79745EB5140F054C884855B922318356*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, Scene_tA1DC762B79745EB5140F054C884855B922318356*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -16941,9 +16963,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -16998,9 +17020,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_96;
-		L_96 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  Scene_tA1DC762B79745EB5140F054C884855B922318356* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_97 = (*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_96);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_94 = L_97;
 		// return true;
@@ -17010,11 +17032,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -17022,8 +17044,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -17055,9 +17077,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)L_113 = ((*(Scene_tA1DC762B79745EB5140F054C884855B922318356*)((Scene_tA1DC762B79745EB5140F054C884855B922318356*)(Scene_tA1DC762B79745EB5140F054C884855B922318356*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -17080,8 +17102,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,Unity.Serialization.Json.SerializedArrayView>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_mA0A3CE9BB2242AF296C97415EAFB1FA61A2C8F03_gshared (Il2CppChar* ___0_source, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,Unity.Serialization.Json.SerializedArrayView>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_m9371EA13A4A5C70B43AB0942B980B6581C8E45C3_gshared (int64_t* ___0_source, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17101,7 +17123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -17124,10 +17146,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t84498DEA613EE25A84258ECF77D1C07B2394E916*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t2243E096210FCDF4838384B027B67A781E396572*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_8;
-		L_8 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 (*) (TypeConverter_2_t84498DEA613EE25A84258ECF77D1C07B2394E916*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t84498DEA613EE25A84258ECF77D1C07B2394E916*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 (*) (TypeConverter_2_t2243E096210FCDF4838384B027B67A781E396572*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t2243E096210FCDF4838384B027B67A781E396572*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -17166,9 +17188,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_19;
-		L_19 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_20 = (*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_19);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_17 = L_20;
 		// return true;
@@ -17251,9 +17273,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -17288,9 +17310,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -17345,9 +17367,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_66 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -17367,12 +17389,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -17418,9 +17440,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -17475,9 +17497,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_96;
-		L_96 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_97 = (*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_96);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_94 = L_97;
 		// return true;
@@ -17487,11 +17509,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -17499,8 +17521,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -17532,9 +17554,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_113 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -17557,8 +17579,485 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,Unity.Serialization.Json.SerializedValueView>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m7485A2D216A51613D609205701C015DFF727ADC8_gshared (Il2CppChar* ___0_source, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,Unity.Serialization.Json.SerializedObjectView>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisSerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561_m5208C4B41EDF9E5DA918FB58AF0ACF21873FB0EA_gshared (int64_t* ___0_source, SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Delegate_t* V_0 = NULL;
+	SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Type_t* V_2 = NULL;
+	Type_t* V_3 = NULL;
+	RuntimeObject* V_4 = NULL;
+	bool V_5 = false;
+	int64_t V_6 = 0;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_1;
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		Type_t* L_3;
+		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
+		bool L_4;
+		L_4 = ConversionRegistry_TryGetConverter_mD440DC9009991B8037A75667405A04572A315929((&((TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_StaticFields*)il2cpp_codegen_static_fields_for(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var))->___s_GlobalConverters_0), L_1, L_3, (&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_5 = ___1_destination;
+		Delegate_t* L_6 = V_0;
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t1191D712A82F89D1D8B11DA7D0E42D85DCCB7E15*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 L_8;
+		L_8 = ((  SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 (*) (TypeConverter_2_t1191D712A82F89D1D8B11DA7D0E42D85DCCB7E15*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t1191D712A82F89D1D8B11DA7D0E42D85DCCB7E15*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_5 = L_8;
+		// return true;
+		return (bool)1;
+	}
+
+IL_0036:
+	{
+		// if (typeof(TSource).IsValueType && typeof(TSource) == typeof(TDestination))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_10;
+		L_10 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_9, NULL);
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Type_get_IsValueType_m59AE2E0439DC06347B8D6B38548F3CBA54D38318(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_13;
+		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		Type_t* L_15;
+		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
+		bool L_16;
+		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_17 = ___1_destination;
+		int64_t* L_18 = ___0_source;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_19;
+		L_19 = ((  SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 L_20 = (*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_19);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_17 = L_20;
+		// return true;
+		return (bool)1;
+	}
+
+IL_0075:
+	{
+		// if (TypeTraits<TDestination>.IsNullable)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_21;
+		L_21 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(il2cpp_rgctx_method(method->rgctx_data, 5));
+		if (!L_21)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		// if (TypeTraits<TSource>.IsNullable && Nullable.GetUnderlyingType(typeof(TDestination)) != Nullable.GetUnderlyingType(typeof(TSource)))
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
+		bool L_22;
+		L_22 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
+		if (!L_22)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_24;
+		L_24 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_23, NULL);
+		Type_t* L_25;
+		L_25 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_24, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_27;
+		L_27 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_26, NULL);
+		Type_t* L_28;
+		L_28 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_27, NULL);
+		bool L_29;
+		L_29 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_25, L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		// destination = default;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_30 = ___1_destination;
+		il2cpp_codegen_initobj(L_30, sizeof(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561));
+		// return false;
+		return (bool)0;
+	}
+
+IL_00b4:
+	{
+		// var underlyingType = Nullable.GetUnderlyingType(typeof(TDestination));
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_32;
+		L_32 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_31, NULL);
+		Type_t* L_33;
+		L_33 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_32, NULL);
+		V_2 = L_33;
+		// if (underlyingType.IsEnum)
+		Type_t* L_34 = V_2;
+		NullCheck(L_34);
+		bool L_35;
+		L_35 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_34);
+		if (!L_35)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		// var enumUnderlyingType = Enum.GetUnderlyingType(underlyingType);
+		Type_t* L_36 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		Type_t* L_37;
+		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
+		V_3 = L_37;
+		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
+		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
+		Type_t* L_42 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_43;
+		L_43 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_41, L_42, NULL);
+		V_4 = L_43;
+		// destination = (TDestination) Enum.ToObject(underlyingType, value);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_44 = ___1_destination;
+		Type_t* L_45 = V_2;
+		RuntimeObject* L_46 = V_4;
+		RuntimeObject* L_47;
+		L_47 = Enum_ToObject_mD898E0819FA640BC4E98924613B5DBD41146D1FF(L_45, L_46, NULL);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_44 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(L_47, il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_00fb:
+	{
+		// if (source == null)
+		goto IL_0111;
+	}
+	{
+		// destination = default;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_49 = ___1_destination;
+		il2cpp_codegen_initobj(L_49, sizeof(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0111:
+	{
+		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_50 = ___1_destination;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
+		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
+		Type_t* L_55 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		RuntimeObject* L_56;
+		L_56 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_54, L_55, NULL);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_50 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(L_56, il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_012f:
+	{
+		// if (TypeTraits<TSource>.IsNullable && typeof(TDestination) == Nullable.GetUnderlyingType(typeof(TSource)))
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
+		bool L_57;
+		L_57 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
+		if (!L_57)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_58 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_59;
+		L_59 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_58, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_61;
+		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
+		Type_t* L_62;
+		L_62 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_61, NULL);
+		bool L_63;
+		L_63 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_62, NULL);
+		if (!L_63)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		// if (null == source)
+		goto IL_016c;
+	}
+	{
+		// destination = default;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_65 = ___1_destination;
+		il2cpp_codegen_initobj(L_65, sizeof(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561));
+		// return false;
+		return (bool)0;
+	}
+
+IL_016c:
+	{
+		// destination = (TDestination) (object) source;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_66 = ___1_destination;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
+		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_66 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0184:
+	{
+		// if (TypeTraits<TDestination>.IsUnityObject)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_71;
+		L_71 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 11)))(il2cpp_rgctx_method(method->rgctx_data, 11));
+		if (!L_71)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		// if (TryConvertToUnityEngineObject(source, out destination))
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_74 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		bool L_75;
+		L_75 = ((  bool (*) (int64_t, SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		if (!L_75)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_019b:
+	{
+		// if (TypeTraits<TDestination>.IsEnum)
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
+		bool L_76;
+		L_76 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 13)))(il2cpp_rgctx_method(method->rgctx_data, 13));
+		if (!L_76)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		// if (typeof(TSource) == typeof(string))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_77 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_78;
+		L_78 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_77, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_79 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
+		Type_t* L_80;
+		L_80 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_79, NULL);
+		bool L_81;
+		L_81 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_78, L_80, NULL);
+		if (!L_81)
+		{
+			goto IL_01fb;
+		}
+	}
+	try
+	{// begin try (depth: 1)
+		// destination = (TDestination) Enum.Parse(typeof(TDestination), (string) (object) source);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_82 = ___1_destination;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_83 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_84;
+		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
+		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
+		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
+		RuntimeObject* L_89;
+		L_89 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_84, ((String_t*)CastclassSealed((RuntimeObject*)L_88, String_t_il2cpp_TypeInfo_var)), NULL);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_82 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(L_89, il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// }
+		goto IL_01f9;
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_01e9;
+		}
+		throw e;
+	}
+
+CATCH_01e9:
+	{// begin catch(System.ArgumentException)
+		// catch (ArgumentException)
+		// destination = default;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_90 = ___1_destination;
+		il2cpp_codegen_initobj(L_90, sizeof(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561));
+		// return false;
+		V_5 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_028c;
+	}// end catch (depth: 1)
+
+IL_01f9:
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_01fb:
+	{
+		// if (IsNumericType(typeof(TSource)))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_91 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_92;
+		L_92 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_91, NULL);
+		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
+		bool L_93;
+		L_93 = TypeConversion_IsNumericType_mC369570424722B46B53543BE7226E7491A0418C1(L_92, NULL);
+		if (!L_93)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_94 = ___1_destination;
+		int64_t* L_95 = ___0_source;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_96;
+		L_96 = ((  SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 L_97 = (*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_96);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_94 = L_97;
+		// return true;
+		return (bool)1;
+	}
+
+IL_021f:
+	{
+		// if (source is TDestination assignable)
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
+		V_6 = L_99;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
+		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
+		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
+		{
+			goto IL_0250;
+		}
+	}
+	{
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
+		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
+		V_1 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// destination = assignable;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_106 = ___1_destination;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561 L_107 = V_1;
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_106 = L_107;
+		// return true;
+		return (bool)1;
+	}
+
+IL_0250:
+	{
+		// if (typeof(TDestination).IsAssignableFrom(typeof(TSource)))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_108 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_109;
+		L_109 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_108, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_110 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		Type_t* L_111;
+		L_111 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_110, NULL);
+		NullCheck(L_109);
+		bool L_112;
+		L_112 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(23 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_109, L_111);
+		if (!L_112)
+		{
+			goto IL_0283;
+		}
+	}
+	{
+		// destination = (TDestination) (object) source;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_113 = ___1_destination;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
+		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
+		*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)L_113 = ((*(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)((SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
+		// return true;
+		return (bool)1;
+	}
+
+IL_0283:
+	{
+		// destination = default;
+		SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561* L_118 = ___1_destination;
+		il2cpp_codegen_initobj(L_118, sizeof(SerializedObjectView_t3371CA1D296BF0161DBD7A002673B96D76927561));
+		// return false;
+		return (bool)0;
+	}
+
+IL_028c:
+	{
+		// }
+		bool L_119 = V_5;
+		return L_119;
+	}
+}
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,Unity.Serialization.Json.SerializedValueView>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m0A7E307A086F606A68ACA23EEC0EF1681DED810B_gshared (int64_t* ___0_source, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17578,7 +18077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -17601,10 +18100,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t3E02AAB051D7D6809A0820016AB559730A71CC49*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t476ADE318D5DEB029DAF61C3270CC005ADD7826A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_8;
-		L_8 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC (*) (TypeConverter_2_t3E02AAB051D7D6809A0820016AB559730A71CC49*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t3E02AAB051D7D6809A0820016AB559730A71CC49*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC (*) (TypeConverter_2_t476ADE318D5DEB029DAF61C3270CC005ADD7826A*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t476ADE318D5DEB029DAF61C3270CC005ADD7826A*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -17643,9 +18142,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_19;
-		L_19 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_20 = (*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_19);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_17 = L_20;
 		// return true;
@@ -17728,9 +18227,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -17765,9 +18264,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -17822,9 +18321,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_66 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -17844,12 +18343,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -17895,9 +18394,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -17952,9 +18451,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_96;
-		L_96 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_97 = (*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_96);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_94 = L_97;
 		// return true;
@@ -17964,11 +18463,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -17976,8 +18475,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -18009,9 +18508,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_113 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -18034,8 +18533,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.Single>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mED6C7A2CEFE5B60774BF64F853E44EA6D642A380_gshared (Il2CppChar* ___0_source, float* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.Single>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC583CD29DF24CBC6C7530E12401404CC06E56897_gshared (int64_t* ___0_source, float* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -18054,7 +18553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -18077,10 +18576,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		float* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t2BBD83F18510148E61E2F6FBB9EBE3CBA5635C5F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_tFF2CBD53F111A33AC9B8C2EC340F68C7C642718B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		float L_8;
-		L_8 = ((  float (*) (TypeConverter_2_t2BBD83F18510148E61E2F6FBB9EBE3CBA5635C5F*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t2BBD83F18510148E61E2F6FBB9EBE3CBA5635C5F*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  float (*) (TypeConverter_2_tFF2CBD53F111A33AC9B8C2EC340F68C7C642718B*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tFF2CBD53F111A33AC9B8C2EC340F68C7C642718B*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(float*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -18119,9 +18618,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		float* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		float* L_19;
-		L_19 = ((  float* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  float* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		float L_20 = (*(float*)L_19);
 		*(float*)L_17 = L_20;
 		// return true;
@@ -18204,9 +18703,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -18241,9 +18740,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		float* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -18298,9 +18797,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		float* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(float*)L_66 = ((*(float*)((float*)(float*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -18320,12 +18819,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		float* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -18371,9 +18870,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -18428,9 +18927,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		float* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		float* L_96;
-		L_96 = ((  float* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  float* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		float L_97 = (*(float*)L_96);
 		*(float*)L_94 = L_97;
 		// return true;
@@ -18440,11 +18939,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -18452,8 +18951,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(float*)((float*)(float*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -18485,9 +18984,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		float* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(float*)L_113 = ((*(float*)((float*)(float*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -18510,8 +19009,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.TimeSpan>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_mB45780298EE21983741308588F4694CF35B62D74_gshared (Il2CppChar* ___0_source, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.TimeSpan>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisTimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_m26C112AA51DCB293430266A646BE87A0E9FAD3E2_gshared (int64_t* ___0_source, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -18531,7 +19030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -18554,10 +19053,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tC2626373DE71CA9CF7C27067058EB094920F8AF3*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t62FB84C1687E5C7E34BE9967B4CFB34370C75D25*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_8;
-		L_8 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A (*) (TypeConverter_2_tC2626373DE71CA9CF7C27067058EB094920F8AF3*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tC2626373DE71CA9CF7C27067058EB094920F8AF3*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A (*) (TypeConverter_2_t62FB84C1687E5C7E34BE9967B4CFB34370C75D25*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t62FB84C1687E5C7E34BE9967B4CFB34370C75D25*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -18596,9 +19095,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_19;
-		L_19 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_20 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_19);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_17 = L_20;
 		// return true;
@@ -18681,9 +19180,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -18718,9 +19217,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -18775,9 +19274,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_66 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -18797,12 +19296,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -18848,9 +19347,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -18905,9 +19404,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_96;
-		L_96 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_97 = (*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_96);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_94 = L_97;
 		// return true;
@@ -18917,11 +19416,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -18929,8 +19428,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -18962,9 +19461,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)L_113 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -18987,8 +19486,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.UInt16>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m18B2747407F6BF703A578905E848CD75F3D5F4C3_gshared (Il2CppChar* ___0_source, uint16_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.UInt16>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m59A9A4AC70C4DA74B18C6EC64A3EF63197D3349D_gshared (int64_t* ___0_source, uint16_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19007,7 +19506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -19030,10 +19529,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint16_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_tDCEB9619BF1657CEC60AAA8692BE6D85011E44BA*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t86FBCBDECB8102DA4DAD3A08290B8F2FD63D4090*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint16_t L_8;
-		L_8 = ((  uint16_t (*) (TypeConverter_2_tDCEB9619BF1657CEC60AAA8692BE6D85011E44BA*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_tDCEB9619BF1657CEC60AAA8692BE6D85011E44BA*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint16_t (*) (TypeConverter_2_t86FBCBDECB8102DA4DAD3A08290B8F2FD63D4090*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t86FBCBDECB8102DA4DAD3A08290B8F2FD63D4090*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint16_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -19072,9 +19571,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint16_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		uint16_t* L_19;
-		L_19 = ((  uint16_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint16_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint16_t L_20 = (*(uint16_t*)L_19);
 		*(uint16_t*)L_17 = L_20;
 		// return true;
@@ -19157,9 +19656,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -19194,9 +19693,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint16_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -19251,9 +19750,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint16_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint16_t*)L_66 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -19273,12 +19772,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		uint16_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, uint16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, uint16_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -19324,9 +19823,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -19381,9 +19880,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint16_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		uint16_t* L_96;
-		L_96 = ((  uint16_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint16_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint16_t L_97 = (*(uint16_t*)L_96);
 		*(uint16_t*)L_94 = L_97;
 		// return true;
@@ -19393,11 +19892,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -19405,8 +19904,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -19438,9 +19937,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint16_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint16_t*)L_113 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -19463,8 +19962,8 @@ IL_028c:
 		return L_119;
 	}
 }
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.UInt32>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mB7444024D1E80077ECAAC478252939769D1963A0_gshared (Il2CppChar* ___0_source, uint32_t* ___1_destination, const RuntimeMethod* method) 
+// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Int64,System.UInt32>(TSource&,TDestination&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m06739F5FE41F0D6FD1E56560682E265820EAC7DB_gshared (int64_t* ___0_source, uint32_t* ___1_destination, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19483,7 +19982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 	Type_t* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
+	int64_t V_6 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
@@ -19506,10 +20005,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6
 		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
 		uint32_t* L_5 = ___1_destination;
 		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t61CD65F8E96048DE12529F01E617E79A70843CE2*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
+		int64_t* L_7 = ___0_source;
+		NullCheck(((TypeConverter_2_t4A977498890DEE8BA3053D807D215CAA6AF0A6C7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
 		uint32_t L_8;
-		L_8 = ((  uint32_t (*) (TypeConverter_2_t61CD65F8E96048DE12529F01E617E79A70843CE2*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t61CD65F8E96048DE12529F01E617E79A70843CE2*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
+		L_8 = ((  uint32_t (*) (TypeConverter_2_t4A977498890DEE8BA3053D807D215CAA6AF0A6C7*, int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t4A977498890DEE8BA3053D807D215CAA6AF0A6C7*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
 		*(uint32_t*)L_5 = L_8;
 		// return true;
 		return (bool)1;
@@ -19548,9 +20047,9 @@ IL_0036:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint32_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
+		int64_t* L_18 = ___0_source;
 		uint32_t* L_19;
-		L_19 = ((  uint32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_19 = ((  uint32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint32_t L_20 = (*(uint32_t*)L_19);
 		*(uint32_t*)L_17 = L_20;
 		// return true;
@@ -19633,9 +20132,9 @@ IL_00b4:
 		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
 		V_3 = L_37;
 		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
+		int64_t* L_38 = ___0_source;
+		int64_t L_39 = (*(int64_t*)L_38);
+		int64_t L_40 = L_39;
 		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
 		Type_t* L_42 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -19670,9 +20169,9 @@ IL_0111:
 	{
 		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
 		uint32_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
+		int64_t* L_51 = ___0_source;
+		int64_t L_52 = (*(int64_t*)L_51);
+		int64_t L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
 		Type_t* L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -19727,9 +20226,9 @@ IL_016c:
 	{
 		// destination = (TDestination) (object) source;
 		uint32_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
+		int64_t* L_67 = ___0_source;
+		int64_t L_68 = (*(int64_t*)L_67);
+		int64_t L_69 = L_68;
 		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
 		*(uint32_t*)L_66 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -19749,12 +20248,12 @@ IL_0184:
 	}
 	{
 		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
+		int64_t* L_72 = ___0_source;
+		int64_t L_73 = (*(int64_t*)L_72);
 		uint32_t* L_74 = ___1_destination;
 		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
 		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, uint32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
+		L_75 = ((  bool (*) (int64_t, uint32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
 		if (!L_75)
 		{
 			goto IL_019b;
@@ -19800,9 +20299,9 @@ IL_019b:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_84;
 		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
+		int64_t* L_85 = ___0_source;
+		int64_t L_86 = (*(int64_t*)L_85);
+		int64_t L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_89;
@@ -19857,9 +20356,9 @@ IL_01fb:
 	{
 		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
 		uint32_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
+		int64_t* L_95 = ___0_source;
 		uint32_t* L_96;
-		L_96 = ((  uint32_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
+		L_96 = ((  uint32_t* (*) (int64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
 		uint32_t L_97 = (*(uint32_t*)L_96);
 		*(uint32_t*)L_94 = L_97;
 		// return true;
@@ -19869,11 +20368,11 @@ IL_01fb:
 IL_021f:
 	{
 		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
+		int64_t* L_98 = ___0_source;
+		int64_t L_99 = (*(int64_t*)L_98);
 		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
+		int64_t L_100 = V_6;
+		int64_t L_101 = L_100;
 		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
 		{
@@ -19881,8 +20380,8 @@ IL_021f:
 		}
 	}
 	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
+		int64_t L_103 = V_6;
+		int64_t L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
 		V_1 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// destination = assignable;
@@ -19914,9 +20413,9 @@ IL_0250:
 	{
 		// destination = (TDestination) (object) source;
 		uint32_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
+		int64_t* L_114 = ___0_source;
+		int64_t L_115 = (*(int64_t*)L_114);
+		int64_t L_116 = L_115;
 		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
 		*(uint32_t*)L_113 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
 		// return true;
@@ -19928,482 +20427,6 @@ IL_0283:
 		// destination = default;
 		uint32_t* L_118 = ___1_destination;
 		il2cpp_codegen_initobj(L_118, sizeof(uint32_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_028c:
-	{
-		// }
-		bool L_119 = V_5;
-		return L_119;
-	}
-}
-// System.Boolean Unity.Properties.TypeConversion::TryConvert<System.Char,System.UInt64>(TSource&,TDestination&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TypeConversion_TryConvert_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m349170139024DA7E37486039D4AA8E3A0779AE0F_gshared (Il2CppChar* ___0_source, uint64_t* ___1_destination, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Delegate_t* V_0 = NULL;
-	uint64_t V_1 = 0;
-	Type_t* V_2 = NULL;
-	Type_t* V_3 = NULL;
-	RuntimeObject* V_4 = NULL;
-	bool V_5 = false;
-	Il2CppChar V_6 = 0x0;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	{
-		// if (s_GlobalConverters.TryGetConverter(typeof(TSource), typeof(TDestination), out var converter))
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		Type_t* L_3;
-		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
-		bool L_4;
-		L_4 = ConversionRegistry_TryGetConverter_mD440DC9009991B8037A75667405A04572A315929((&((TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_StaticFields*)il2cpp_codegen_static_fields_for(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var))->___s_GlobalConverters_0), L_1, L_3, (&V_0), NULL);
-		if (!L_4)
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		// destination = ((TypeConverter<TSource, TDestination>) converter)(ref source);
-		uint64_t* L_5 = ___1_destination;
-		Delegate_t* L_6 = V_0;
-		Il2CppChar* L_7 = ___0_source;
-		NullCheck(((TypeConverter_2_t1556F3D6F98E30281E045E9AACEC3D3117B2E0DD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))));
-		uint64_t L_8;
-		L_8 = ((  uint64_t (*) (TypeConverter_2_t1556F3D6F98E30281E045E9AACEC3D3117B2E0DD*, Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(((TypeConverter_2_t1556F3D6F98E30281E045E9AACEC3D3117B2E0DD*)Castclass((RuntimeObject*)L_6, il2cpp_rgctx_data(method->rgctx_data, 2))), L_7, il2cpp_rgctx_method(method->rgctx_data, 3));
-		*(uint64_t*)L_5 = L_8;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0036:
-	{
-		// if (typeof(TSource).IsValueType && typeof(TSource) == typeof(TDestination))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_10;
-		L_10 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_9, NULL);
-		NullCheck(L_10);
-		bool L_11;
-		L_11 = Type_get_IsValueType_m59AE2E0439DC06347B8D6B38548F3CBA54D38318(L_10, NULL);
-		if (!L_11)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_13;
-		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_14 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		Type_t* L_15;
-		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
-		bool L_16;
-		L_16 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_13, L_15, NULL);
-		if (!L_16)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
-		uint64_t* L_17 = ___1_destination;
-		Il2CppChar* L_18 = ___0_source;
-		uint64_t* L_19;
-		L_19 = ((  uint64_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_18, il2cpp_rgctx_method(method->rgctx_data, 4));
-		uint64_t L_20 = (*(uint64_t*)L_19);
-		*(uint64_t*)L_17 = L_20;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0075:
-	{
-		// if (TypeTraits<TDestination>.IsNullable)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_21;
-		L_21 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(il2cpp_rgctx_method(method->rgctx_data, 5));
-		if (!L_21)
-		{
-			goto IL_012f;
-		}
-	}
-	{
-		// if (TypeTraits<TSource>.IsNullable && Nullable.GetUnderlyingType(typeof(TDestination)) != Nullable.GetUnderlyingType(typeof(TSource)))
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
-		bool L_22;
-		L_22 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
-		if (!L_22)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_23 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_24;
-		L_24 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_23, NULL);
-		Type_t* L_25;
-		L_25 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_24, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_27;
-		L_27 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_26, NULL);
-		Type_t* L_28;
-		L_28 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_27, NULL);
-		bool L_29;
-		L_29 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_25, L_28, NULL);
-		if (!L_29)
-		{
-			goto IL_00b4;
-		}
-	}
-	{
-		// destination = default;
-		uint64_t* L_30 = ___1_destination;
-		il2cpp_codegen_initobj(L_30, sizeof(uint64_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_00b4:
-	{
-		// var underlyingType = Nullable.GetUnderlyingType(typeof(TDestination));
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_32;
-		L_32 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_31, NULL);
-		Type_t* L_33;
-		L_33 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_32, NULL);
-		V_2 = L_33;
-		// if (underlyingType.IsEnum)
-		Type_t* L_34 = V_2;
-		NullCheck(L_34);
-		bool L_35;
-		L_35 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_34);
-		if (!L_35)
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		// var enumUnderlyingType = Enum.GetUnderlyingType(underlyingType);
-		Type_t* L_36 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		Type_t* L_37;
-		L_37 = Enum_GetUnderlyingType_mEDDDC2C9F74ECC841E65E401C3703D59C37CBB05(L_36, NULL);
-		V_3 = L_37;
-		// var value = System.Convert.ChangeType(source, enumUnderlyingType);
-		Il2CppChar* L_38 = ___0_source;
-		Il2CppChar L_39 = (*(Il2CppChar*)L_38);
-		Il2CppChar L_40 = L_39;
-		RuntimeObject* L_41 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_40);
-		Type_t* L_42 = V_3;
-		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		RuntimeObject* L_43;
-		L_43 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_41, L_42, NULL);
-		V_4 = L_43;
-		// destination = (TDestination) Enum.ToObject(underlyingType, value);
-		uint64_t* L_44 = ___1_destination;
-		Type_t* L_45 = V_2;
-		RuntimeObject* L_46 = V_4;
-		RuntimeObject* L_47;
-		L_47 = Enum_ToObject_mD898E0819FA640BC4E98924613B5DBD41146D1FF(L_45, L_46, NULL);
-		*(uint64_t*)L_44 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_47, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_00fb:
-	{
-		// if (source == null)
-		goto IL_0111;
-	}
-	{
-		// destination = default;
-		uint64_t* L_49 = ___1_destination;
-		il2cpp_codegen_initobj(L_49, sizeof(uint64_t));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0111:
-	{
-		// destination = (TDestination) System.Convert.ChangeType(source, underlyingType);
-		uint64_t* L_50 = ___1_destination;
-		Il2CppChar* L_51 = ___0_source;
-		Il2CppChar L_52 = (*(Il2CppChar*)L_51);
-		Il2CppChar L_53 = L_52;
-		RuntimeObject* L_54 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_53);
-		Type_t* L_55 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
-		RuntimeObject* L_56;
-		L_56 = Convert_ChangeType_m13EF3B06900C83A433CB54D20EAFBED36C30C90A(L_54, L_55, NULL);
-		*(uint64_t*)L_50 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_56, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_012f:
-	{
-		// if (TypeTraits<TSource>.IsNullable && typeof(TDestination) == Nullable.GetUnderlyingType(typeof(TSource)))
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 8));
-		bool L_57;
-		L_57 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(il2cpp_rgctx_method(method->rgctx_data, 7));
-		if (!L_57)
-		{
-			goto IL_0184;
-		}
-	}
-	{
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_58 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_59;
-		L_59 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_58, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_60 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_61;
-		L_61 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_60, NULL);
-		Type_t* L_62;
-		L_62 = Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8(L_61, NULL);
-		bool L_63;
-		L_63 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_59, L_62, NULL);
-		if (!L_63)
-		{
-			goto IL_0184;
-		}
-	}
-	{
-		// if (null == source)
-		goto IL_016c;
-	}
-	{
-		// destination = default;
-		uint64_t* L_65 = ___1_destination;
-		il2cpp_codegen_initobj(L_65, sizeof(uint64_t));
-		// return false;
-		return (bool)0;
-	}
-
-IL_016c:
-	{
-		// destination = (TDestination) (object) source;
-		uint64_t* L_66 = ___1_destination;
-		Il2CppChar* L_67 = ___0_source;
-		Il2CppChar L_68 = (*(Il2CppChar*)L_67);
-		Il2CppChar L_69 = L_68;
-		RuntimeObject* L_70 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_69);
-		*(uint64_t*)L_66 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_70, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0184:
-	{
-		// if (TypeTraits<TDestination>.IsUnityObject)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_71;
-		L_71 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 11)))(il2cpp_rgctx_method(method->rgctx_data, 11));
-		if (!L_71)
-		{
-			goto IL_019b;
-		}
-	}
-	{
-		// if (TryConvertToUnityEngineObject(source, out destination))
-		Il2CppChar* L_72 = ___0_source;
-		Il2CppChar L_73 = (*(Il2CppChar*)L_72);
-		uint64_t* L_74 = ___1_destination;
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		bool L_75;
-		L_75 = ((  bool (*) (Il2CppChar, uint64_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 12)))(L_73, L_74, il2cpp_rgctx_method(method->rgctx_data, 12));
-		if (!L_75)
-		{
-			goto IL_019b;
-		}
-	}
-	{
-		// return true;
-		return (bool)1;
-	}
-
-IL_019b:
-	{
-		// if (TypeTraits<TDestination>.IsEnum)
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 6));
-		bool L_76;
-		L_76 = ((  bool (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 13)))(il2cpp_rgctx_method(method->rgctx_data, 13));
-		if (!L_76)
-		{
-			goto IL_021f;
-		}
-	}
-	{
-		// if (typeof(TSource) == typeof(string))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_77 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_78;
-		L_78 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_77, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_79 = { reinterpret_cast<intptr_t> (String_t_0_0_0_var) };
-		Type_t* L_80;
-		L_80 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_79, NULL);
-		bool L_81;
-		L_81 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_78, L_80, NULL);
-		if (!L_81)
-		{
-			goto IL_01fb;
-		}
-	}
-	try
-	{// begin try (depth: 1)
-		// destination = (TDestination) Enum.Parse(typeof(TDestination), (string) (object) source);
-		uint64_t* L_82 = ___1_destination;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_83 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_84;
-		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
-		Il2CppChar* L_85 = ___0_source;
-		Il2CppChar L_86 = (*(Il2CppChar*)L_85);
-		Il2CppChar L_87 = L_86;
-		RuntimeObject* L_88 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_87);
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		RuntimeObject* L_89;
-		L_89 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_84, ((String_t*)CastclassSealed((RuntimeObject*)L_88, String_t_il2cpp_TypeInfo_var)), NULL);
-		*(uint64_t*)L_82 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_89, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// }
-		goto IL_01f9;
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_01e9;
-		}
-		throw e;
-	}
-
-CATCH_01e9:
-	{// begin catch(System.ArgumentException)
-		// catch (ArgumentException)
-		// destination = default;
-		uint64_t* L_90 = ___1_destination;
-		il2cpp_codegen_initobj(L_90, sizeof(uint64_t));
-		// return false;
-		V_5 = (bool)0;
-		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_028c;
-	}// end catch (depth: 1)
-
-IL_01f9:
-	{
-		// return true;
-		return (bool)1;
-	}
-
-IL_01fb:
-	{
-		// if (IsNumericType(typeof(TSource)))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_91 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_92;
-		L_92 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_91, NULL);
-		il2cpp_codegen_runtime_class_init_inline(TypeConversion_tBF7D51D9000149A2F184551866DC4351036C3E17_il2cpp_TypeInfo_var);
-		bool L_93;
-		L_93 = TypeConversion_IsNumericType_mC369570424722B46B53543BE7226E7491A0418C1(L_92, NULL);
-		if (!L_93)
-		{
-			goto IL_021f;
-		}
-	}
-	{
-		// destination = UnsafeUtility.As<TSource, TDestination>(ref source);
-		uint64_t* L_94 = ___1_destination;
-		Il2CppChar* L_95 = ___0_source;
-		uint64_t* L_96;
-		L_96 = ((  uint64_t* (*) (Il2CppChar*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(L_95, il2cpp_rgctx_method(method->rgctx_data, 4));
-		uint64_t L_97 = (*(uint64_t*)L_96);
-		*(uint64_t*)L_94 = L_97;
-		// return true;
-		return (bool)1;
-	}
-
-IL_021f:
-	{
-		// if (source is TDestination assignable)
-		Il2CppChar* L_98 = ___0_source;
-		Il2CppChar L_99 = (*(Il2CppChar*)L_98);
-		V_6 = L_99;
-		Il2CppChar L_100 = V_6;
-		Il2CppChar L_101 = L_100;
-		RuntimeObject* L_102 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_101);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_102, il2cpp_rgctx_data(method->rgctx_data, 10))))
-		{
-			goto IL_0250;
-		}
-	}
-	{
-		Il2CppChar L_103 = V_6;
-		Il2CppChar L_104 = L_103;
-		RuntimeObject* L_105 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_104);
-		V_1 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_105, il2cpp_rgctx_data(method->rgctx_data, 10))), il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// destination = assignable;
-		uint64_t* L_106 = ___1_destination;
-		uint64_t L_107 = V_1;
-		*(uint64_t*)L_106 = L_107;
-		// return true;
-		return (bool)1;
-	}
-
-IL_0250:
-	{
-		// if (typeof(TDestination).IsAssignableFrom(typeof(TSource)))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_108 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_109;
-		L_109 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_108, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_110 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
-		Type_t* L_111;
-		L_111 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_110, NULL);
-		NullCheck(L_109);
-		bool L_112;
-		L_112 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(23 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_109, L_111);
-		if (!L_112)
-		{
-			goto IL_0283;
-		}
-	}
-	{
-		// destination = (TDestination) (object) source;
-		uint64_t* L_113 = ___1_destination;
-		Il2CppChar* L_114 = ___0_source;
-		Il2CppChar L_115 = (*(Il2CppChar*)L_114);
-		Il2CppChar L_116 = L_115;
-		RuntimeObject* L_117 = Box(il2cpp_rgctx_data(method->rgctx_data, 9), &L_116);
-		*(uint64_t*)L_113 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_117, il2cpp_rgctx_data(method->rgctx_data, 10)))));
-		// return true;
-		return (bool)1;
-	}
-
-IL_0283:
-	{
-		// destination = default;
-		uint64_t* L_118 = ___1_destination;
-		il2cpp_codegen_initobj(L_118, sizeof(uint64_t));
 		// return false;
 		return (bool)0;
 	}

@@ -4525,12 +4525,16 @@ struct CameraFPSModeHandler_tF2B5E4A8EA598A44635E85FA49D19CE2F27197F6  : public 
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_CurrentInputVector_8;
 	// System.Boolean Unity.MARS.Data.Synthetic.CameraFPSModeHandler::m_Dragging
 	bool ___m_Dragging_9;
+	// UnityEngine.Vector2 Unity.MARS.Data.Synthetic.CameraFPSModeHandler::m_CurrentMousePosition
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_CurrentMousePosition_10;
+	// UnityEngine.Vector2 Unity.MARS.Data.Synthetic.CameraFPSModeHandler::m_LastMousePosition
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_LastMousePosition_11;
 	// System.Boolean Unity.MARS.Data.Synthetic.CameraFPSModeHandler::<MoveActive>k__BackingField
-	bool ___U3CMoveActiveU3Ek__BackingField_10;
+	bool ___U3CMoveActiveU3Ek__BackingField_12;
 	// System.Boolean Unity.MARS.Data.Synthetic.CameraFPSModeHandler::<UseMovementBounds>k__BackingField
-	bool ___U3CUseMovementBoundsU3Ek__BackingField_11;
+	bool ___U3CUseMovementBoundsU3Ek__BackingField_13;
 	// UnityEngine.Bounds Unity.MARS.Data.Synthetic.CameraFPSModeHandler::<MovementBounds>k__BackingField
-	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___U3CMovementBoundsU3Ek__BackingField_12;
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___U3CMovementBoundsU3Ek__BackingField_14;
 };
 
 // UnityEngine.Component
@@ -40324,7 +40328,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraFPSModeHandler_set_Use
 	{
 		// public bool UseMovementBounds { get; set; }
 		bool L_0 = ___0_value;
-		__this->___U3CUseMovementBoundsU3Ek__BackingField_11 = L_0;
+		__this->___U3CUseMovementBoundsU3Ek__BackingField_13 = L_0;
 		return;
 	}
 }
@@ -40333,7 +40337,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraFPSModeHandler_set_Mov
 	{
 		// public Bounds MovementBounds { get; set; }
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_0 = ___0_value;
-		__this->___U3CMovementBoundsU3Ek__BackingField_12 = L_0;
+		__this->___U3CMovementBoundsU3Ek__BackingField_14 = L_0;
 		return;
 	}
 }
@@ -40341,7 +40345,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CameraFPSModeHandler_get_Mov
 {
 	{
 		// public bool MoveActive { get; private set; }
-		bool L_0 = __this->___U3CMoveActiveU3Ek__BackingField_10;
+		bool L_0 = __this->___U3CMoveActiveU3Ek__BackingField_12;
 		return L_0;
 	}
 }

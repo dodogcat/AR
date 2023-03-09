@@ -6259,46 +6259,6 @@ IL_0009:
 		return L_6;
 	}
 }
-// System.Boolean System.Int64::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int64&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int64_TryParse_m64CEDECE4C3F16B715CA1057801018B2957AE0E3 (String_t* ___0_s, int32_t ___1_style, RuntimeObject* ___2_provider, int64_t* ___3_result, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___1_style;
-		NumberFormatInfo_ValidateParseStyleInteger_mF397DAF8AA78FEEC47D154A66FFB8EBBC90E8E8F(L_0, NULL);
-		String_t* L_1 = ___0_s;
-		if (L_1)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		int64_t* L_2 = ___3_result;
-		*((int64_t*)L_2) = (int64_t)((int64_t)0);
-		return (bool)0;
-	}
-
-IL_000f:
-	{
-		String_t* L_3 = ___0_s;
-		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_4;
-		L_4 = String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline(L_3, NULL);
-		int32_t L_5 = ___1_style;
-		RuntimeObject* L_6 = ___2_provider;
-		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_7;
-		L_7 = NumberFormatInfo_GetInstance_m705987E5E7D3E5EC5C5DD2D088FBC9BCBA0FC31F(L_6, NULL);
-		int64_t* L_8 = ___3_result;
-		il2cpp_codegen_runtime_class_init_inline(Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Number_TryParseInt64_mDD9AE1CDD8AD79994D6787E6558C2DDF7DDEE295(L_4, L_5, L_7, L_8, NULL);
-		return L_9;
-	}
-}
 // System.TypeCode System.Int64::GetTypeCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int64_GetTypeCode_m271947E5404944D8A9B106AF077960CE75D2E753 (int64_t* __this, const RuntimeMethod* method) 
 {

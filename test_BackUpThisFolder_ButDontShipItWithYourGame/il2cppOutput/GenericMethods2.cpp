@@ -4273,803 +4273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_mC928DE2FEC1C35ED5298BDDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
-// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Boolean>::VisitProperty<UnityEngine.Color>(Unity.Properties.IProperty,TValue&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m9EBA7B285206D467DD3CC371D0F7046B56F9924A_gshared (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17* __this, RuntimeObject* ___0_property, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_value, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	Type_t* V_2 = NULL;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_4;
-	memset((&V_4), 0, sizeof(V_4));
-	{
-		// if (!IsFirstProperty(property.Name))
-		RuntimeObject* L_0 = ___0_property;
-		NullCheck(L_0);
-		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
-		bool L_2;
-		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		if (L_2)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000f:
-	{
-		// if (m_PropertyPath.Contains("."))
-		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
-		if (!L_4)
-		{
-			goto IL_0087;
-		}
-	}
-	{
-		// if (value is Quaternion quaternion)
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_5 = ___1_value;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = (*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_5);
-		V_4 = L_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = V_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = L_7;
-		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
-		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = V_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = L_10;
-		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
-		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
-		// if (TemporaryQuaternionIsDirty)
-		bool L_13;
-		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
-		if (!L_13)
-		{
-			goto IL_005c;
-		}
-	}
-	{
-		// s_TemporaryQuaternion = quaternion;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
-		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
-		// TemporaryQuaternionIsDirty = false;
-		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
-	}
-
-IL_005c:
-	{
-		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
-		RuntimeObject* L_15 = ___0_property;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		// value = (TValue)(object)s_TemporaryQuaternion;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_16 = ___1_value;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
-		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
-		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_16 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// return;
-		return;
-	}
-
-IL_007e:
-	{
-		// SetIntermediatePropertyValue(property, ref value);
-		RuntimeObject* L_20 = ___0_property;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_21 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
-		// return;
-		return;
-	}
-
-IL_0087:
-	{
-		// var overrideValue = m_PrefabOverride.Value;
-		RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA* L_22 = (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*)__this->___m_PrefabOverride_2;
-		NullCheck(L_22);
-		bool L_23;
-		L_23 = ((  bool (*) (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		V_0 = L_23;
-		// if (overrideValue == null)
-		goto IL_00a3;
-	}
-	{
-		// value = default;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_25 = ___1_value;
-		il2cpp_codegen_initobj(L_25, sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
-		// return;
-		return;
-	}
-
-IL_00a3:
-	{
-		// if (overrideValue is TValue val)
-		bool L_26 = V_0;
-		bool L_27 = L_26;
-		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
-		{
-			goto IL_00c9;
-		}
-	}
-	{
-		bool L_29 = V_0;
-		bool L_30 = L_29;
-		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
-		V_1 = ((*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)((Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// value = val;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_32 = ___1_value;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33 = V_1;
-		*(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)L_32 = L_33;
-		// return;
-		return;
-	}
-
-IL_00c9:
-	{
-		// var valueType = typeof(TValue);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_35;
-		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
-		V_2 = L_35;
-		// if (valueType.IsEnum)
-		Type_t* L_36 = V_2;
-		NullCheck(L_36);
-		bool L_37;
-		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
-		if (!L_37)
-		{
-			goto IL_00e5;
-		}
-	}
-	{
-		// SetConvertedProperty(valueType, out value);
-		Type_t* L_38 = V_2;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_39 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, Type_t*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
-		// return;
-		return;
-	}
-
-IL_00e5:
-	{
-		// if (typeof(TOverrideValue) == typeof(long))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_41;
-		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
-		Type_t* L_43;
-		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
-		bool L_44;
-		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
-		if (!L_44)
-		{
-			goto IL_0108;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_45 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_0108:
-	{
-		// if (typeof(TOverrideValue) == typeof(float))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_47;
-		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
-		Type_t* L_49;
-		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
-		bool L_50;
-		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
-		if (!L_50)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// if (valueType == typeof(double))
-		Type_t* L_51 = V_2;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_53;
-		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
-		bool L_54;
-		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
-		if (!L_54)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_55 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_013d:
-	{
-		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
-		bool L_56 = V_0;
-		bool L_57 = L_56;
-		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_60;
-		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
-		String_t* L_61;
-		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Boolean>::VisitProperty<System.Int32>(Unity.Properties.IProperty,TValue&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD4404F6587DA127411175C33CF66B1CAA2C748FD_gshared (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17* __this, RuntimeObject* ___0_property, int32_t* ___1_value, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	Type_t* V_2 = NULL;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	int32_t V_4 = 0;
-	{
-		// if (!IsFirstProperty(property.Name))
-		RuntimeObject* L_0 = ___0_property;
-		NullCheck(L_0);
-		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
-		bool L_2;
-		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		if (L_2)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000f:
-	{
-		// if (m_PropertyPath.Contains("."))
-		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
-		if (!L_4)
-		{
-			goto IL_0087;
-		}
-	}
-	{
-		// if (value is Quaternion quaternion)
-		int32_t* L_5 = ___1_value;
-		int32_t L_6 = (*(int32_t*)L_5);
-		V_4 = L_6;
-		int32_t L_7 = V_4;
-		int32_t L_8 = L_7;
-		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
-		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		int32_t L_10 = V_4;
-		int32_t L_11 = L_10;
-		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
-		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
-		// if (TemporaryQuaternionIsDirty)
-		bool L_13;
-		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
-		if (!L_13)
-		{
-			goto IL_005c;
-		}
-	}
-	{
-		// s_TemporaryQuaternion = quaternion;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
-		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
-		// TemporaryQuaternionIsDirty = false;
-		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
-	}
-
-IL_005c:
-	{
-		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
-		RuntimeObject* L_15 = ___0_property;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		// value = (TValue)(object)s_TemporaryQuaternion;
-		int32_t* L_16 = ___1_value;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
-		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
-		*(int32_t*)L_16 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// return;
-		return;
-	}
-
-IL_007e:
-	{
-		// SetIntermediatePropertyValue(property, ref value);
-		RuntimeObject* L_20 = ___0_property;
-		int32_t* L_21 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
-		// return;
-		return;
-	}
-
-IL_0087:
-	{
-		// var overrideValue = m_PrefabOverride.Value;
-		RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA* L_22 = (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*)__this->___m_PrefabOverride_2;
-		NullCheck(L_22);
-		bool L_23;
-		L_23 = ((  bool (*) (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		V_0 = L_23;
-		// if (overrideValue == null)
-		goto IL_00a3;
-	}
-	{
-		// value = default;
-		int32_t* L_25 = ___1_value;
-		il2cpp_codegen_initobj(L_25, sizeof(int32_t));
-		// return;
-		return;
-	}
-
-IL_00a3:
-	{
-		// if (overrideValue is TValue val)
-		bool L_26 = V_0;
-		bool L_27 = L_26;
-		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
-		{
-			goto IL_00c9;
-		}
-	}
-	{
-		bool L_29 = V_0;
-		bool L_30 = L_29;
-		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
-		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// value = val;
-		int32_t* L_32 = ___1_value;
-		int32_t L_33 = V_1;
-		*(int32_t*)L_32 = L_33;
-		// return;
-		return;
-	}
-
-IL_00c9:
-	{
-		// var valueType = typeof(TValue);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_35;
-		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
-		V_2 = L_35;
-		// if (valueType.IsEnum)
-		Type_t* L_36 = V_2;
-		NullCheck(L_36);
-		bool L_37;
-		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
-		if (!L_37)
-		{
-			goto IL_00e5;
-		}
-	}
-	{
-		// SetConvertedProperty(valueType, out value);
-		Type_t* L_38 = V_2;
-		int32_t* L_39 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, Type_t*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
-		// return;
-		return;
-	}
-
-IL_00e5:
-	{
-		// if (typeof(TOverrideValue) == typeof(long))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_41;
-		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
-		Type_t* L_43;
-		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
-		bool L_44;
-		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
-		if (!L_44)
-		{
-			goto IL_0108;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		int32_t* L_45 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_0108:
-	{
-		// if (typeof(TOverrideValue) == typeof(float))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_47;
-		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
-		Type_t* L_49;
-		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
-		bool L_50;
-		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
-		if (!L_50)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// if (valueType == typeof(double))
-		Type_t* L_51 = V_2;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_53;
-		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
-		bool L_54;
-		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
-		if (!L_54)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		int32_t* L_55 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_013d:
-	{
-		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
-		bool L_56 = V_0;
-		bool L_57 = L_56;
-		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_60;
-		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
-		String_t* L_61;
-		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Boolean>::VisitProperty<System.Int32Enum>(Unity.Properties.IProperty,TValue&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m5C6CBB23284831A44AF383CEC2B0E8A5848EC252_gshared (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17* __this, RuntimeObject* ___0_property, int32_t* ___1_value, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	Type_t* V_2 = NULL;
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	int32_t V_4 = 0;
-	{
-		// if (!IsFirstProperty(property.Name))
-		RuntimeObject* L_0 = ___0_property;
-		NullCheck(L_0);
-		String_t* L_1;
-		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
-		bool L_2;
-		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		if (L_2)
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000f:
-	{
-		// if (m_PropertyPath.Contains("."))
-		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
-		if (!L_4)
-		{
-			goto IL_0087;
-		}
-	}
-	{
-		// if (value is Quaternion quaternion)
-		int32_t* L_5 = ___1_value;
-		int32_t L_6 = (*(int32_t*)L_5);
-		V_4 = L_6;
-		int32_t L_7 = V_4;
-		int32_t L_8 = L_7;
-		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
-		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		int32_t L_10 = V_4;
-		int32_t L_11 = L_10;
-		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
-		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
-		// if (TemporaryQuaternionIsDirty)
-		bool L_13;
-		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
-		if (!L_13)
-		{
-			goto IL_005c;
-		}
-	}
-	{
-		// s_TemporaryQuaternion = quaternion;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
-		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
-		// TemporaryQuaternionIsDirty = false;
-		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
-	}
-
-IL_005c:
-	{
-		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
-		RuntimeObject* L_15 = ___0_property;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		// value = (TValue)(object)s_TemporaryQuaternion;
-		int32_t* L_16 = ___1_value;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
-		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
-		*(int32_t*)L_16 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// return;
-		return;
-	}
-
-IL_007e:
-	{
-		// SetIntermediatePropertyValue(property, ref value);
-		RuntimeObject* L_20 = ___0_property;
-		int32_t* L_21 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, RuntimeObject*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
-		// return;
-		return;
-	}
-
-IL_0087:
-	{
-		// var overrideValue = m_PrefabOverride.Value;
-		RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA* L_22 = (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*)__this->___m_PrefabOverride_2;
-		NullCheck(L_22);
-		bool L_23;
-		L_23 = ((  bool (*) (RuntimePrefabPropertyOverride_1_tE6FA99BF52C1164E440AB63095C95034885B16AA*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		V_0 = L_23;
-		// if (overrideValue == null)
-		goto IL_00a3;
-	}
-	{
-		// value = default;
-		int32_t* L_25 = ___1_value;
-		il2cpp_codegen_initobj(L_25, sizeof(int32_t));
-		// return;
-		return;
-	}
-
-IL_00a3:
-	{
-		// if (overrideValue is TValue val)
-		bool L_26 = V_0;
-		bool L_27 = L_26;
-		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
-		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
-		{
-			goto IL_00c9;
-		}
-	}
-	{
-		bool L_29 = V_0;
-		bool L_30 = L_29;
-		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
-		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
-		// value = val;
-		int32_t* L_32 = ___1_value;
-		int32_t L_33 = V_1;
-		*(int32_t*)L_32 = L_33;
-		// return;
-		return;
-	}
-
-IL_00c9:
-	{
-		// var valueType = typeof(TValue);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_35;
-		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
-		V_2 = L_35;
-		// if (valueType.IsEnum)
-		Type_t* L_36 = V_2;
-		NullCheck(L_36);
-		bool L_37;
-		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
-		if (!L_37)
-		{
-			goto IL_00e5;
-		}
-	}
-	{
-		// SetConvertedProperty(valueType, out value);
-		Type_t* L_38 = V_2;
-		int32_t* L_39 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, Type_t*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
-		// return;
-		return;
-	}
-
-IL_00e5:
-	{
-		// if (typeof(TOverrideValue) == typeof(long))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_41;
-		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
-		Type_t* L_43;
-		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
-		bool L_44;
-		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
-		if (!L_44)
-		{
-			goto IL_0108;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		int32_t* L_45 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_0108:
-	{
-		// if (typeof(TOverrideValue) == typeof(float))
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_47;
-		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
-		Type_t* L_49;
-		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
-		bool L_50;
-		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
-		if (!L_50)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// if (valueType == typeof(double))
-		Type_t* L_51 = V_2;
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_53;
-		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
-		bool L_54;
-		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
-		if (!L_54)
-		{
-			goto IL_013d;
-		}
-	}
-	{
-		// SetConvertedProperty(out value);
-		int32_t* L_55 = ___1_value;
-		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
-		// return;
-		return;
-	}
-
-IL_013d:
-	{
-		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
-		bool L_56 = V_0;
-		bool L_57 = L_56;
-		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_60;
-		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
-		String_t* L_61;
-		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
-		// }
-		return;
-	}
-}
 // System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Boolean>::VisitProperty<System.Int64>(Unity.Properties.IProperty,TValue&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_mEFDC2B1741DDCDC8800C4496861F3AFBAEC506F4_gshared (RuntimePrefabOverridePropertyVisitor_1_t22541EA782606C728864EE56525FA82A6723EC17* __this, RuntimeObject* ___0_property, int64_t* ___1_value, const RuntimeMethod* method) 
 {
@@ -25539,6 +24742,805 @@ IL_0108:
 		// SetConvertedProperty(out value);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356* L_55 = ___1_value;
 		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, Scene_tA1DC762B79745EB5140F054C884855B922318356*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_013d:
+	{
+		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
+		Il2CppChar L_56 = V_0;
+		Il2CppChar L_57 = L_56;
+		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_60;
+		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
+		String_t* L_61;
+		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Char>::VisitProperty<Unity.Serialization.Json.SerializedArrayView>(Unity.Properties.IProperty,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisSerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6_m7CABDF3CE532C9186AB83378BBB5B5AD4E219EEC_gshared (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA* __this, RuntimeObject* ___0_property, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* ___1_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Type_t* V_2 = NULL;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		// if (!IsFirstProperty(property.Name))
+		RuntimeObject* L_0 = ___0_property;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000f:
+	{
+		// if (m_PropertyPath.Contains("."))
+		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		if (!L_4)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		// if (value is Quaternion quaternion)
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_5 = ___1_value;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_6 = (*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_5);
+		V_4 = L_6;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_7 = V_4;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_10 = V_4;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_11 = L_10;
+		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
+		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
+		// if (TemporaryQuaternionIsDirty)
+		bool L_13;
+		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
+		if (!L_13)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// s_TemporaryQuaternion = quaternion;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
+		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
+		// TemporaryQuaternionIsDirty = false;
+		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
+	}
+
+IL_005c:
+	{
+		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
+		RuntimeObject* L_15 = ___0_property;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		// value = (TValue)(object)s_TemporaryQuaternion;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_16 = ___1_value;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
+		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
+		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_16 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// return;
+		return;
+	}
+
+IL_007e:
+	{
+		// SetIntermediatePropertyValue(property, ref value);
+		RuntimeObject* L_20 = ___0_property;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_21 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
+		// return;
+		return;
+	}
+
+IL_0087:
+	{
+		// var overrideValue = m_PrefabOverride.Value;
+		RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02* L_22 = (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*)__this->___m_PrefabOverride_2;
+		NullCheck(L_22);
+		Il2CppChar L_23;
+		L_23 = ((  Il2CppChar (*) (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		V_0 = L_23;
+		// if (overrideValue == null)
+		goto IL_00a3;
+	}
+	{
+		// value = default;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_25 = ___1_value;
+		il2cpp_codegen_initobj(L_25, sizeof(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6));
+		// return;
+		return;
+	}
+
+IL_00a3:
+	{
+		// if (overrideValue is TValue val)
+		Il2CppChar L_26 = V_0;
+		Il2CppChar L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
+		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		Il2CppChar L_29 = V_0;
+		Il2CppChar L_30 = L_29;
+		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
+		V_1 = ((*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)((SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// value = val;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_32 = ___1_value;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6 L_33 = V_1;
+		*(SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*)L_32 = L_33;
+		// return;
+		return;
+	}
+
+IL_00c9:
+	{
+		// var valueType = typeof(TValue);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_35;
+		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
+		V_2 = L_35;
+		// if (valueType.IsEnum)
+		Type_t* L_36 = V_2;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
+		if (!L_37)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		// SetConvertedProperty(valueType, out value);
+		Type_t* L_38 = V_2;
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_39 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, Type_t*, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
+		// return;
+		return;
+	}
+
+IL_00e5:
+	{
+		// if (typeof(TOverrideValue) == typeof(long))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_41;
+		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
+		Type_t* L_43;
+		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
+		bool L_44;
+		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
+		if (!L_44)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_45 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_0108:
+	{
+		// if (typeof(TOverrideValue) == typeof(float))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_47;
+		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
+		Type_t* L_49;
+		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
+		bool L_50;
+		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
+		if (!L_50)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// if (valueType == typeof(double))
+		Type_t* L_51 = V_2;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_53;
+		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
+		bool L_54;
+		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
+		if (!L_54)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6* L_55 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, SerializedArrayView_t811E52198172559E69CE9093CCE7C7970D3A46D6*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_013d:
+	{
+		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
+		Il2CppChar L_56 = V_0;
+		Il2CppChar L_57 = L_56;
+		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_60;
+		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
+		String_t* L_61;
+		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Char>::VisitProperty<Unity.Serialization.Json.SerializedValueView>(Unity.Properties.IProperty,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisSerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC_m1263C37AD4AE926DB27D09833FD4ACC5EF88B071_gshared (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA* __this, RuntimeObject* ___0_property, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* ___1_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Type_t* V_2 = NULL;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		// if (!IsFirstProperty(property.Name))
+		RuntimeObject* L_0 = ___0_property;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000f:
+	{
+		// if (m_PropertyPath.Contains("."))
+		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		if (!L_4)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		// if (value is Quaternion quaternion)
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_5 = ___1_value;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_6 = (*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_5);
+		V_4 = L_6;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_7 = V_4;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_10 = V_4;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_11 = L_10;
+		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
+		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
+		// if (TemporaryQuaternionIsDirty)
+		bool L_13;
+		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
+		if (!L_13)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// s_TemporaryQuaternion = quaternion;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
+		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
+		// TemporaryQuaternionIsDirty = false;
+		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
+	}
+
+IL_005c:
+	{
+		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
+		RuntimeObject* L_15 = ___0_property;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		// value = (TValue)(object)s_TemporaryQuaternion;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_16 = ___1_value;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
+		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
+		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_16 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// return;
+		return;
+	}
+
+IL_007e:
+	{
+		// SetIntermediatePropertyValue(property, ref value);
+		RuntimeObject* L_20 = ___0_property;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_21 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
+		// return;
+		return;
+	}
+
+IL_0087:
+	{
+		// var overrideValue = m_PrefabOverride.Value;
+		RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02* L_22 = (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*)__this->___m_PrefabOverride_2;
+		NullCheck(L_22);
+		Il2CppChar L_23;
+		L_23 = ((  Il2CppChar (*) (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		V_0 = L_23;
+		// if (overrideValue == null)
+		goto IL_00a3;
+	}
+	{
+		// value = default;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_25 = ___1_value;
+		il2cpp_codegen_initobj(L_25, sizeof(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC));
+		// return;
+		return;
+	}
+
+IL_00a3:
+	{
+		// if (overrideValue is TValue val)
+		Il2CppChar L_26 = V_0;
+		Il2CppChar L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
+		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		Il2CppChar L_29 = V_0;
+		Il2CppChar L_30 = L_29;
+		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
+		V_1 = ((*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)((SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// value = val;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_32 = ___1_value;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC L_33 = V_1;
+		*(SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*)L_32 = L_33;
+		// return;
+		return;
+	}
+
+IL_00c9:
+	{
+		// var valueType = typeof(TValue);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_35;
+		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
+		V_2 = L_35;
+		// if (valueType.IsEnum)
+		Type_t* L_36 = V_2;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
+		if (!L_37)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		// SetConvertedProperty(valueType, out value);
+		Type_t* L_38 = V_2;
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_39 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, Type_t*, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
+		// return;
+		return;
+	}
+
+IL_00e5:
+	{
+		// if (typeof(TOverrideValue) == typeof(long))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_41;
+		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
+		Type_t* L_43;
+		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
+		bool L_44;
+		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
+		if (!L_44)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_45 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_0108:
+	{
+		// if (typeof(TOverrideValue) == typeof(float))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_47;
+		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
+		Type_t* L_49;
+		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
+		bool L_50;
+		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
+		if (!L_50)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// if (valueType == typeof(double))
+		Type_t* L_51 = V_2;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_53;
+		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
+		bool L_54;
+		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
+		if (!L_54)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC* L_55 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, SerializedValueView_t132982877F69EB6A5B24A9B8EB004A6B80D087DC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_013d:
+	{
+		// Debug.LogError($"Could not cast {overrideValue} to {typeof(TValue)}");
+		Il2CppChar L_56 = V_0;
+		Il2CppChar L_57 = L_56;
+		RuntimeObject* L_58 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_57);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_59 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_60;
+		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
+		String_t* L_61;
+		L_61 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574, L_58, (RuntimeObject*)L_60, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2((RuntimeObject*)L_61, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Unity.RuntimeSceneSerialization.Internal.Prefabs.RuntimePrefabOverridePropertyVisitor`1<System.Char>::VisitProperty<System.Single>(Unity.Properties.IProperty,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePrefabOverridePropertyVisitor_1_VisitProperty_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m238F7DC3C31DB5CBEDD4823FC114C0520603C3AE_gshared (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA* __this, RuntimeObject* ___0_property, float* ___1_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF44E82685285FF5A14EDB0EAE5A224EF4F1D6574);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppChar V_0 = 0x0;
+	float V_1 = 0.0f;
+	Type_t* V_2 = NULL;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	{
+		// if (!IsFirstProperty(property.Name))
+		RuntimeObject* L_0 = ___0_property;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Unity.Properties.IProperty::get_Name() */, IProperty_t88BDB9BB07BFAD063DAE34D0914745E46D230375_il2cpp_TypeInfo_var, L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, String_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		if (L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000f:
+	{
+		// if (m_PropertyPath.Contains("."))
+		String_t* L_3 = (String_t*)__this->___m_PropertyPath_3;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_3, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		if (!L_4)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		// if (value is Quaternion quaternion)
+		float* L_5 = ___1_value;
+		float L_6 = (*(float*)L_5);
+		V_4 = L_6;
+		float L_7 = V_4;
+		float L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_8);
+		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_9, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		float L_10 = V_4;
+		float L_11 = L_10;
+		RuntimeObject* L_12 = Box(il2cpp_rgctx_data(method->rgctx_data, 0), &L_11);
+		V_3 = ((*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)UnBox(((RuntimeObject*)IsInstSealed((RuntimeObject*)L_12, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var)), Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))));
+		// if (TemporaryQuaternionIsDirty)
+		bool L_13;
+		L_13 = RuntimePrefabOverridePropertyVisitor_get_TemporaryQuaternionIsDirty_m578FEDCDBA04BF8E1B6C45D6C1CC50EF0AE3064C_inline(NULL);
+		if (!L_13)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		// s_TemporaryQuaternion = quaternion;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_3;
+		((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0 = L_14;
+		// TemporaryQuaternionIsDirty = false;
+		RuntimePrefabOverridePropertyVisitor_set_TemporaryQuaternionIsDirty_m477415726E081EC9C942A2961D267001090563E6_inline((bool)0, NULL);
+	}
+
+IL_005c:
+	{
+		// SetIntermediatePropertyValue(property, ref s_TemporaryQuaternion);
+		RuntimeObject* L_15 = ___0_property;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(__this, L_15, (&((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0), il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		// value = (TValue)(object)s_TemporaryQuaternion;
+		float* L_16 = ___1_value;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ((RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_StaticFields*)il2cpp_codegen_static_fields_for(RuntimePrefabOverridePropertyVisitor_t98AC2CC073878425A2257682BEBF7CE34B7CB4CA_il2cpp_TypeInfo_var))->___s_TemporaryQuaternion_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17;
+		RuntimeObject* L_19 = Box(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var, &L_18);
+		*(float*)L_16 = ((*(float*)((float*)(float*)UnBox(L_19, il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// return;
+		return;
+	}
+
+IL_007e:
+	{
+		// SetIntermediatePropertyValue(property, ref value);
+		RuntimeObject* L_20 = ___0_property;
+		float* L_21 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, RuntimeObject*, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(__this, L_20, L_21, il2cpp_rgctx_method(method->rgctx_data, 1));
+		// return;
+		return;
+	}
+
+IL_0087:
+	{
+		// var overrideValue = m_PrefabOverride.Value;
+		RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02* L_22 = (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*)__this->___m_PrefabOverride_2;
+		NullCheck(L_22);
+		Il2CppChar L_23;
+		L_23 = ((  Il2CppChar (*) (RuntimePrefabPropertyOverride_1_t5913F15FB8A8F231B367715132C94B5E28B8EF02*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		V_0 = L_23;
+		// if (overrideValue == null)
+		goto IL_00a3;
+	}
+	{
+		// value = default;
+		float* L_25 = ___1_value;
+		il2cpp_codegen_initobj(L_25, sizeof(float));
+		// return;
+		return;
+	}
+
+IL_00a3:
+	{
+		// if (overrideValue is TValue val)
+		Il2CppChar L_26 = V_0;
+		Il2CppChar L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_27);
+		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_28, il2cpp_rgctx_data(method->rgctx_data, 0))))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		Il2CppChar L_29 = V_0;
+		Il2CppChar L_30 = L_29;
+		RuntimeObject* L_31 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 4), &L_30);
+		V_1 = ((*(float*)((float*)(float*)UnBox(((RuntimeObject*)IsInst((RuntimeObject*)L_31, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_data(method->rgctx_data, 0)))));
+		// value = val;
+		float* L_32 = ___1_value;
+		float L_33 = V_1;
+		*(float*)L_32 = L_33;
+		// return;
+		return;
+	}
+
+IL_00c9:
+	{
+		// var valueType = typeof(TValue);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_34 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 2)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_35;
+		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
+		V_2 = L_35;
+		// if (valueType.IsEnum)
+		Type_t* L_36 = V_2;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = VirtualFuncInvoker0< bool >::Invoke(69 /* System.Boolean System.Type::get_IsEnum() */, L_36);
+		if (!L_37)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		// SetConvertedProperty(valueType, out value);
+		Type_t* L_38 = V_2;
+		float* L_39 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, Type_t*, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(__this, L_38, L_39, il2cpp_rgctx_method(method->rgctx_data, 3));
+		// return;
+		return;
+	}
+
+IL_00e5:
+	{
+		// if (typeof(TOverrideValue) == typeof(long))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_41;
+		L_41 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_40, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_42 = { reinterpret_cast<intptr_t> (Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var) };
+		Type_t* L_43;
+		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
+		bool L_44;
+		L_44 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_41, L_43, NULL);
+		if (!L_44)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		float* L_45 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_45, il2cpp_rgctx_method(method->rgctx_data, 4));
+		// return;
+		return;
+	}
+
+IL_0108:
+	{
+		// if (typeof(TOverrideValue) == typeof(float))
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_46 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 5)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_47;
+		L_47 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_46, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_48 = { reinterpret_cast<intptr_t> (Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var) };
+		Type_t* L_49;
+		L_49 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_48, NULL);
+		bool L_50;
+		L_50 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_47, L_49, NULL);
+		if (!L_50)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// if (valueType == typeof(double))
+		Type_t* L_51 = V_2;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_52 = { reinterpret_cast<intptr_t> (Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_53;
+		L_53 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_52, NULL);
+		bool L_54;
+		L_54 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_51, L_53, NULL);
+		if (!L_54)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		// SetConvertedProperty(out value);
+		float* L_55 = ___1_value;
+		((  void (*) (RuntimePrefabOverridePropertyVisitor_1_t7289CC87024ECAD25CA7D62695F7ED46AC8FC1EA*, float*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)))(__this, L_55, il2cpp_rgctx_method(method->rgctx_data, 4));
 		// return;
 		return;
 	}
