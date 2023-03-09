@@ -464,6 +464,8 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
 // ballColorChanger
 struct ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1;
+// makeNorth
+struct makeNorth_t729CC36843D2FBAD62C4429ED2A7DB7A34C862BC;
 // TMPro.Examples.Benchmark01/<Start>d__10
 struct U3CStartU3Ed__10_tB81FF4C98E539AF1EEA095D6A6C11409A26E7819;
 // TMPro.Examples.Benchmark01_UGUI/<Start>d__10
@@ -472,8 +474,8 @@ struct U3CStartU3Ed__10_t06713955D554742C727996BE112A81AD0BCF3D00;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // UnityEngine.Canvas/WillRenderCanvases
 struct WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC;
-// Compass/<GPS_On>d__15
-struct U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928;
+// Compass/<GPS_On>d__12
+struct U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1;
 // EnvMapAnimator/<Start>d__4
 struct U3CStartU3Ed__4_t7AF0F1ABA8D3AE9575A02603D2DC2137FA816557;
 // UnityEngine.Font/FontTextureRebuildCallback
@@ -567,7 +569,7 @@ IL2CPP_EXTERN_C RuntimeClass* U3CAnimateVertexColorsU3Ed__11_t2EF4BA1F3569F2C4EC
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimateVertexColorsU3Ed__3_t88CF335125784EBBA1DA65AF7B815F1814D31264_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDisplayTextMeshFloatingTextU3Ed__16_t5CBD7868EB4D3D561D539B99B4541CC014DFF5F0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDisplayTextMeshProFloatingTextU3Ed__15_tDFD30981C9C1189D2AC3AA6C07DA7EFE7E1694F3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRevealCharactersU3Ed__7_tB14F85C7FC57BEFD555A1A9CD8D3FF41E0F676F9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRevealWordsU3Ed__8_t912CFD430C602C79AE6BC1BC6C4AEBF101B4D7C8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__10_t06713955D554742C727996BE112A81AD0BCF3D00_il2cpp_TypeInfo_var;
@@ -645,7 +647,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA4A659962D6E2FBEA3C0FF721A7118410EA3D5D6
 IL2CPP_EXTERN_C String_t* _stringLiteralA6107EE62A5874EF8D2DEAC7D3C0A9F07B89E096;
 IL2CPP_EXTERN_C String_t* _stringLiteralA87D266F5AAE1AF5998468D25833A8C6AD50D4FD;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB3448E21FA53C63C06270903A13B17D02935BE0;
-IL2CPP_EXTERN_C String_t* _stringLiteralB11D20970D4AE56F1B075A178E48648B26D103DD;
 IL2CPP_EXTERN_C String_t* _stringLiteralB90AEB71EEF73D732FF86A926D89C87006CD9ADF;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA1039E8CDAE53E44AC3E6185B0871F3D031A476;
 IL2CPP_EXTERN_C String_t* _stringLiteralBCB0D16199887E37F909DAF76D05B31B82328C6A;
@@ -671,7 +672,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF0FFD38CAE85F3F58D4450702BB5D751F64BEAAD
 IL2CPP_EXTERN_C String_t* _stringLiteralF130737631C080CB6AFB672F750FD348AA13B29D;
 IL2CPP_EXTERN_C String_t* _stringLiteralF1B6AAF37DDF842141E903D071B58A3BDF13A5C6;
 IL2CPP_EXTERN_C String_t* _stringLiteralF359E6DDFFFF3D8B034D057E57DBD8ABA4ED7FFC;
-IL2CPP_EXTERN_C String_t* _stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC6687DC37346CD2569888E29764F727FAF530E0;
 IL2CPP_EXTERN_C String_t* _stringLiteralFF988BE1271FBA06A4FB243CE21817E36A0AE666;
 IL2CPP_EXTERN_C const RuntimeMethod* ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722_RuntimeMethod_var;
@@ -715,7 +715,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateVertexColorsU3Ed__11_System_Colle
 IL2CPP_EXTERN_C const RuntimeMethod* U3CAnimateVertexColorsU3Ed__3_System_Collections_IEnumerator_Reset_m319AC50F2DE1572FB7D7AF4F5F65958D01477899_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDisplayTextMeshFloatingTextU3Ed__16_System_Collections_IEnumerator_Reset_m5A7148435B35A0A84329416FF765D45F6AA0F4E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CDisplayTextMeshProFloatingTextU3Ed__15_System_Collections_IEnumerator_Reset_mCCE19093B7355F3E23834E27A8517661DF833797_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CGPS_OnU3Ed__15_System_Collections_IEnumerator_Reset_m4BC0EA5CA79654AA8691636709D44FAE270172AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGPS_OnU3Ed__12_System_Collections_IEnumerator_Reset_mC21D1C4CC77931C1B9B53EC0599E722403B1EC5C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRevealCharactersU3Ed__7_System_Collections_IEnumerator_Reset_mD12057609EFCBCA8E7B61B0421D4A7C5A206C8C3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRevealWordsU3Ed__8_System_Collections_IEnumerator_Reset_mE5E0678716735BDF0D632FE43E392981E75A1C4D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__10_System_Collections_IEnumerator_Reset_m553F892690ED74A33F57B1359743D31F8BB93C2A_RuntimeMethod_var;
@@ -893,14 +893,14 @@ struct U3CStartU3Ed__10_t06713955D554742C727996BE112A81AD0BCF3D00  : public Runt
 	int32_t ___U3CiU3E5__2_3;
 };
 
-// Compass/<GPS_On>d__15
-struct U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928  : public RuntimeObject
+// Compass/<GPS_On>d__12
+struct U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1  : public RuntimeObject
 {
-	// System.Int32 Compass/<GPS_On>d__15::<>1__state
+	// System.Int32 Compass/<GPS_On>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Compass/<GPS_On>d__15::<>2__current
+	// System.Object Compass/<GPS_On>d__12::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Compass Compass/<GPS_On>d__15::<>4__this
+	// Compass Compass/<GPS_On>d__12::<>4__this
 	Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* ___U3CU3E4__this_2;
 };
 
@@ -3584,32 +3584,26 @@ struct ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15  : public MonoBe
 // Compass
 struct Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// TMPro.TextMeshProUGUI Compass::compassUI
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___compassUI_4;
-	// TMPro.TextMeshProUGUI Compass::checkUI
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___checkUI_5;
 	// TMPro.TextMeshProUGUI Compass::latitudeUI
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___latitudeUI_6;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___latitudeUI_4;
 	// TMPro.TextMeshProUGUI Compass::longitudeUI
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___longitudeUI_7;
-	// UnityEngine.GameObject Compass::compass
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___compass_8;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___longitudeUI_5;
 	// UnityEngine.UI.Text Compass::latitude_text
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___latitude_text_9;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___latitude_text_6;
 	// UnityEngine.UI.Text Compass::longitude_text
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___longitude_text_10;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___longitude_text_7;
 	// System.Single Compass::maxWaitTime
-	float ___maxWaitTime_11;
+	float ___maxWaitTime_8;
 	// System.Single Compass::resendTime
-	float ___resendTime_12;
+	float ___resendTime_9;
 	// System.Single Compass::latitude
-	float ___latitude_13;
+	float ___latitude_10;
 	// System.Single Compass::longitude
-	float ___longitude_14;
+	float ___longitude_11;
 	// System.Single Compass::waitTime
-	float ___waitTime_15;
+	float ___waitTime_12;
 	// System.Boolean Compass::receiveGPS
-	bool ___receiveGPS_16;
+	bool ___receiveGPS_13;
 };
 
 // DropdownSample
@@ -3993,6 +3987,13 @@ struct ballColorChanger_t073C27E7B1958D9ABB58E6C765185F84722CE6F1  : public Mono
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_start_10;
 	// System.Int32 ballColorChanger::m_timer
 	int32_t ___m_timer_11;
+};
+
+// makeNorth
+struct makeNorth_t729CC36843D2FBAD62C4429ED2A7DB7A34C862BC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TextMeshProUGUI makeNorth::compassUI
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___compassUI_4;
 };
 
 // UnityEngine.UI.Graphic
@@ -5123,9 +5124,9 @@ struct TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields
 
 // TMPro.Examples.Benchmark01_UGUI/<Start>d__10
 
-// Compass/<GPS_On>d__15
+// Compass/<GPS_On>d__12
 
-// Compass/<GPS_On>d__15
+// Compass/<GPS_On>d__12
 
 // TMPro.Examples.ShaderPropAnimator/<AnimateProperties>d__6
 
@@ -5970,6 +5971,10 @@ struct TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_StaticF
 // ballColorChanger
 
 // ballColorChanger
+
+// makeNorth
+
+// makeNorth
 
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
@@ -6871,10 +6876,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
-// UnityEngine.Compass UnityEngine.Input::get_compass()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B (const RuntimeMethod* method) ;
-// System.Void UnityEngine.Compass::set_enabled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9 (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, bool ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.LocationService UnityEngine.Input::get_location()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.LocationService::Start()
@@ -6883,16 +6884,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocationService_Start_mC2A90619923D4BEB5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Compass_GPS_On_mE8E13CD5378EDF1773D0C0EA8E17BC74F928D2FF (Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Compass::get_headingAccuracy()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Compass::get_trueHeading()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, const RuntimeMethod* method) ;
-// UnityEngine.Quaternion UnityEngine.Quaternion::Euler(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
-// System.Void Compass/<GPS_On>d__15::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__15__ctor_mF4D745E0291095B144B6363D3B65343B4154D9A1 (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+// System.Void Compass/<GPS_On>d__12::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__12__ctor_m09AAFCC66BFA65F4CC084CBCF92C91C8F9422064 (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Android.Permission::HasUserAuthorizedPermission(System.String)
@@ -6913,6 +6906,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_latitude_mAF0A46443555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2 (LocationInfo_tBFD49220A54B71CDF564F61822F7B8D524465441* __this, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// UnityEngine.Compass UnityEngine.Input::get_compass()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Compass::set_enabled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9 (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Compass::get_headingAccuracy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, const RuntimeMethod* method) ;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Compass::get_trueHeading()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C (Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* __this, const RuntimeMethod* method) ;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Euler(System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 // TMPro.TMP_InputField/SubmitEvent TMPro.TMP_InputField::get_onSubmit()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_tF7E2843B6A79D94B8EEEA259707F77BD1773B500* TMP_InputField_get_onSubmit_mAA494FA0B3CFFB2916B399BD5D87C2E1AA637B90_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr)
@@ -7200,8 +7207,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5 (String_t* ___0_name, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_shader(UnityEngine.Shader)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_value, const RuntimeMethod* method) ;
-// UnityEngine.Transform UnityEngine.Component::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Screen::get_height()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_orthographicSize(System.Single)
@@ -7973,33 +7978,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ballColorChanger__ctor_mF5A2EAB68F134CBA
 // System.Void Compass::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_Start_mDD6448254466EC4000E0D35D943562E1DDE31C80 (Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Input.compass.enabled = true;
-		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
-		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
-		NullCheck(L_0);
-		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_0, (bool)1, NULL);
 		// Input.location.Start();
-		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_1;
-		L_1 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
-		NullCheck(L_1);
-		LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A(L_1, NULL);
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_0;
+		L_0 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_0);
+		LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A(L_0, NULL);
 		// StartCoroutine(GPS_On());
-		RuntimeObject* L_2;
-		L_2 = Compass_GPS_On_mE8E13CD5378EDF1773D0C0EA8E17BC74F928D2FF(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
-		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
-		// compass = GameObject.Find("Direction");
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
-		L_4 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907, NULL);
-		__this->___compass_8 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___compass_8), (void*)L_4);
+		RuntimeObject* L_1;
+		L_1 = Compass_GPS_On_mE8E13CD5378EDF1773D0C0EA8E17BC74F928D2FF(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
 		// }
 		return;
 	}
@@ -8011,86 +8000,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass_Update_m606E0F87E5C497996A3EDE98
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D67F79DEC0C5BE64A62AF17E5581C94904E7EC0);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA4A659962D6E2FBEA3C0FF721A7118410EA3D5D6);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB11D20970D4AE56F1B075A178E48648B26D103DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0B9FB6019B2828841257AAE0470027F39474479);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	{
-		// if(Input.compass.headingAccuracy > 0) {
-		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
-		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
-		NullCheck(L_0);
-		float L_1;
-		L_1 = Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF(L_0, NULL);
-		if ((!(((float)L_1) > ((float)(0.0f)))))
-		{
-			goto IL_006a;
-		}
-	}
-	{
-		// compassUI.text = Input.compass.headingAccuracy.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___compassUI_4;
-		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_3;
-		L_3 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
-		NullCheck(L_3);
-		float L_4;
-		L_4 = Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF(L_3, NULL);
-		V_0 = L_4;
-		String_t* L_5;
-		L_5 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
-		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_2, L_5);
-		// checkUI.text = "update!";
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___checkUI_5;
-		NullCheck(L_6);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_6, _stringLiteralB11D20970D4AE56F1B075A178E48648B26D103DD);
-		// compass.transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___compass_8;
-		NullCheck(L_7);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
-		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
-		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_9;
-		L_9 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
-		NullCheck(L_9);
-		float L_10;
-		L_10 = Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C(L_9, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
-		L_11 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((-L_10)), (0.0f), NULL);
-		NullCheck(L_8);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_8, L_11, NULL);
-		goto IL_007a;
-	}
-
-IL_006a:
-	{
-		// checkUI.text = "failed!";
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___checkUI_5;
-		NullCheck(L_12);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_12, _stringLiteralA4A659962D6E2FBEA3C0FF721A7118410EA3D5D6);
-	}
-
-IL_007a:
 	{
 		// latitudeUI.text = "latitude : " + latitude.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___latitudeUI_6;
-		float* L_14 = (&__this->___latitude_13);
-		String_t* L_15;
-		L_15 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_14, NULL);
-		String_t* L_16;
-		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5D67F79DEC0C5BE64A62AF17E5581C94904E7EC0, L_15, NULL);
-		NullCheck(L_13);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_13, L_16);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___latitudeUI_4;
+		float* L_1 = (&__this->___latitude_10);
+		String_t* L_2;
+		L_2 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_1, NULL);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5D67F79DEC0C5BE64A62AF17E5581C94904E7EC0, L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_3);
 		// longitudeUI.text = "longitude : " + longitude.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___longitudeUI_7;
-		float* L_18 = (&__this->___longitude_14);
-		String_t* L_19;
-		L_19 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_18, NULL);
-		String_t* L_20;
-		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC0B9FB6019B2828841257AAE0470027F39474479, L_19, NULL);
-		NullCheck(L_17);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_17, L_20);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___longitudeUI_5;
+		float* L_5 = (&__this->___longitude_11);
+		String_t* L_6;
+		L_6 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_5, NULL);
+		String_t* L_7;
+		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC0B9FB6019B2828841257AAE0470027F39474479, L_6, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_4, L_7);
 		// }
 		return;
 	}
@@ -8101,14 +8032,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Compass_GPS_On_mE8E13CD5378EDF
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* L_0 = (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928*)il2cpp_codegen_object_new(U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928_il2cpp_TypeInfo_var);
+		U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* L_0 = (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1*)il2cpp_codegen_object_new(U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CGPS_OnU3Ed__15__ctor_mF4D745E0291095B144B6363D3B65343B4154D9A1(L_0, 0, NULL);
-		U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* L_1 = L_0;
+		U3CGPS_OnU3Ed__12__ctor_m09AAFCC66BFA65F4CC084CBCF92C91C8F9422064(L_0, 0, NULL);
+		U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -8120,9 +8051,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass__ctor_m1F05020322CED2548C19EE956
 {
 	{
 		// private float maxWaitTime = 10.0f;
-		__this->___maxWaitTime_11 = (10.0f);
+		__this->___maxWaitTime_8 = (10.0f);
 		// private float resendTime = 1.0f;
-		__this->___resendTime_12 = (1.0f);
+		__this->___resendTime_9 = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -8135,8 +8066,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Compass__ctor_m1F05020322CED2548C19EE956
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Compass/<GPS_On>d__15::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__15__ctor_mF4D745E0291095B144B6363D3B65343B4154D9A1 (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// System.Void Compass/<GPS_On>d__12::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__12__ctor_m09AAFCC66BFA65F4CC084CBCF92C91C8F9422064 (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -8145,15 +8076,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__15__ctor_mF4D745E0291095B
 		return;
 	}
 }
-// System.Void Compass/<GPS_On>d__15::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__15_System_IDisposable_Dispose_mC0B87431EC6C19F4B3F199008C42A91A1C29FCF3 (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, const RuntimeMethod* method) 
+// System.Void Compass/<GPS_On>d__12::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__12_System_IDisposable_Dispose_mD122AE06E2068D20D9D86FB702F8B09DCA8A1D2D (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean Compass/<GPS_On>d__15::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGPS_OnU3Ed__15_MoveNext_mD0242AC8C9F7C564F549F964ED7569E50823F2DB (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, const RuntimeMethod* method) 
+// System.Boolean Compass/<GPS_On>d__12::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGPS_OnU3Ed__12_MoveNext_m6D8DFE449B12BD1394F87319656B84300A33472E (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8260,13 +8191,13 @@ IL_0068:
 		// latitude_text.text = "GPS Off";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_7 = V_1;
 		NullCheck(L_7);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = L_7->___latitude_text_9;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = L_7->___latitude_text_6;
 		NullCheck(L_8);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_8, _stringLiteral417E3198485F801333BF35C6E9DFCF6F4B770756);
 		// longitude_text.text = "GPS Off";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_9 = V_1;
 		NullCheck(L_9);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = L_9->___longitude_text_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = L_9->___longitude_text_7;
 		NullCheck(L_10);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_10, _stringLiteral417E3198485F801333BF35C6E9DFCF6F4B770756);
 		// yield break;
@@ -8302,9 +8233,9 @@ IL_00bb:
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_13 = V_1;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_14 = V_1;
 		NullCheck(L_14);
-		float L_15 = L_14->___waitTime_15;
+		float L_15 = L_14->___waitTime_12;
 		NullCheck(L_13);
-		L_13->___waitTime_15 = ((float)il2cpp_codegen_add(L_15, (1.0f)));
+		L_13->___waitTime_12 = ((float)il2cpp_codegen_add(L_15, (1.0f)));
 	}
 
 IL_00d4:
@@ -8323,10 +8254,10 @@ IL_00d4:
 	{
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_18 = V_1;
 		NullCheck(L_18);
-		float L_19 = L_18->___waitTime_15;
+		float L_19 = L_18->___waitTime_12;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_20 = V_1;
 		NullCheck(L_20);
-		float L_21 = L_20->___maxWaitTime_11;
+		float L_21 = L_20->___maxWaitTime_8;
 		if ((((float)L_19) < ((float)L_21)))
 		{
 			goto IL_00a2;
@@ -8350,13 +8281,13 @@ IL_00ef:
 		// latitude_text.text = "??? ???? ???? ????";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_24 = V_1;
 		NullCheck(L_24);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = L_24->___latitude_text_9;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = L_24->___latitude_text_6;
 		NullCheck(L_25);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_25, _stringLiteralC2CC023548A567C755B9E03C64A913344A7569D5);
 		// longitude_text.text = "??? ???? ???? ????";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_26 = V_1;
 		NullCheck(L_26);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = L_26->___longitude_text_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = L_26->___longitude_text_7;
 		NullCheck(L_27);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_27, _stringLiteralC2CC023548A567C755B9E03C64A913344A7569D5);
 	}
@@ -8366,10 +8297,10 @@ IL_011c:
 		// if (waitTime >= maxWaitTime)
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_28 = V_1;
 		NullCheck(L_28);
-		float L_29 = L_28->___waitTime_15;
+		float L_29 = L_28->___waitTime_12;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_30 = V_1;
 		NullCheck(L_30);
-		float L_31 = L_30->___maxWaitTime_11;
+		float L_31 = L_30->___maxWaitTime_8;
 		if ((!(((float)L_29) >= ((float)L_31))))
 		{
 			goto IL_014a;
@@ -8379,13 +8310,13 @@ IL_011c:
 		// latitude_text.text = "???? ??? ??? ???";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_32 = V_1;
 		NullCheck(L_32);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = L_32->___latitude_text_9;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = L_32->___latitude_text_6;
 		NullCheck(L_33);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_33, _stringLiteral86E7CC5425C39EB83BCD431813A658C56F4CD4B0);
 		// longitude_text.text = "???? ??? ??? ???";
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_34 = V_1;
 		NullCheck(L_34);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = L_34->___longitude_text_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = L_34->___longitude_text_7;
 		NullCheck(L_35);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_35, _stringLiteral86E7CC5425C39EB83BCD431813A658C56F4CD4B0);
 	}
@@ -8402,7 +8333,7 @@ IL_014a:
 		// receiveGPS = true;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_38 = V_1;
 		NullCheck(L_38);
-		L_38->___receiveGPS_16 = (bool)1;
+		L_38->___receiveGPS_13 = (bool)1;
 		goto IL_01e7;
 	}
 
@@ -8420,20 +8351,20 @@ IL_0161:
 		float L_42;
 		L_42 = LocationInfo_get_latitude_mAF0A46443555AF18EA3C516292CB92B1669CA863((&V_2), NULL);
 		NullCheck(L_41);
-		L_41->___latitude_13 = L_42;
+		L_41->___latitude_10 = L_42;
 		// longitude = li.longitude;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_43 = V_1;
 		float L_44;
 		L_44 = LocationInfo_get_longitude_mCB720DD0E139B7C614F78D40595E1BBF1F5433A2((&V_2), NULL);
 		NullCheck(L_43);
-		L_43->___longitude_14 = L_44;
+		L_43->___longitude_11 = L_44;
 		// latitude_text.text = "???? : " + latitude.ToString();
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_45 = V_1;
 		NullCheck(L_45);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_46 = L_45->___latitude_text_9;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_46 = L_45->___latitude_text_6;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_47 = V_1;
 		NullCheck(L_47);
-		float* L_48 = (&L_47->___latitude_13);
+		float* L_48 = (&L_47->___latitude_10);
 		String_t* L_49;
 		L_49 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_48, NULL);
 		String_t* L_50;
@@ -8443,10 +8374,10 @@ IL_0161:
 		// longitude_text.text = "?? : " + longitude.ToString();
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_51 = V_1;
 		NullCheck(L_51);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_52 = L_51->___longitude_text_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_52 = L_51->___longitude_text_7;
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_53 = V_1;
 		NullCheck(L_53);
-		float* L_54 = (&L_53->___longitude_14);
+		float* L_54 = (&L_53->___longitude_11);
 		String_t* L_55;
 		L_55 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_54, NULL);
 		String_t* L_56;
@@ -8456,7 +8387,7 @@ IL_0161:
 		// yield return new WaitForSeconds(resendTime);
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_57 = V_1;
 		NullCheck(L_57);
-		float L_58 = L_57->___resendTime_12;
+		float L_58 = L_57->___resendTime_9;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_59 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		NullCheck(L_59);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_59, L_58, NULL);
@@ -8476,7 +8407,7 @@ IL_01e7:
 		// while (receiveGPS)
 		Compass_tC74216673247FCE7FD8326A2C857102A84B0C8E9* L_60 = V_1;
 		NullCheck(L_60);
-		bool L_61 = L_60->___receiveGPS_16;
+		bool L_61 = L_60->___receiveGPS_13;
 		if (L_61)
 		{
 			goto IL_0161;
@@ -8487,30 +8418,124 @@ IL_01e7:
 		return (bool)0;
 	}
 }
-// System.Object Compass/<GPS_On>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGPS_OnU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB09A3E147EBBED3479A2D958CAC2E9580722740D (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, const RuntimeMethod* method) 
+// System.Object Compass/<GPS_On>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGPS_OnU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m648BD391DA8E2CEF956B12274C49324E7CAEEE27 (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void Compass/<GPS_On>d__15::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__15_System_Collections_IEnumerator_Reset_m4BC0EA5CA79654AA8691636709D44FAE270172AC (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, const RuntimeMethod* method) 
+// System.Void Compass/<GPS_On>d__12::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGPS_OnU3Ed__12_System_Collections_IEnumerator_Reset_mC21D1C4CC77931C1B9B53EC0599E722403B1EC5C (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGPS_OnU3Ed__15_System_Collections_IEnumerator_Reset_m4BC0EA5CA79654AA8691636709D44FAE270172AC_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGPS_OnU3Ed__12_System_Collections_IEnumerator_Reset_mC21D1C4CC77931C1B9B53EC0599E722403B1EC5C_RuntimeMethod_var)));
 	}
 }
-// System.Object Compass/<GPS_On>d__15::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGPS_OnU3Ed__15_System_Collections_IEnumerator_get_Current_m3345148A9EEFA71D58C5E222976C4AE6D095FE60 (U3CGPS_OnU3Ed__15_t9774B21CB179604CC7BE090570B2E4768CB5D928* __this, const RuntimeMethod* method) 
+// System.Object Compass/<GPS_On>d__12::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGPS_OnU3Ed__12_System_Collections_IEnumerator_get_Current_m2C35CFD38843090EBA7381E7F87CE2F8E208353C (U3CGPS_OnU3Ed__12_t0AB26E2FF7F344B2B36702CBD6F7819474CDF9C1* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void makeNorth::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void makeNorth_Start_mF4E04E52039A8F1B791E543F479D2575689AF8D1 (makeNorth_t729CC36843D2FBAD62C4429ED2A7DB7A34C862BC* __this, const RuntimeMethod* method) 
+{
+	{
+		// Input.compass.enabled = true;
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
+		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_0);
+		Compass_set_enabled_m26DFB64F789DA4B875359E8CE1C3E9E2270CFCA9(L_0, (bool)1, NULL);
+		// Input.location.Start();
+		LocationService_tF2F2720FE2C07562EBFD128889F9A99F4B41B1B2* L_1;
+		L_1 = Input_get_location_m1D1FA0938E5B83C46A666CE78D95A58B39164DB5(NULL);
+		NullCheck(L_1);
+		LocationService_Start_mC2A90619923D4BEB5F9B5CCD95F317B98D67AF3A(L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void makeNorth::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void makeNorth_Update_m80C5FD719A6AAFD3FD795AF8AB37EC2A5C64ED2B (makeNorth_t729CC36843D2FBAD62C4429ED2A7DB7A34C862BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA4A659962D6E2FBEA3C0FF721A7118410EA3D5D6);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		// if (Input.compass.headingAccuracy > 0)
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_0;
+		L_0 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_0);
+		float L_1;
+		L_1 = Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF(L_0, NULL);
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		// compassUI.text = Input.compass.headingAccuracy.ToString();
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___compassUI_4;
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_3;
+		L_3 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_3);
+		float L_4;
+		L_4 = Compass_get_headingAccuracy_mED82316932D27BCF4C30297B3D97169E49A8DBFF(L_3, NULL);
+		V_0 = L_4;
+		String_t* L_5;
+		L_5 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_2, L_5);
+		// this.transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Compass_t161CD14062E71ED7324FE12ED003EE0877EE546F* L_7;
+		L_7 = Input_get_compass_m7DA4657286F9B24D55BB120C9CF761A50B13899B(NULL);
+		NullCheck(L_7);
+		float L_8;
+		L_8 = Compass_get_trueHeading_m5546F74294A5CC2B4A731ECE1E02F0BE7085582C(L_7, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((-L_8)), (0.0f), NULL);
+		NullCheck(L_6);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_6, L_9, NULL);
+		return;
+	}
+
+IL_0054:
+	{
+		// compassUI.text = "failed!";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___compassUI_4;
+		NullCheck(L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_10, _stringLiteralA4A659962D6E2FBEA3C0FF721A7118410EA3D5D6);
+		// }
+		return;
+	}
+}
+// System.Void makeNorth::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void makeNorth__ctor_m059CD8B563438F7D1967B6CBD60D3EA0A2FB1587 (makeNorth_t729CC36843D2FBAD62C4429ED2A7DB7A34C862BC* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
 	}
 }
 #ifdef __clang__

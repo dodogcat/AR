@@ -11,12 +11,9 @@ using UnityEngine.Android;
 
 public class Compass : MonoBehaviour
 {
-    public TextMeshProUGUI compassUI;
-    public TextMeshProUGUI checkUI;
     public TextMeshProUGUI latitudeUI;
     public TextMeshProUGUI longitudeUI;
 
-    private GameObject compass;
     private Text latitude_text;
     private Text longitude_text;
     private float maxWaitTime = 10.0f;
@@ -31,25 +28,14 @@ public class Compass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Input.compass.enabled = true;
         Input.location.Start();
         StartCoroutine(GPS_On());
 
-        compass = GameObject.Find("Direction");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.compass.headingAccuracy > 0) {
-            compassUI.text = Input.compass.headingAccuracy.ToString();
-            checkUI.text = "update!";
-            compass.transform.rotation = Quaternion.Euler(0, -Input.compass.trueHeading, 0);
-        }
-        else
-        {
-            checkUI.text = "failed!";
-        }
         latitudeUI.text = "latitude : " + latitude.ToString();
         longitudeUI.text = "longitude : " + longitude.ToString();
     }
