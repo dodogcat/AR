@@ -25,6 +25,16 @@ public class Compass : MonoBehaviour
 
     public bool receiveGPS = false;
 
+    public float getLat()
+    {
+        return latitude;
+    }
+
+    public float getLng()
+    {
+        return longitude;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
